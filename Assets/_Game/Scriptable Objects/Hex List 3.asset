@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4846a5ec0c250e4980f736037d2dd46, type: 3}
+  m_Name: Hex List 3
+  m_EditorClassIdentifier: 
+  hexType: 2
+  hexList:
+  - {fileID: 1481754022141284, guid: beebce36c61d60f42b22b153abcfd9b0, type: 3}
+  - {fileID: 1165385814476940, guid: 2e0f1312996d68349933ef1d0445cd09, type: 3}
+  - {fileID: 1773482152359250, guid: 1e37ca3e943829a479e4ff6d29c23d73, type: 3}
+  - {fileID: 1328986990472984, guid: 4f49c09706dbf4a4e99dc6a51fab25cc, type: 3}
+  walkableHexList:
+  - {fileID: 1481754022141284, guid: beebce36c61d60f42b22b153abcfd9b0, type: 3}
+  - {fileID: 1165385814476940, guid: 2e0f1312996d68349933ef1d0445cd09, type: 3}
+  - {fileID: 1773482152359250, guid: 1e37ca3e943829a479e4ff6d29c23d73, type: 3}
+  probs:
+  - 0.25
+  - 0.4
+  - 0.5
+  - 1
+  walkProbs:
+  - 0.37
+  - 0.49
+  - 1
