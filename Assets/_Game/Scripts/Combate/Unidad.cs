@@ -16,6 +16,7 @@ public class Unidad : MonoBehaviour
 	float distanciaObjetivo = -1;
 	public Objetivos[] objetivos;
 	public Vida vidaObjetivo;
+	public Torre torreForzarAtaque;
 
 	private void Awake()
 	{
@@ -93,7 +94,7 @@ public class Unidad : MonoBehaviour
 	}
 	public virtual void EstadoSeguir()
 	{
-		if (distanciaObjetivo < distancia.distanciaAtacar && distanciaObjetivo>-1)
+		if (distanciaObjetivo < distancia.distanciaAtacar && distanciaObjetivo>-1 || (torreForzarAtaque != null && target == torreForzarAtaque.transform))
 		{
 			CambiarEstado(Estado.atacar);
 		}
@@ -104,9 +105,16 @@ public class Unidad : MonoBehaviour
 	}
 	public virtual void EstadoAtacar()
 	{
-		if (distanciaObjetivo > distancia.distanciaAtacar + 0.4f)
+		if (distanciaObjetivo > distancia.distanciaAtacar + 0.4f )
 		{
-			CambiarEstado(Estado.seguir);
+			if (torreForzarAtaque == null)
+			{
+				CambiarEstado(Estado.seguir);
+			}
+			else if (torreForzarAtaque != null && target != torreForzarAtaque.transform)
+			{
+				CambiarEstado(Estado.seguir);
+			}
 		}
 		else if (target == null)
 		{
