@@ -71,16 +71,24 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         LayerMask mask = CardControllerSingleton.Instance.worldMask;
         if (Physics.Raycast(ray, out RaycastHit hit, 1000f, mask))
         {
-            GameObject arrowInstance = CardControllerSingleton.Instance.arrowInstance;
-            if (arrowInstance == null)
+            if (CardControllerSingleton.Instance.arrowInstance == null)
             {
                 CardControllerSingleton.Instance.arrowInstance = Instantiate(CardControllerSingleton.Instance.arrowPrefab);
             }
+            GameObject arrowInstance = CardControllerSingleton.Instance.arrowInstance;
             arrowInstance.SetActive(true);
             arrowInstance.transform.position = hit.point;
             CardControllerSingleton.Instance.lineController.enabled = true;
-            CardControllerSingleton.Instance.lineController.SetEndPoint(hit.point);
-            pointerPosition = hit.point;
+            try
+            {
+                CardControllerSingleton.Instance.lineController.SetEndPoint(hit.point);
+            }catch(System.Exception e)
+            {
+                Debug.LogException(e);
+                Debug.Log(e.StackTrace);
+            }
+                pointerPosition = hit.point;
+
         }
     }
 }
