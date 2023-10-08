@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7476563746067924651}
   - component: {fileID: 2873191202502981067}
   - component: {fileID: 8357045623926875261}
+  - component: {fileID: -9161430507151180098}
   m_Layer: 0
   m_Name: TorreGuanes
   m_TagString: Untagged
@@ -50,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c644f5b087e1743408eb2dd01aab5fcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  equipo: 1
+  equipo: 0
   vida: {fileID: 8357045623926875261}
   tipoTorre: 1
   "da\xF1o": 20
@@ -93,6 +94,22 @@ MonoBehaviour:
         m_CallState: 2
   vivo: 1
   imVida: {fileID: 0}
+--- !u!114 &-9161430507151180098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192290911726281223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b053e25c4752cfd46a2ed2bcfd29a561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkable: 0
+  navigable: 0
+  flyable: 0
+  bakeable: 0
 --- !u!1001 &1313461436451367021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -557,7 +574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1337876283493080229, guid: 7630a74b579c5af45b7e486f0c3853f0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.37
+      value: 1.09
       objectReference: {fileID: 0}
     - target: {fileID: 1337876283493080229, guid: 7630a74b579c5af45b7e486f0c3853f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -867,15 +884,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5620814088661313220, guid: 98d56ede90f0ad14f9bee0a6a63c4ff6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.64644
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5620814088661313220, guid: 98d56ede90f0ad14f9bee0a6a63c4ff6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.64644
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5620814088661313220, guid: 98d56ede90f0ad14f9bee0a6a63c4ff6, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.64644
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5620814088661313220, guid: 98d56ede90f0ad14f9bee0a6a63c4ff6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -916,6 +933,10 @@ PrefabInstance:
     - target: {fileID: 5620814088661313220, guid: 98d56ede90f0ad14f9bee0a6a63c4ff6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620814088661313220, guid: 98d56ede90f0ad14f9bee0a6a63c4ff6, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5620814088661313221, guid: 98d56ede90f0ad14f9bee0a6a63c4ff6, type: 3}
       propertyPath: playOnAwake

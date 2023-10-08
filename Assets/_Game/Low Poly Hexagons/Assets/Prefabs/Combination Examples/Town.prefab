@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 64956622468918368}
   - component: {fileID: 2063013306432422709}
   - component: {fileID: 1254392951738447460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Town
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,9 +225,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b053e25c4752cfd46a2ed2bcfd29a561, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkable: 0
+  walkable: 1
   navigable: 0
-  flyable: 1
+  flyable: 0
   bakeable: 1
 --- !u!114 &1254392951738447460
 MonoBehaviour:
