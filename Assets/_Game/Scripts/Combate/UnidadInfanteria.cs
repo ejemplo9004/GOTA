@@ -18,6 +18,10 @@ public class UnidadInfanteria : Unidad
 	private void Start()
 	{
 		agente = GetComponent<NavMeshAgent>();
+		if (animator == null)
+		{
+			animator = GetComponentInChildren<Animator>();
+		}
 	}
 
 	public override void EstadoAtacar()
