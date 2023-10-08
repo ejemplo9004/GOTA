@@ -120,6 +120,10 @@ public class Unidad : MonoBehaviour
 		{
 			CambiarEstado(Estado.idle);
 		}
+		else
+		{
+			transform.LookAt(target);
+		}
 	}
 	public virtual void EstadoMuerto()
 	{
@@ -153,26 +157,40 @@ public class Unidad : MonoBehaviour
 			{
 				if (objetivos[i] == Objetivos.unidad)
 				{
+					Unidad uObj = null;
+					float dMin = 1000200;
 					for (int j = 0; j < GetUnidadesOpuestas().Count; j++)
 					{
 						float d = (GetUnidadesOpuestas()[j].transform.position - transform.position).sqrMagnitude;
-						if (d < distancia2)
+						if (d < distancia2 && d < dMin)
 						{
-							vidaObjetivo = GetUnidadesOpuestas()[j].vida;
-							return GetUnidadesOpuestas()[j].transform;
+							dMin = d;
+							uObj = GetUnidadesOpuestas()[j];
 						}
+					}
+					if (uObj != null)
+					{
+						vidaObjetivo = uObj.vida;
+						return uObj.transform;
 					}
 				}
 				if (objetivos[i] == Objetivos.torre)
 				{
+					Torre uObj = null;
+					float dMin = 1200000;
 					for (int j = 0; j < GetTorresOpuestas().Count; j++)
 					{
 						float d = (GetTorresOpuestas()[j].transform.position - transform.position).sqrMagnitude;
-						if (d < distancia2)
+						if (d < distancia2 && d < dMin)
 						{
-							vidaObjetivo = GetTorresOpuestas()[j].vida;
-							return GetTorresOpuestas()[j].transform;
+							dMin = d;
+							uObj = GetTorresOpuestas()[j];
 						}
+					}
+					if (uObj != null)
+					{
+						vidaObjetivo = uObj.vida;
+						return uObj.transform;
 					}
 				}
 				if (objetivos[i] == Objetivos.torrePrincipal)

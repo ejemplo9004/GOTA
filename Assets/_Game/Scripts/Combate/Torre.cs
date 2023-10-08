@@ -10,23 +10,43 @@ public class Torre : MonoBehaviour
 	public Equipo equipo;
 	public Vida vida;
 	public TipoTorre tipoTorre;
+	public float daño=10; 
 
 	public float distanciaForzarAtaque;
+	public float distanciaAtacar;
 
+	public ParticleSystem particulas;
+	public float frecuenciaDaño;
+
+	public GameObject objetoNormal;
+	public GameObject objetoFracturado;
+	public Rigidbody[] rbs;
+	public GameObject particulasMuerte;
+
+	List<Unidad> unidades;
 	private void Start()
 	{
 		GestionCombate.singleton.listaUnidades.AñadirTorre(this);
 		StartCoroutine(ListarUnidades());
+		StartCoroutine(Atacar());
+		rbs = GetComponentsInChildren<Rigidbody>();
+		objetoFracturado.SetActive(false);
 	}
 
 	public void Morir()
 	{
 		GestionCombate.singleton.listaUnidades.QuitarTorre(this);
+		objetoFracturado.SetActive(true);
+		objetoNormal.SetActive(false);
+		for (int i = 0; i < rbs.Length; i++)
+		{
+			rbs[i].AddTorque((new Vector3(Random.Range(-100, 100), Random.Range(-100, 100), Random.Range(-100, 100)) * 20));
+		}
+		particulasMuerte.SetActive(true);
 	}
 
 	IEnumerator ListarUnidades()
 	{
-		List<Unidad> unidades;
 		while (true)
 		{
 			yield return new WaitForSeconds(0.1f);
@@ -49,12 +69,35 @@ public class Torre : MonoBehaviour
 		}
 	}
 
+	IEnumerator Atacar()
+	{
+		float d = distanciaAtacar * distanciaAtacar;
+		yield return new WaitForSeconds(Random.Range(2,10));
+		if (frecuenciaDaño > 0)
+		{
+			while (vida.vivo)
+			{
+				for (int i = 0; i < unidades.Count; i++)
+				{
+					if ((unidades[i].transform.position - transform.position).sqrMagnitude < d)
+					{
+						unidades[i].vida.CausarDaño(daño);
+						particulas.Play();
+					}
+				}
+				yield return new WaitForSeconds(frecuenciaDaño);
+			}
+		}
+	}
+
 #if UNITY_EDITOR
 	private void OnDrawGizmosSelected()
 	{
 		Handles.zTest = UnityEngine.Rendering.CompareFunction.LessEqual;
 		Handles.color = Color.red;
 		Handles.DrawWireDisc(transform.position + Vector3.up * 0.2f, Vector3.up, distanciaForzarAtaque);
+		Handles.color = Color.black;
+		Handles.DrawWireDisc(transform.position + Vector3.up * 0.2f, Vector3.up, distanciaAtacar);
 	}
 #endif
 }
