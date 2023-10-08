@@ -68,8 +68,7 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private void ShowArrow()
     {
         Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
-        LayerMask mask = CardControllerSingleton.Instance.worldMask
-            ;
+        LayerMask mask = CardControllerSingleton.Instance.worldMask;
         if (Physics.Raycast(ray, out RaycastHit hit, 1000f, mask))
         {
             GameObject arrowInstance = CardControllerSingleton.Instance.arrowInstance;

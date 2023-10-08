@@ -5,7 +5,7 @@ using UnityEngine;
 public class LineController : MonoBehaviour
 {
     public LineRenderer lineRenderer;
-    private Transform startPoint;
+    [SerializeField] private Transform startPoint;
     private Transform endPoint;
     public int numberOfPoints = 50;
     public float height = 5f;
@@ -13,6 +13,7 @@ public class LineController : MonoBehaviour
     private void Start()
     {
         lineRenderer.positionCount = numberOfPoints;
+        endPoint = new GameObject().transform;
         DrawParabolicLine();
     }
 
