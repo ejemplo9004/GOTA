@@ -15,12 +15,27 @@ public class UnidadInfanteria : Unidad
 
 
 	private float tiempoAtacar;
+
+	Vector3 lPos;
+	float distanciaMovido;
 	private void Start()
 	{
 		agente = GetComponent<NavMeshAgent>();
 		if (animator == null)
 		{
 			animator = GetComponentInChildren<Animator>();
+		}
+		StartCoroutine(CambiosPos());
+	}
+
+	IEnumerator CambiosPos()
+	{
+		while (vida.vivo)
+		{
+			lPos = transform.position;
+			yield return new WaitForSeconds(0.8f);
+			distanciaMovido = (lPos - transform.position).sqrMagnitude;
+			lPos = transform.position;
 		}
 	}
 
@@ -93,7 +108,18 @@ public class UnidadInfanteria : Unidad
 		{
 			tiempoAtacar = Time.time + inicioDaño;
 		}
-		if(animator != null) animator.SetInteger("estado", (int)e);
+		if(animator != null)
+		{
+			animator.SetInteger("estado", (int)e);
+			//if (distanciaMovido < 0.2f && estado == Estado.seguir)
+			//{
+			//	animator.SetInteger("estado", 0);
+			//}
+			//else
+			//{
+			//	animator.SetInteger("estado", (int)e);
+			//}
+		}
 	}
 
 	public override void Morir()
