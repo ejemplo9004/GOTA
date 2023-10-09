@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CardList
@@ -8,6 +9,16 @@ public class CardList
     public int CardCount
     {
         get { return cards.Count; }
+    }
+
+    public CardList()
+    {
+        cards = new List<ScriptableCard>();
+    }
+
+    public CardList(ScriptableCard[] cardArray)
+    {
+        cards = cardArray.ToList();
     }
 
     public ScriptableCard DrawCard(bool random = false)
@@ -20,7 +31,7 @@ public class CardList
         {
             int r = (random) ? Random.Range(0, CardCount) : 0;
             card = cards[r];
-            cards.RemoveAt(0);
+            cards.RemoveAt(r);
         }
 
         return card;
@@ -35,5 +46,10 @@ public class CardList
 
         cards.Add(card);
         return true;
+    }
+
+    public bool RemoveCard(ScriptableCard card)
+    {
+        return cards.Remove(card);
     }
 }

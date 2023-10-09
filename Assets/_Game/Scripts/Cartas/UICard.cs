@@ -5,15 +5,30 @@ using UnityEngine.UI;
 public class UICard : MonoBehaviour
 {
     public ScriptableCard card;
+    public bool hasCard;
 
-    private void Start()
+    public void FillUICard(ScriptableCard card)
     {
+        this.card = card;
+        hasCard = true;
         GetComponent<Image>().sprite = card.cardSprite;
     }
 
-    public bool InstanteateUnity(Vector3 pos)
+    public ScriptableCard EmptyUICard()
     {
-        GameObject unit = Instantiate(card.prefab, pos, Quaternion.identity);
-        return unit != null;
+        ScriptableCard card = this.card;
+        this.card = null;
+        hasCard = false;
+        GetComponent<Image>().sprite = null;
+        return card;
     }
+
+    public ScriptableCard InstanteateUnity(Vector3 pos)
+    {
+        if(!hasCard) return null;
+        GameObject unit = Instantiate(card.prefab, pos, Quaternion.identity);
+        return EmptyUICard(); 
+    }
+
+   
 }

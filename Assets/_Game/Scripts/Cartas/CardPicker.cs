@@ -46,7 +46,11 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         var card = GetComponent<UICard>();
         if (card != null)
         {
-            card.InstanteateUnity(pointerPosition);
+            ScriptableCard cardPlayed = card.InstanteateUnity(pointerPosition);
+            if (cardPlayed != null)
+            {
+                CardCombatController.Instance.OnCardPlayed(cardPlayed);
+            }
         }
     }
 
