@@ -70,12 +70,10 @@ public class ListasObjetivos
                 if (t.equipo == Equipo.aliado)
                 {
                     torresPrincipalesAliadas.Add(t);
-                    torresAliadas.Add(t);
                 }
                 else
                 {
                     torresPrincipalesEnemigas.Add(t);
-                    torresEnemigas.Add(t);
                 }
                 break;
 			default:
@@ -100,12 +98,10 @@ public class ListasObjetivos
                 if (t.equipo == Equipo.aliado)
                 {
                     torresPrincipalesAliadas.Remove(t);
-                    torresAliadas.Remove(t);
                 }
                 else
                 {
                     torresPrincipalesEnemigas.Remove(t);
-                    torresEnemigas.Remove(t);
                 }
                 break;
 			default:

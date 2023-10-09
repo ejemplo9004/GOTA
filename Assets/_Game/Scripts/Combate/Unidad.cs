@@ -170,6 +170,7 @@ public class Unidad : MonoBehaviour
 					}
 					if (uObj != null)
 					{
+						torreForzarAtaque = null;
 						vidaObjetivo = uObj.vida;
 						return uObj.transform;
 					}
@@ -189,6 +190,7 @@ public class Unidad : MonoBehaviour
 					}
 					if (uObj != null)
 					{
+						torreForzarAtaque = null;
 						vidaObjetivo = uObj.vida;
 						return uObj.transform;
 					}
