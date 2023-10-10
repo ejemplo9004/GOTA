@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: c5970dc236c0d924faea23fa5bbd0d77
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1633
+        width: 290
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4639f8cb7755ba241ab854a0a99143ad
+      internalID: -1718061964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1636
+        width: 301
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fe3085bc48c9c48b1643fc74fff8c8
+      internalID: 2130662047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1635
+        width: 284
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c806f9a602baeba40ac84c7a40c17a4d
+      internalID: -2012822088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_3
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1636
+        width: 283
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70477e228f8ded409300612c3730bcc
+      internalID: -249957687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_4
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1636
+        width: 285
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e313e8e1b0a33644aa1342bd6cf1288
+      internalID: 642692381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_5
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1387
+        width: 302
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec47b06795374b34ca7efb659166ae50
+      internalID: 351652762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1262
+        width: 288
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df15c5a68a1b79440b88f2143907d013
+      internalID: 635773370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1264
+        width: 320
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aebefc363a1c69489fd370ccfea8c89
+      internalID: -830902372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_8
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1261
+        width: 289
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b24e7e40015fa145a2996b8a6611769
+      internalID: -612935151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_9
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1264
+        width: 286
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdfacdc49a07544ea5e34996cd29c3d
+      internalID: -156668804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_10
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1263
+        width: 286
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe37298fbbc4534ba5d8a4d37d6a0d7
+      internalID: -1728956812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 858
+        width: 291
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296eb5606a0229d4f927fd3acc3e468d
+      internalID: -498002005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_12
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 860
+        width: 284
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1c1fe1a093fb749a20ddb7d751701b
+      internalID: 197553291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_13
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 858
+        width: 286
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74952a1878e627447844a989a44326b9
+      internalID: -1750511707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_14
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 863
+        width: 285
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc150a04bae5cf4ebba4504dc715e11
+      internalID: -286105791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_15
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 862
+        width: 286
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209c12ff38a663a4baa7a6d5c1b667b7
+      internalID: 380932362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_16
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1075
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e2947460e0d004e8280b9c110d540c
+      internalID: 508581547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_17
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 599
+        width: 299
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cca402361904ee4f98742168a8646a5
+      internalID: 685857107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1069
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16ccc250bc12e347908b46fdc30bc34
+      internalID: 118372829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_19
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 997
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4cf176cee317e42ab67ae66a4110a9
+      internalID: 2082498214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_20
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 997
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae7cafb31b38a04fb679aa6378b8c5f
+      internalID: 1183758286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 491
+        width: 295
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00528d790ea15ff49bad44234a093d08
+      internalID: -1400340447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_22
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 485
+        width: 332
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b7480f70023ad44b6687b8fe350a6d
+      internalID: 1651715884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_23
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 678
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b855156db6779488794edcf003bae9
+      internalID: -625064595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_24
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 491
+        width: 323
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfd9b6da00f57543a692c3eb00366ae
+      internalID: -1763930161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_25
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 491
+        width: 307
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb649689a932b045928174de9d20c38
+      internalID: 486355768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_26
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 491
+        width: 294
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fe89d01d894454db3e5a7d6b2ec0b2
+      internalID: -1829155748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_27
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 630
+        width: 10
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e90aa3da40ab7408bd2231af79ec09
+      internalID: -651713726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_28
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 642
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc4aae64dd0d3f4eb00605b9b7e189b
+      internalID: 1351490081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 89
+        width: 313
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cdee07105298641a738bae365840e1
+      internalID: -991422957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_30
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 89
+        width: 302
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c2e8093c9dee14690b6ab0e2a261f5
+      internalID: -1124931188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_31
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 89
+        width: 284
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2398a20b32c9e0041bda00125942a953
+      internalID: -517779519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_32
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 95
+        width: 308
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704dbcc4850107d4a969157934a69e3b
+      internalID: 1060825690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIMMAPGOTA-22_33
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 101
+        width: 313
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624fe1fc786128e4993dd4e61fae6a64
+      internalID: 1569493037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 25801d5f70caad64f9eb23d5f5dcde45
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UIMMAPGOTA-22_0: -1718061964
+      UIMMAPGOTA-22_1: 2130662047
+      UIMMAPGOTA-22_10: -1728956812
+      UIMMAPGOTA-22_11: -498002005
+      UIMMAPGOTA-22_12: 197553291
+      UIMMAPGOTA-22_13: -1750511707
+      UIMMAPGOTA-22_14: -286105791
+      UIMMAPGOTA-22_15: 380932362
+      UIMMAPGOTA-22_16: 508581547
+      UIMMAPGOTA-22_17: 685857107
+      UIMMAPGOTA-22_18: 118372829
+      UIMMAPGOTA-22_19: 2082498214
+      UIMMAPGOTA-22_2: -2012822088
+      UIMMAPGOTA-22_20: 1183758286
+      UIMMAPGOTA-22_21: -1400340447
+      UIMMAPGOTA-22_22: 1651715884
+      UIMMAPGOTA-22_23: -625064595
+      UIMMAPGOTA-22_24: -1763930161
+      UIMMAPGOTA-22_25: 486355768
+      UIMMAPGOTA-22_26: -1829155748
+      UIMMAPGOTA-22_27: -651713726
+      UIMMAPGOTA-22_28: 1351490081
+      UIMMAPGOTA-22_29: -991422957
+      UIMMAPGOTA-22_3: -249957687
+      UIMMAPGOTA-22_30: -1124931188
+      UIMMAPGOTA-22_31: -517779519
+      UIMMAPGOTA-22_32: 1060825690
+      UIMMAPGOTA-22_33: 1569493037
+      UIMMAPGOTA-22_4: 642692381
+      UIMMAPGOTA-22_5: 351652762
+      UIMMAPGOTA-22_6: 635773370
+      UIMMAPGOTA-22_7: -830902372
+      UIMMAPGOTA-22_8: -612935151
+      UIMMAPGOTA-22_9: -156668804
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

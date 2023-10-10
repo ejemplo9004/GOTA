@@ -170,6 +170,7 @@ public class Unidad : MonoBehaviour
 					}
 					if (uObj != null)
 					{
+						torreForzarAtaque = null;
 						vidaObjetivo = uObj.vida;
 						return uObj.transform;
 					}
@@ -189,6 +190,7 @@ public class Unidad : MonoBehaviour
 					}
 					if (uObj != null)
 					{
+						torreForzarAtaque = null;
 						vidaObjetivo = uObj.vida;
 						return uObj.transform;
 					}
@@ -197,8 +199,18 @@ public class Unidad : MonoBehaviour
 				{
 					if (GetTorresPrincipalesOpuestas().Count > 0)
 					{
-						vidaObjetivo = GetTorresPrincipalesOpuestas()[0].vida;
-						return GetTorresPrincipalesOpuestas()[0].transform;
+						float dis = 1000000;
+						int k = 0;
+						for (int j = 0; j < GetTorresPrincipalesOpuestas().Count; j++)
+						{
+							if ((GetTorresPrincipalesOpuestas()[j].transform.position - transform.position).sqrMagnitude < dis)
+							{
+								dis = (GetTorresPrincipalesOpuestas()[j].transform.position - transform.position).sqrMagnitude;
+								k = j;
+							}
+						}
+						vidaObjetivo = GetTorresPrincipalesOpuestas()[k].vida;
+						return GetTorresPrincipalesOpuestas()[k].transform;
 					}
 				}
 			}
