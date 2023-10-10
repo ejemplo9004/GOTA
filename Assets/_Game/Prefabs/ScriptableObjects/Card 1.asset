@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   Description: 
-  cost: 0
+  cost: 4
   cardSprite: {fileID: 21300000, guid: 0c308d0d141d8e54ab3d590993a6a3d6, type: 3}
   prefab: {fileID: 212469485914214350, guid: 0d3f5e6c5cbbd1543bcc938fe8a635ab, type: 3}

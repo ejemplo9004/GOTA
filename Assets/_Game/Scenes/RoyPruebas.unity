@@ -2154,6 +2154,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deck: {fileID: 11400000, guid: 2b5667751f6c5f148acb4ec62d5fd2f8, type: 2}
+  energyPerSecond: 1
+  energy: 5
+  disabledMaterial: {fileID: 2100000, guid: 9dab49e50857262419025fb08a31314f, type: 2}
 --- !u!1 &1782759038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5965354488658346653, guid: 5b676e2dc4cd5bb45a536f601dd7d2a9, type: 3}
@@ -2556,6 +2559,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1539902488602535959, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539902488602535959, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539902488602535959, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539902488602535959, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539902488602535959, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539902488602535959, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539902488602535959, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2901513587305668211, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
       propertyPath: card
       value: 

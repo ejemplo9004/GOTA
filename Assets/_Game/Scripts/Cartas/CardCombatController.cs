@@ -24,9 +24,15 @@ public class CardCombatController : MonoBehaviour
         }
     }
     #endregion
+    [Header("Deck")]
     public ScriptableDeck deck;
     public DeckController deckController;
     public UICardsController cardsController;
+
+    [Header("Cost")]
+    public float energyPerSecond = 1;
+    public float energy = 5;
+    public Material disabledMaterial;
 
     private void Start()
     {
@@ -38,11 +44,21 @@ public class CardCombatController : MonoBehaviour
         {
             cardsController.AddCard(deckController.DrawToHand());
         }
+        StartCoroutine(RegenEnergyCoroutine());
     }
 
     public void OnCardPlayed(ScriptableCard card)
     {
         deckController.DiscardCard(card);
         cardsController.AddCard(deckController.DrawToHand());
+    }
+
+    IEnumerator RegenEnergyCoroutine()
+    {
+        while (true)
+        {
+            energy += Time.deltaTime * energyPerSecond;
+            yield return null;
+        }
     }
 }

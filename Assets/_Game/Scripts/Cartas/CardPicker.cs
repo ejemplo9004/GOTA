@@ -16,7 +16,7 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         cardRectTransform = transform.parent.GetComponent<RectTransform>();
 
         cardOrigin = cardRectTransform.anchoredPosition;
-        heightLimit = Mathf.FloorToInt(Screen.height * CardControllerSingleton.Instance.screenPorcentajeLimitToPlayCard);
+        heightLimit = Mathf.FloorToInt(Screen.height * CardUISingleton.Instance.screenPorcentajeLimitToPlayCard);
         bigCardPosition = new Vector2(Screen.width / 2, heightLimit + 200);
 
         _camera = Camera.main;
@@ -41,7 +41,7 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         isDraggin = false;
         cardRectTransform.anchoredPosition = cardOrigin;
-        CardControllerSingleton.Instance.lineController.enabled = false;
+        CardUISingleton.Instance.lineController.enabled = false;
 
         var card = GetComponent<UICard>();
         if (card != null)
@@ -72,20 +72,20 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private void ShowArrow()
     {
         Ray ray = _camera.ScreenPointToRay(Input.mousePosition);
-        LayerMask mask = CardControllerSingleton.Instance.worldMask;
+        LayerMask mask = CardUISingleton.Instance.worldMask;
         if (Physics.Raycast(ray, out RaycastHit hit, 1000f, mask))
         {
-            if (CardControllerSingleton.Instance.arrowInstance == null)
+            if (CardUISingleton.Instance.arrowInstance == null)
             {
-                CardControllerSingleton.Instance.arrowInstance = Instantiate(CardControllerSingleton.Instance.arrowPrefab);
+                CardUISingleton.Instance.arrowInstance = Instantiate(CardUISingleton.Instance.arrowPrefab);
             }
-            GameObject arrowInstance = CardControllerSingleton.Instance.arrowInstance;
+            GameObject arrowInstance = CardUISingleton.Instance.arrowInstance;
             arrowInstance.SetActive(true);
             arrowInstance.transform.position = hit.point;
-            CardControllerSingleton.Instance.lineController.enabled = true;
+            CardUISingleton.Instance.lineController.enabled = true;
             try
             {
-                CardControllerSingleton.Instance.lineController.SetEndPoint(hit.point);
+                CardUISingleton.Instance.lineController.SetEndPoint(hit.point);
             }catch(System.Exception e)
             {
                 Debug.LogException(e);

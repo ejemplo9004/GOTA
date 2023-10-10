@@ -20,13 +20,13 @@ public class LineController : MonoBehaviour
     private void OnEnable()
     {
         lineRenderer.enabled = true;
-        CardControllerSingleton.Instance.arrowInstance.SetActive(true);
+        CardUISingleton.Instance.arrowInstance.SetActive(true);
     }
 
     private void OnDisable()
     {
         lineRenderer.enabled = false;
-        CardControllerSingleton.Instance.arrowInstance.SetActive(false);
+        CardUISingleton.Instance.arrowInstance.SetActive(false);
     }
 
     private void DrawParabolicLine()
