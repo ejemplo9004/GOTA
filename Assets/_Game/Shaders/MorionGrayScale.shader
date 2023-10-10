@@ -18,6 +18,7 @@ Shader "MorionGrayScale"
         [Toggle(UNITY_UI_ALPHACLIP)] _UseUIAlphaClip ("Use Alpha Clip", Float) = 0
 
         _MainTex1("Texture 0", 2D) = "white" {}
+        _fill("fill", Range( 0 , 1)) = 0
         [HideInInspector] _texcoord( "", 2D ) = "white" {}
 
     }
@@ -91,6 +92,7 @@ Shader "MorionGrayScale"
 
             uniform sampler2D _MainTex1;
             uniform float4 _MainTex1_ST;
+            uniform float _fill;
 
             
             v2f vert(appdata_t v )
@@ -135,9 +137,10 @@ Shader "MorionGrayScale"
                 float4 color17 = IsGammaSpace() ? float4(1,1,1,1) : float4(1,1,1,1);
                 float4 temp_output_16_0 = ( tex2DNode2.a * color17 );
                 float4 lerpResult21 = lerp( color22 , color24 , ( temp_output_16_0 * ( ( ( tex2DNode2.r + tex2DNode2.g + tex2DNode2.b ) / 3.0 ) * tex2DNode2.a ) ).r);
+                float4 lerpResult33 = lerp( ( lerpResult21 * temp_output_16_0 ) , tex2DNode2 , _fill);
                 
 
-                half4 color = ( lerpResult21 * temp_output_16_0 );
+                half4 color = lerpResult33;
 
                 #ifdef UNITY_UI_CLIP_RECT
                 half2 m = saturate((_ClipRect.zw - _ClipRect.xy - abs(IN.mask.xy)) * IN.mask.zw);
@@ -174,8 +177,10 @@ Node;AmplifyShaderEditor.BreakToComponentsNode;19;1191.074,58.41511;Inherit;Fals
 Node;AmplifyShaderEditor.ColorNode;22;1018.973,-83.4092;Inherit;False;Constant;_Color1;Color 1;1;0;Create;True;0;0;0;False;0;False;0,0,0,1;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.ColorNode;24;1092.276,184.3045;Inherit;False;Constant;_Color2;Color 2;1;0;Create;True;0;0;0;False;0;False;1,1,1,1;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.LerpOp;21;1418.95,23.35756;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
-Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;1704.09,198.8726;Float;False;True;-1;2;ASEMaterialInspector;0;3;MorionGrayScale;5056123faa0c79b47ab6ad7e8bf059a4;True;Default;0;0;Default;2;False;True;3;1;False;;10;False;;0;1;False;;0;False;;False;False;False;False;False;False;False;False;False;False;False;False;True;2;False;;False;True;True;True;True;True;0;True;_ColorMask;False;False;False;False;False;False;False;True;True;0;True;_Stencil;255;True;_StencilReadMask;255;True;_StencilWriteMask;0;True;_StencilComp;0;True;_StencilOp;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;2;False;;True;0;True;unity_GUIZTestMode;False;True;5;Queue=Transparent=Queue=0;IgnoreProjector=True;RenderType=Transparent=RenderType;PreviewType=Plane;CanUseSpriteAtlas=True;False;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;False;0;;0;0;Standard;0;0;1;True;False;;False;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;20;1543.245,206.6139;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;2355.481,299.9436;Float;False;True;-1;2;ASEMaterialInspector;0;3;MorionGrayScale;5056123faa0c79b47ab6ad7e8bf059a4;True;Default;0;0;Default;2;False;True;3;1;False;;10;False;;0;1;False;;0;False;;False;False;False;False;False;False;False;False;False;False;False;False;True;2;False;;False;True;True;True;True;True;0;True;_ColorMask;False;False;False;False;False;False;False;True;True;0;True;_Stencil;255;True;_StencilReadMask;255;True;_StencilWriteMask;0;True;_StencilComp;0;True;_StencilOp;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;2;False;;True;0;True;unity_GUIZTestMode;False;True;5;Queue=Transparent=Queue=0;IgnoreProjector=True;RenderType=Transparent=RenderType;PreviewType=Plane;CanUseSpriteAtlas=True;False;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;False;0;;0;0;Standard;0;0;1;True;False;;False;0
+Node;AmplifyShaderEditor.LerpOp;33;2027.269,287.7503;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
+Node;AmplifyShaderEditor.RangedFloatNode;45;1670.699,366.4421;Inherit;False;Property;_fill;fill;1;0;Create;True;0;0;0;False;0;False;0;0;0;1;0;1;FLOAT;0
 WireConnection;2;0;1;0
 WireConnection;12;0;2;1
 WireConnection;12;1;2;2
@@ -192,8 +197,11 @@ WireConnection;19;0;18;0
 WireConnection;21;0;22;0
 WireConnection;21;1;24;0
 WireConnection;21;2;19;0
-WireConnection;0;0;20;0
 WireConnection;20;0;21;0
 WireConnection;20;1;16;0
+WireConnection;0;0;33;0
+WireConnection;33;0;20;0
+WireConnection;33;1;2;0
+WireConnection;33;2;45;0
 ASEEND*/
-//CHKSM=9F78A4BC0A0B5FC216C51406CA568D1030B47B23
+//CHKSM=C2125BB128A724D38F946704B9B59D0399B92075
