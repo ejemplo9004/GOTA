@@ -57,7 +57,7 @@ public class CardCombatController : MonoBehaviour
     {
         while (true)
         {
-            energy += Time.deltaTime * energyPerSecond;
+            energy = Mathf.Clamp( energy + Time.deltaTime * energyPerSecond, 0, 10);
             yield return null;
         }
     }

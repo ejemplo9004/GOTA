@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eaeee9931b0c529439ea9523d5d46862, type: 3}
-  m_Name: Card 1
+  m_Name: Pachacamak
   m_EditorClassIdentifier: 
-  cardName: 
+  cardName: Pachacamak
   Description: 
   cost: 4
-  cardSprite: {fileID: 21300000, guid: 0c308d0d141d8e54ab3d590993a6a3d6, type: 3}
-  prefab: {fileID: 212469485914214350, guid: 0d3f5e6c5cbbd1543bcc938fe8a635ab, type: 3}
+  cardSprite: {fileID: -1400340447, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
+  prefab: {fileID: 1072158657948652515, guid: 9c31e6b67dee02b42a62d9e41a4f4fb7, type: 3}

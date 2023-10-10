@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eaeee9931b0c529439ea9523d5d46862, type: 3}
-  m_Name: Card 6
+  m_Name: Yacuruna
   m_EditorClassIdentifier: 
-  cardName: 
+  cardName: Yacuruna
   Description: 
-  cost: 5
-  cardSprite: {fileID: 21300000, guid: b6f07674ead9bf948ad8585d8bd14fcc, type: 3}
-  prefab: {fileID: 4585405252645123903, guid: bf9f5bcf179d9d840aa17f0beebc80fc, type: 3}
+  cost: 1
+  cardSprite: {fileID: 486355768, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
+  prefab: {fileID: 713887207897803477, guid: eebdbbe63f5660f4fbe4cc77e967a857, type: 3}

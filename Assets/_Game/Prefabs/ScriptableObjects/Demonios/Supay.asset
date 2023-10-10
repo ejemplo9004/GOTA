@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeee9931b0c529439ea9523d5d46862, type: 3}
+  m_Name: Supay
+  m_EditorClassIdentifier: 
+  cardName: Supay
+  Description: 
+  cost: 1
+  cardSprite: {fileID: -1763930161, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
+  prefab: {fileID: 9187869851913394555, guid: f4e4b37e7f3122441a9ec02a44da5740, type: 3}

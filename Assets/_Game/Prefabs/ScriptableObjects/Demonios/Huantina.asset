@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eaeee9931b0c529439ea9523d5d46862, type: 3}
-  m_Name: Card 7
+  m_Name: Huantina
   m_EditorClassIdentifier: 
-  cardName: 
+  cardName: Huantina
   Description: 
-  cost: 1
-  cardSprite: {fileID: 21300000, guid: 835585f30fdfa484492ff297af1cafaa, type: 3}
-  prefab: {fileID: 1072158657948652515, guid: 9c31e6b67dee02b42a62d9e41a4f4fb7, type: 3}
+  cost: 5
+  cardSprite: {fileID: -1750511707, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
+  prefab: {fileID: 5229234438118624539, guid: a78a42a7de31ec34e9e3d3941cba04ba, type: 3}

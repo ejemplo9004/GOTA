@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eaeee9931b0c529439ea9523d5d46862, type: 3}
-  m_Name: Card 0
+  m_Name: Pekulas
   m_EditorClassIdentifier: 
-  cardName: 
+  cardName: Pekulas
   Description: 
   cost: 5
-  cardSprite: {fileID: 21300000, guid: 88333200c9cb2b742aba3f42a34603d4, type: 3}
-  prefab: {fileID: 1325946865693643277, guid: b861d03ae00f70d4fb66bf2ab5776505, type: 3}
+  cardSprite: {fileID: 1651715884, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
+  prefab: {fileID: 1902632901231410292, guid: f0d6c03308e91224b84447f54fed7ee2, type: 3}
