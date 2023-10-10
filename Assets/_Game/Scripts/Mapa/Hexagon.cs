@@ -10,7 +10,7 @@ public class Hexagon : MonoBehaviour
 
     private void Start()
     {
-        if (navigable)
+        if (navigable || flyable)
         {
             gameObject.GetComponent<MeshRenderer>().enabled = false;
         }
