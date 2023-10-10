@@ -16,6 +16,7 @@ public class Unidad : MonoBehaviour
 	float distanciaObjetivo = -1;
 	public Objetivos[] objetivos;
 	public Vida vidaObjetivo;
+	public Torre torreForzarAtaque;
 
 	private void Awake()
 	{
@@ -93,7 +94,7 @@ public class Unidad : MonoBehaviour
 	}
 	public virtual void EstadoSeguir()
 	{
-		if (distanciaObjetivo < distancia.distanciaAtacar && distanciaObjetivo>-1)
+		if (distanciaObjetivo < distancia.distanciaAtacar && distanciaObjetivo>-1 || (torreForzarAtaque != null && target == torreForzarAtaque.transform))
 		{
 			CambiarEstado(Estado.atacar);
 		}
@@ -104,13 +105,24 @@ public class Unidad : MonoBehaviour
 	}
 	public virtual void EstadoAtacar()
 	{
-		if (distanciaObjetivo > distancia.distanciaAtacar + 0.4f)
+		if (distanciaObjetivo > distancia.distanciaAtacar + 0.4f )
 		{
-			CambiarEstado(Estado.seguir);
+			if (torreForzarAtaque == null)
+			{
+				CambiarEstado(Estado.seguir);
+			}
+			else if (torreForzarAtaque != null && target != torreForzarAtaque.transform)
+			{
+				CambiarEstado(Estado.seguir);
+			}
 		}
 		else if (target == null)
 		{
 			CambiarEstado(Estado.idle);
+		}
+		else
+		{
+			transform.LookAt(target);
 		}
 	}
 	public virtual void EstadoMuerto()
@@ -145,34 +157,60 @@ public class Unidad : MonoBehaviour
 			{
 				if (objetivos[i] == Objetivos.unidad)
 				{
+					Unidad uObj = null;
+					float dMin = 1000200;
 					for (int j = 0; j < GetUnidadesOpuestas().Count; j++)
 					{
 						float d = (GetUnidadesOpuestas()[j].transform.position - transform.position).sqrMagnitude;
-						if (d < distancia2)
+						if (d < distancia2 && d < dMin)
 						{
-							vidaObjetivo = GetUnidadesOpuestas()[j].vida;
-							return GetUnidadesOpuestas()[j].transform;
+							dMin = d;
+							uObj = GetUnidadesOpuestas()[j];
 						}
+					}
+					if (uObj != null)
+					{
+						torreForzarAtaque = null;
+						vidaObjetivo = uObj.vida;
+						return uObj.transform;
 					}
 				}
 				if (objetivos[i] == Objetivos.torre)
 				{
+					Torre uObj = null;
+					float dMin = 1200000;
 					for (int j = 0; j < GetTorresOpuestas().Count; j++)
 					{
 						float d = (GetTorresOpuestas()[j].transform.position - transform.position).sqrMagnitude;
-						if (d < distancia2)
+						if (d < distancia2 && d < dMin)
 						{
-							vidaObjetivo = GetTorresOpuestas()[j].vida;
-							return GetTorresOpuestas()[j].transform;
+							dMin = d;
+							uObj = GetTorresOpuestas()[j];
 						}
+					}
+					if (uObj != null)
+					{
+						torreForzarAtaque = null;
+						vidaObjetivo = uObj.vida;
+						return uObj.transform;
 					}
 				}
 				if (objetivos[i] == Objetivos.torrePrincipal)
 				{
 					if (GetTorresPrincipalesOpuestas().Count > 0)
 					{
-						vidaObjetivo = GetTorresPrincipalesOpuestas()[0].vida;
-						return GetTorresPrincipalesOpuestas()[0].transform;
+						float dis = 1000000;
+						int k = 0;
+						for (int j = 0; j < GetTorresPrincipalesOpuestas().Count; j++)
+						{
+							if ((GetTorresPrincipalesOpuestas()[j].transform.position - transform.position).sqrMagnitude < dis)
+							{
+								dis = (GetTorresPrincipalesOpuestas()[j].transform.position - transform.position).sqrMagnitude;
+								k = j;
+							}
+						}
+						vidaObjetivo = GetTorresPrincipalesOpuestas()[k].vida;
+						return GetTorresPrincipalesOpuestas()[k].transform;
 					}
 				}
 			}
