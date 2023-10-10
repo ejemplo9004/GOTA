@@ -633,7 +633,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 854efc9e4e072564a9b1a1d391e7215b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ce224f42a83bdf44491409d8fa7c2b4c, type: 2}
+      objectReference: {fileID: 2100000, guid: 2751aba17aae34345a17f4c420492ac7, type: 2}
     - target: {fileID: 919132149155446097, guid: 854efc9e4e072564a9b1a1d391e7215b, type: 3}
       propertyPath: m_Name
       value: planeeeee (1)
@@ -1216,7 +1216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4342698304797553355, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.1484096
+      value: -6.5
       objectReference: {fileID: 0}
     - target: {fileID: 5344449732303504389, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
       propertyPath: m_Pivot.x
