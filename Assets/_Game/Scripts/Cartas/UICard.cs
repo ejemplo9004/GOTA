@@ -9,6 +9,7 @@ public class UICard : MonoBehaviour
     private bool wasColored;
     private Image image;
     private Material disableColor;
+    private CardLoadEffect loadEffect;
 
     public void FillUICard(ScriptableCard card)
     {
@@ -18,7 +19,8 @@ public class UICard : MonoBehaviour
         image.sprite = card.cardSprite;
         disableColor = CardCombatController.Instance.disabledMaterial;
         wasColored = card.cost < CardCombatController.Instance.energy;
-        image.material = (wasColored)? null : disableColor;
+        image.material = (wasColored) ? null : disableColor;
+        loadEffect = GetComponentInChildren<CardLoadEffect>();
     }
 
     public ScriptableCard EmptyUICard()
@@ -32,18 +34,19 @@ public class UICard : MonoBehaviour
 
     public ScriptableCard InstanteateUnity(Vector3 pos)
     {
-        if(!hasCard) return null;
-        if(card.cost > CardCombatController.Instance.energy) return null;
+        if (!hasCard) return null;
+        if (card.cost > CardCombatController.Instance.energy) return null;
         GameObject unit = Instantiate(card.prefab, pos, Quaternion.identity);
         CardCombatController.Instance.energy -= card.cost;
-        return EmptyUICard(); 
+        return EmptyUICard();
     }
 
     private void Update()
     {
-        if(card != null)
+        if (card != null)
         {
-            bool coloredCard = card.cost < CardCombatController.Instance.energy;
+            float energy = CardCombatController.Instance.energy;
+            bool coloredCard = card.cost < energy;
             if (coloredCard != wasColored)
             {
                 if (wasColored)
@@ -54,10 +57,16 @@ public class UICard : MonoBehaviour
                 {
                     image.material = null;
                 }
+                loadEffect.SetImageFill(0);
                 wasColored = coloredCard;
             }
+            if (!wasColored)
+            {
+                loadEffect.SetImageFill((card.cost - energy) / card.cost);
+            }
+
         }
     }
 
-   
+
 }
