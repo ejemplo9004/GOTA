@@ -10,11 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6c10e91daf86e44c900fc0fef1a8f97, type: 3}
-  m_Name: Deck 0
+  m_Name: DeckDemonios
   m_EditorClassIdentifier: 
   cards:
+  - {fileID: 11400000, guid: f59d9d6e74af33f4886b2523bebcdf32, type: 2}
+  - {fileID: 11400000, guid: 9778a8fedfd29014eb80583361fe3b70, type: 2}
+  - {fileID: 11400000, guid: 6821ff3fa30fa5a4e91779eba1950a9b, type: 2}
+  - {fileID: 11400000, guid: 1b2d77d1d5dff35439c68d06e5cdb447, type: 2}
+  - {fileID: 11400000, guid: 18164e39cc0d2d6479538eae590dabc6, type: 2}
   - {fileID: 11400000, guid: fe2c3047dec57cf45b6f6a0c4fc42804, type: 2}
   - {fileID: 11400000, guid: c5abd05d9e7995c4395811e30472e1ec, type: 2}
   - {fileID: 11400000, guid: aee84d2703ea1a140b013f2d19c9c6c4, type: 2}
   - {fileID: 11400000, guid: 2a9e3cb4f4ee6b741be4098800368959, type: 2}
-  - {fileID: 11400000, guid: f59d9d6e74af33f4886b2523bebcdf32, type: 2}

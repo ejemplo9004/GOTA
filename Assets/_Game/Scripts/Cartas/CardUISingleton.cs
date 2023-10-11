@@ -1,21 +1,21 @@
 using UnityEngine;
 
-public class CardControllerSingleton : MonoBehaviour
+public class CardUISingleton : MonoBehaviour
 {
     #region Singleton
-    private static CardControllerSingleton instance;
+    private static CardUISingleton instance;
 
-    public static CardControllerSingleton Instance
+    public static CardUISingleton Instance
     {
         get
         {
             if (instance == null)
             {
-                instance = FindObjectOfType<CardControllerSingleton>();
+                instance = FindObjectOfType<CardUISingleton>();
                 if (instance == null)
                 {
                     GameObject singletonObject = new GameObject("SingletonExample");
-                    instance = singletonObject.AddComponent<CardControllerSingleton>();
+                    instance = singletonObject.AddComponent<CardUISingleton>();
                 }
             }
             return instance;
