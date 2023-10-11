@@ -62,7 +62,8 @@ public class UICard : MonoBehaviour
             }
             if (!wasColored)
             {
-                loadEffect.SetImageFill((card.cost - energy) / card.cost);
+                loadEffect.SetImageFill(
+                    (card.cost - energy) / card.cost);
             }
 
         }
