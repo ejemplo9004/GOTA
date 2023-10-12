@@ -28,11 +28,14 @@ public class CardCombatController : MonoBehaviour
     public ScriptableDeck deck;
     public DeckController deckController;
     public UICardsController cardsController;
+    public UINextCardController nextCardController;
 
     [Header("Cost")]
     public float energyPerSecond = 1;
     public float energy = 5;
     public Material disabledMaterial;
+
+    private ScriptableCard nextCard;
 
     private void Start()
     {
@@ -43,6 +46,8 @@ public class CardCombatController : MonoBehaviour
         for (int i = 0; i < spaces; i++)
         {
             cardsController.AddCard(deckController.DrawToHand());
+            deckController.PrepareNextCard();
+            nextCardController.SetNextCard(deckController.NextCard);
         }
         StartCoroutine(RegenEnergyCoroutine());
     }
@@ -51,6 +56,7 @@ public class CardCombatController : MonoBehaviour
     {
         deckController.DiscardCard(card);
         cardsController.AddCard(deckController.DrawToHand());
+        nextCardController.SetNextCard(deckController.NextCard);
     }
 
     IEnumerator RegenEnergyCoroutine()
