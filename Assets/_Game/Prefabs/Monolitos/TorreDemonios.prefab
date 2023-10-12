@@ -93,7 +93,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  vivo: 1
+  vivo: 0
   imVida: {fileID: 0}
 --- !u!114 &5395307942611534793
 MonoBehaviour:
@@ -1570,7 +1570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1482728015977140604, guid: 8a89b24df375b5946bc059dcb581391c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1482728015977140605, guid: 8a89b24df375b5946bc059dcb581391c, type: 3}
       propertyPath: m_Materials.Array.size
@@ -1817,7 +1817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bea3a2399bd0eee429d34e033e9b3c33, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

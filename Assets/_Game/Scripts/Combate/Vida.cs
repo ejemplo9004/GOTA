@@ -45,8 +45,11 @@ public class Vida : MonoBehaviour
 
 	public void Morir()
 	{
-		eventoMuerte.Invoke();
-		vidaActual = 0;
-		vivo = false;
+		if (vivo)
+		{ 
+			vivo = false;
+			eventoMuerte.Invoke();
+			vidaActual = 0;
+		}
 	}
 }
