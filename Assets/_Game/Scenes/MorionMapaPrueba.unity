@@ -1189,6 +1189,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: deck
+      value: 
+      objectReference: {fileID: 11400000, guid: 40398df40e51f1449823534f0aeb618d, type: 2}
     - target: {fileID: 2659084538261353073, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 308
