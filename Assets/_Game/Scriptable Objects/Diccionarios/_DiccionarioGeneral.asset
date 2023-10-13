@@ -41,4 +41,12 @@ MonoBehaviour:
     idiomas:
     - TUTORIAL
     - TUTORIAL
+  - llave: SELECCIONAR
+    idiomas:
+    - SELECCIONE BARAJA
+    - SELECT DECK
+  - llave: SIGUIENTE
+    idiomas:
+    - SIGUIENTE
+    - NEXT
   idiomaSeleccionado: 1
