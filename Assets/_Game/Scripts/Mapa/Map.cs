@@ -74,29 +74,6 @@ public class Map : MonoBehaviour
         FillMap();
     }
 
-    private void FillExtendedMap()
-    {
-        for (var i = 0; i < _expandedMap.GetLength(0); i++)
-        {
-            for (var j = 0; j < _expandedMap.GetLength(1); j++)
-            {
-                _expandedMap[i, j] = -1;
-            }
-        }
-
-        int xInit = (extendedHeight - height) / 2;
-        int yInit = (extendedWidth - width) / 2;
-
-        Debug.Log(xInit + ", " +  yInit);
-        for(var i = xInit; i < xInit + height; i++)
-        {
-            for(var j = yInit; j < yInit + width; j++)
-            {
-                _expandedMap[i, j] = _logicalHexagons[i - xInit, j - yInit];
-            }
-        }
-    }
-
     private void FillLogicalMap()
     {
         for (int i = 0; i < _hexagons.GetLength(0); i++)
@@ -155,29 +132,6 @@ public class Map : MonoBehaviour
         }
 
         navMeshBaker.BakeMap(walkableParent);
-        FillExtendedMap();
-        InstantiateExpandedMap();
-    }
-
-    private void InstantiateExpandedMap()
-    {
-        int xCorner = (extendedHeight - height) / 2;
-        int yCorner = (extendedWidth - width) / 2;
-
-        for (var i = 0; i < _expandedMap.GetLength(0); i++)
-        {
-            for (var j = 0; j < _expandedMap.GetLength(1); j++)
-            {
-                if (_expandedMap[i, j] == -1)
-                {
-                    var seaObj = Instantiate(seaHex, gameObject.transform);
-                    var posX = (xCorner - i) % 2 == 0 ? -(yCorner - j) * xOffset : -(yCorner - j) * xOffset + oddOffset;
-                    var posZ = -(xCorner - i) * zOffset;
-                    var pos = new Vector3(posX, 0, posZ);
-                    seaObj.transform.position = pos;
-                }
-            }
-        }
     }
 
     private int GetNextHex(int row, int col)
