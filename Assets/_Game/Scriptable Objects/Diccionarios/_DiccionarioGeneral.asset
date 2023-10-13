@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6bdab404c6f15fc42a235ebd23ca1250, type: 3}
-  m_Name: Diccionario
+  m_Name: _DiccionarioGeneral
   m_EditorClassIdentifier: 
   palabras:
   - llave: JUGAR

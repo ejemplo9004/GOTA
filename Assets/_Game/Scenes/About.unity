@@ -1939,12 +1939,12 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '<b>Assets:</b>
 
-    
+
 
     Amplify Shader
 
-    Stylized Explosion Effects
-    1 (FXIFIED)
+    Stylized Explosion Effects 1
+    (FXIFIED)
 
     Stylized VFX Free Pack (FXIFIED)
 
@@ -3352,7 +3352,8 @@ MonoBehaviour:
     Orozco\r\nEstefan\xEDa Pel\xE1ez\r\nJhonatan Restrepo Londo\xF1o\r\nJohn Alexander
     Jim\xE9nez \xC1lvarez\r\nJuan Jos\xE9 Echeverri\r\nJuan Pablo Casta\xF1eda \r\nJuliana
     Vallejo Portillo\r\nLuis Miguel G\xF3mez\r\nLuisa Camargo\r\nMaria Jose Palma
-    \r\nMariana Atehortua Quintero\r\nNeyder Torres\r\nSanti Arboleda\r\n"
+    \r\nMariana Atehortua Quintero\r\nNeyder Torres\r\nSanti Arboleda\r\nSof\xEDa
+    Garc\xEDa\n"
 --- !u!222 &1613560157
 CanvasRenderer:
   m_ObjectHideFlags: 0

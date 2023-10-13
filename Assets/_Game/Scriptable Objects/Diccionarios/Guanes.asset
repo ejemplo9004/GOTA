@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdab404c6f15fc42a235ebd23ca1250, type: 3}
+  m_Name: Guanes
+  m_EditorClassIdentifier: 
+  palabras:
+  - llave: CUMANDAY
+    idiomas:
+    - "Cumanday fue una figura mitol\xF3gica importante para los guanes, una antigua
+      civilizaci\xF3n ind\xEDgena que habitaba la regi\xF3n de los Andes en lo que
+      hoy es Colombia. Cumanday era considerada una deidad fundamental en su pante\xF3n
+      religioso. Era la diosa de la lluvia y el agua, y su influencia estaba estrechamente
+      vinculada a la agricultura y la fertilidad de la tierra en la cultura guane. 
+      Los guanes adoraban a Cumanday y realizaban rituales y ceremonias en su honor
+      para invocar su bendici\xF3n en la agricultura. La lluvia era esencial para
+      el \xE9xito de sus cosechas, y Cumanday era vista como la fuente de esta lluvia,
+      lo que la convert\xEDa en una deidad crucial para la subsistencia de la comunidad
+      guane. Su figura reflejaba la profunda conexi\xF3n que ten\xEDan los guanes
+      con la naturaleza y su dependencia de los recursos naturales para su sustento
+      y bienestar "
+    - 'Cumanday was an important mythological figure for the Guans, an ancient indigenous
+      civilization that inhabited the Andes region in what is now Colombia. Cumanday
+      was considered a fundamental deity in their religious pantheon. She was the
+      goddess of rain and water, and her influence was closely linked to agriculture
+      and the fertility of the land in the Guane culture.  The Guans worshiped Cumanday
+      and performed rituals and ceremonies in his honor to invoke his blessing in
+      agriculture. Rain was essential to the success of their crops, and Cumanday
+      was seen as the source of this rain, making her a crucial deity for the subsistence
+      of the Guane community. His figure reflected the deep connection that the Guans
+      had with nature and their dependence on natural resources for their sustenance
+      and well-being. '
+  - llave: FUCHA
+    idiomas:
+    - "En la mitolog\xEDa de los guanes, era una deidad fundamental para esta antigua
+      cultura ind\xEDgena que habitaba la regi\xF3n de los Andes en lo que hoy es
+      Colombia. Los guanes adoraban a Fucha como una diosa de gran importancia en
+      su pante\xF3n religioso. Esta deidad era considerada como la madre tierra,
+      encarnando la fertilidad, la agricultura y la abundancia de recursos naturales
+      en su territorio.  Fucha desempe\xF1aba un papel esencial en la vida de los
+      guanes, ya que era invocada en ceremonias y rituales que buscaban asegurar
+      buenas cosechas, la prosperidad de la comunidad y la armon\xEDa con la naturaleza.
+      Los guanes cre\xEDan que Fucha estaba directamente relacionada con la tierra
+      y su capacidad para brindar sustento, por lo que su adoraci\xF3n era una parte
+      central de su vida espiritual y cultural. "
+    - 'In the mythology of the Guanes, he was a fundamental deity for this ancient
+      indigenous culture that inhabited the Andes region in what is now Colombia.
+      The Guans worshiped Fucha as a goddess of great importance in their religious
+      pantheon. This deity was considered mother earth, embodying fertility, agriculture
+      and the abundance of natural resources in her territory.  Fucha played an essential
+      role in the life of the Guans, since it was invoked in ceremonies and rituals
+      that sought to ensure good harvests, the prosperity of the community and harmony
+      with nature. The Guan believed that Fucha was directly related to the land
+      and its ability to provide sustenance, so its worship was a central part of
+      their spiritual and cultural life. '
+  - llave: GORANCHACHA
+    idiomas:
+    - "Era un personaje mitol\xF3gico, a menudo considerado como un h\xE9roe o semidi\xF3s,
+      conocido por su sabidur\xEDa y sus habilidades sobrenaturales. Los guanes le
+      atribu\xEDan un papel importante en la creaci\xF3n y civilizaci\xF3n de su
+      pueblo.  Seg\xFAn la leyenda, Goranchacha era un instructor divino que ense\xF1aba
+      a los guanes sobre agricultura, medicina y otras habilidades esenciales para
+      su supervivencia. Tambi\xE9n se le atribu\xEDa la creaci\xF3n de leyes y normas
+      sociales para guiar a su comunidad. Su sabidur\xEDa y liderazgo lo convirtieron
+      en una figura venerada por los guanes, y se le consideraba un intermediario
+      entre el mundo humano y el espiritual. "
+    - 'He was a mythological character, often considered a hero or demigod, known
+      for his wisdom and supernatural abilities. The Guanes attributed an important
+      role to him in the creation and civilization of their people. '
+  - llave: GUANENTA
+    idiomas:
+    - "Seg\xFAn la mitolog\xEDa guane, Guanenta es la madre primordial de su civilizaci\xF3n
+      y, al igual que Bachu\xE9 para los muiscas, desempe\xF1a un papel esencial
+      en la creaci\xF3n de la sociedad guane.  Guanenta se le atribuye haber emergido
+      de una laguna con su hijo, quien se convirti\xF3 en el fundador de la comunidad
+      guane. Ella ense\xF1\xF3 a su descendencia las artes de la agricultura, la
+      caza y otros conocimientos esenciales para su supervivencia. Su figura simboliza
+      la importancia de la fertilidad de la tierra y la transmisi\xF3n de la cultura
+      a trav\xE9s de las generaciones, al igual que Bachu\xE9 lo hace en la mitolog\xEDa
+      muisca. Guanenta era reverenciada como una deidad que otorgaba prosperidad
+      y sabidur\xEDa a los guanes, y su legado era central en su cosmovisi\xF3n y
+      su comprensi\xF3n de su origen y prop\xF3sito en la tierra. "
+    - "According to Guane mythology, Guanenta is the primordial mother of their civilization
+      and, like Bachu\xE9 for the Muiscas, plays an essential role in the creation
+      of Guane society.  Guanenta is credited with emerging from a lagoon with his
+      son, who became the founder of the Guane community. She taught her descendants
+      the arts of agriculture, hunting, and other knowledge essential to their survival.
+      His figure symbolizes the importance of the fertility of the land and the transmission
+      of culture through generations, just as Bachu\xE9 does in Muisca mythology.
+      Guanenta was revered as a deity who granted prosperity and wisdom to the Guans,
+      and her legacy was central to their worldview and their understanding of their
+      origin and purpose on earth. "
+  - llave: NEMEQUENE
+    idiomas:
+    - "Nemequene fue un gobernante y l\xEDder destacado en la historia de los guanes,
+      una antigua civilizaci\xF3n ind\xEDgena que habitaba la regi\xF3n de los Andes
+      en lo que hoy es Colombia. \xC9l desempe\xF1\xF3 un papel crucial en la historia
+      y el gobierno de los guanes durante el periodo de la conquista espa\xF1ola
+      en el siglo XVI. Nemequene se destac\xF3 por su habilidad pol\xEDtica y liderazgo
+      en tiempos de cambio y desaf\xEDo para su pueblo.  Nemequene lider\xF3 a los
+      guanes en su resistencia contra la invasi\xF3n y la imposici\xF3n del gobierno
+      espa\xF1ol en su territorio. Su valiente defensa de la cultura guane y su habilidad
+      para mantener la unidad de su pueblo en un momento cr\xEDtico de su historia
+      lo convirtieron en una figura ic\xF3nica. Su legado se recuerda como un s\xEDmbolo
+      de resistencia y determinaci\xF3n ante la presi\xF3n colonial, y su liderazgo
+      sigue siendo relevante en la historia y la memoria de los guanes. "
+    - 'Nemequene was a prominent ruler and leader in the history of the Guans, an
+      ancient indigenous civilization that inhabited the Andes region in what is
+      now Colombia. He played a crucial role in the history and government of the
+      Guans during the period of the Spanish conquest in the 16th century. Nemequene
+      stood out for his political skill and leadership in times of change and challenge
+      for his people.  Nemequene led the Guans in their resistance against the invasion
+      and imposition of Spanish rule on their territory. His courageous defense of
+      Guane culture and his ability to maintain the unity of his people at a critical
+      moment in their history made him an iconic figure. His legacy is remembered
+      as a symbol of resistance and determination in the face of colonial pressure,
+      and his leadership remains relevant in the history and memory of the Guans. '
+  - llave: NENCATACOA
+    idiomas:
+    - "Nencatacoa, en la mitolog\xEDa guane, era una figura destacada que se asociaba
+      principalmente con la alegr\xEDa y la festividad. Era considerado un dios que
+      inspiraba la creatividad y la expresi\xF3n art\xEDstica, siendo el protector
+      de los artistas guanes. Su representaci\xF3n sol\xEDa ser la de un ser mitad
+      hombre y mitad animal del bosque, como un oso o un zorro, con una manta y la
+      cola sobresaliendo.  Este dios alegre y festivo ocupaba un lugar importante
+      en la cultura guane, siendo invocado por los artistas para obtener inspiraci\xF3n
+      en la m\xFAsica y el baile, as\xED como en otras formas de expresi\xF3n art\xEDstica.
+      Nencatacoa personificaba la importancia de la celebraci\xF3n y la creatividad
+      en la vida de los guanes, y su culto reflejaba la relevancia de la alegr\xEDa
+      y el arte en su sociedad.  "
+    - Nencatacoa, in Guane mythology, was a prominent figure who was mainly associated
+      with joy and festivity. He was considered a god who inspired creativity and
+      artistic expression, being the protector of Guano artists. Its representation
+      was usually that of a being that was half man and half forest animal, like
+      a bear or a fox, with a blanket and its tail sticking out.  This happy and
+      festive god held an important place in Guane culture, being invoked by artists
+      for inspiration in music and dance, as well as other forms of artistic expression.
+      Nencatacoa personified the importance of celebration and creativity in the
+      lives of the Guans, and her cult reflected the relevance of joy and art in
+      their society.
+  - llave: TEQUENDAMA
+    idiomas:
+    - "Tequendama fue una figura geogr\xE1fica y espiritual importante para los guanes,
+      una civilizaci\xF3n ind\xEDgena que habitaba la regi\xF3n de los Andes en lo
+      que hoy es Colombia. Para los guanes, Tequendama se refer\xEDa principalmente
+      a la cascada de Tequendama, una impresionante catarata ubicada en la actual
+      localidad de San Antonio del Tequendama. Los guanes adoraban este lugar natural
+      y lo consideraban sagrado, relacion\xE1ndolo con su cosmovisi\xF3n y sus creencias
+      religiosas. Lo ve\xEDan como un punto de conexi\xF3n entre lo divino y la naturaleza. 
+      La raz\xF3n por la que Tequendama tambi\xE9n aparece en la cultura muisca radica
+      en la proximidad geogr\xE1fica y las similitudes culturales entre ambas civilizaciones.
+      Los muiscas habitaban la misma regi\xF3n que los guanes, y compart\xEDan elementos
+      culturales y religiosos. La cascada ten\xEDa un significado similar para ambas
+      culturas. La proximidad geogr\xE1fica y las similitudes culturales llevaron
+      a que Tequendama fuera relevante en ambas tradiciones ind\xEDgenas. "
+    - 'Tequendama was an important geographical and spiritual figure for the Guans,
+      an indigenous civilization that inhabited the Andes region in what is now Colombia.
+      For the Guanes, Tequendama mainly referred to the Tequendama waterfall, an
+      impressive waterfall located in the current town of San Antonio del Tequendama.
+      The Guan people worshiped this natural place and considered it sacred, relating
+      it to their worldview and religious beliefs. They saw it as a connection point
+      between the divine and nature.  The reason why Tequendama also appears in the
+      Muisca culture lies in the geographical proximity and cultural similarities
+      between both civilizations. The Muiscas inhabited the same region as the Guans,
+      and shared cultural and religious elements. The waterfall had a similar meaning
+      for both cultures. Geographic proximity and cultural similarities led Tequendama
+      to be relevant in both indigenous traditions. '
+  - llave: TUNDAMA
+    idiomas:
+    - "Tundama fue una figura hist\xF3rica y legendaria de gran importancia para
+      los guanes, una antigua civilizaci\xF3n ind\xEDgena que habitaba la regi\xF3n
+      de los Andes en lo que hoy es Colombia. Tundama se destac\xF3 como un l\xEDder
+      y gobernante guane en la regi\xF3n de Soat\xE1 y su legado se centra en su
+      resistencia ante la conquista espa\xF1ola durante el siglo XVI. Fue un valiente
+      defensor de la independencia de su pueblo y se convirti\xF3 en un s\xEDmbolo
+      de la lucha guane contra la dominaci\xF3n colonial.  La historia de Tundama
+      est\xE1 estrechamente relacionada con su defensa de la fortaleza de Soat\xE1
+      frente a las fuerzas espa\xF1olas. Su valent\xEDa y liderazgo en la batalla
+      hicieron de \xE9l una figura legendaria entre los guanes y un s\xEDmbolo de
+      resistencia contra la conquista espa\xF1ola. Tundama simboliza la determinaci\xF3n
+      de su pueblo por preservar su cultura y territorio en un momento de gran adversidad. "
+    - "Tundama was a historical and legendary figure of great importance to the Guans,
+      an ancient indigenous civilization that inhabited the Andes region in what
+      is now Colombia. Tundama stood out as a Guane leader and ruler in the Soat\xE1
+      region and his legacy focuses on his resistance to the Spanish conquest during
+      the 16th century. He was a brave defender of the independence of his people
+      and became a symbol of the Guane struggle against colonial domination.  The
+      history of Tundama is closely related to its defense of the fortress of Soat\xE1
+      against Spanish forces. His bravery and leadership in battle made him a legendary
+      figure among the Guans and a symbol of resistance against the Spanish conquest.
+      Tundama symbolizes the determination of its people to preserve their culture
+      and territory in a time of great adversity. "
+  - llave: WUANEBA
+    idiomas:
+    - "Waneba era una figura mitol\xF3gica importante en la cultura de los guanes,
+      una civilizaci\xF3n ind\xEDgena que habitaba la regi\xF3n de los Andes en lo
+      que hoy es Colombia. Waneba era conocido como una deidad en la mitolog\xEDa
+      guane, espec\xEDficamente asociada con la protecci\xF3n y la sanaci\xF3n. Se
+      le atribu\xEDa el poder de curar a los enfermos y brindar protecci\xF3n a su
+      pueblo.  Los guanes adoraban a Waneba y lo invocaban en momentos de enfermedad
+      o peligro. Se le consideraba un protector y sanador, y su influencia se extend\xEDa
+      a la espiritualidad y la salud de la comunidad guane. La figura de Waneba representaba
+      la importancia de la protecci\xF3n y la sanaci\xF3n en la vida de los guanes,
+      y su culto era esencial para enfrentar los desaf\xEDos de la vida en su entorno. "
+    - 'Waneba was an important mythological figure in the culture of the Guans, an
+      indigenous civilization that inhabited the Andes region in what is now Colombia.
+      Waneba was known as a deity in Guane mythology, specifically associated with
+      protection and healing. He was credited with the power to cure the sick and
+      provide protection to his people.  The Guanes worshiped Waneba and invoked
+      him in times of illness or danger. He was considered a protector and healer,
+      and his influence extended to the spirituality and health of the Guane community.
+      The figure of Waneba represented the importance of protection and healing in
+      the lives of the Guans, and his cult was essential to face the challenges of
+      life in their environment. '
+  - llave: ZAQUE
+    idiomas:
+    - "El Zaque era el gobernante supremo de los guanes y ten\xEDa un papel central
+      en la organizaci\xF3n pol\xEDtica y social de la cultura guane. Este l\xEDder
+      ejerc\xEDa el poder pol\xEDtico, religioso y militar sobre su territorio, y
+      su autoridad era reconocida y respetada por su comunidad.  El Zaque era el
+      encargado de tomar decisiones importantes en asuntos pol\xEDticos y religiosos,
+      y desempe\xF1aba un papel fundamental en la administraci\xF3n de justicia y
+      la resoluci\xF3n de conflictos en la sociedad guane. Adem\xE1s, ten\xEDa la
+      responsabilidad de liderar las ceremonias religiosas y rituales que eran fundamentales
+      en la vida de los guanes, lo que le otorgaba un estatus espiritual elevado.
+      La figura del Zaque encarnaba la autoridad y la sabidur\xEDa en la cultura
+      guane, y su legado perdura como un s\xEDmbolo de liderazgo y tradici\xF3n en
+      la historia ind\xEDgena de Colombia. "
+    - The Zaque was the supreme ruler of the Guanes and had a central role in the
+      political and social organization of the Guane culture. This leader exercised
+      political, religious and military power over his territory, and his authority
+      was recognized and respected by his community.  The Zaque was in charge of
+      making important decisions in political and religious matters, and played a
+      fundamental role in the administration of justice and the resolution of conflicts
+      in Guane society. In addition, he had the responsibility of leading the religious
+      ceremonies and rituals that were fundamental in the life of the Guans, which
+      gave him a high spiritual status. The figure of Zaque embodied authority and
+      wisdom in the Guane culture, and his legacy endures as a symbol of leadership
+      and tradition in the indigenous history of Colombia.
+  idiomaSeleccionado: 0
