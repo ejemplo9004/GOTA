@@ -294,7 +294,8 @@ public enum Estado
 public enum Equipo
 {
 	aliado = 0,
-	enemigo = 1
+	enemigo = 1,
+	ambos = 2
 }
 
 public enum Objetivos

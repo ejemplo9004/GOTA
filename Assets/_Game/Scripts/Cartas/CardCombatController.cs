@@ -4,15 +4,61 @@ using UnityEngine;
 
 public class CardCombatController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    #region Singleton
+    private static CardCombatController instance;
+
+    public static CardCombatController Instance
     {
-        
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<CardCombatController>();
+                if (instance == null)
+                {
+                    GameObject singletonObject = new GameObject("SingletonExample");
+                    instance = singletonObject.AddComponent<CardCombatController>();
+                }
+            }
+            return instance;
+        }
+    }
+    #endregion
+    [Header("Deck")]
+    public ScriptableDeck deck;
+    public DeckController deckController;
+    public UICardsController cardsController;
+
+    [Header("Cost")]
+    public float energyPerSecond = 1;
+    public float energy = 5;
+    public Material disabledMaterial;
+
+    private void Start()
+    {
+        cardsController = new UICardsController();
+        deckController = new DeckController(deck);
+        int spaces = cardsController.EmptyCards();
+
+        for (int i = 0; i < spaces; i++)
+        {
+            cardsController.AddCard(deckController.DrawToHand());
+        }
+        StartCoroutine(RegenEnergyCoroutine());
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnCardPlayed(ScriptableCard card)
     {
-        
+        deckController.DiscardCard(card);
+        cardsController.AddCard(deckController.DrawToHand());
+    }
+
+    IEnumerator RegenEnergyCoroutine()
+    {
+        while (true)
+        {
+            energy = Mathf.Clamp( energy + Time.deltaTime * energyPerSecond, 0, 10);
+            yield return null;
+        }
     }
 }

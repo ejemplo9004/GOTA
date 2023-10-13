@@ -43,6 +43,10 @@ public class Torre : MonoBehaviour
 			rbs[i].AddTorque((new Vector3(Random.Range(-100, 100), Random.Range(-100, 100), Random.Range(-100, 100)) * 20));
 		}
 		particulasMuerte.SetActive(true);
+		if (tipoTorre == TipoTorre.generica)
+		{
+			Destroy(gameObject, 5);
+		}
 	}
 
 	IEnumerator ListarUnidades()

@@ -23,11 +23,13 @@ public class Vida : MonoBehaviour
 
 	public void CausarDaño(float cuanto)
 	{
+		print("Daño a: " + gameObject.name);
 		if (!vivo)
 		{
 			return;
 		}
 		vidaActual -= cuanto;
+		print("Queda en: " + vidaActual);
 		if (vidaActual<=0)
 		{
 			Morir();
@@ -45,8 +47,11 @@ public class Vida : MonoBehaviour
 
 	public void Morir()
 	{
-		eventoMuerte.Invoke();
-		vidaActual = 0;
-		vivo = false;
+		if (vivo)
+		{ 
+			vivo = false;
+			eventoMuerte.Invoke();
+			vidaActual = 0;
+		}
 	}
 }

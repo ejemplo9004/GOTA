@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c10e91daf86e44c900fc0fef1a8f97, type: 3}
+  m_Name: _DeckMuiscas
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 53af188b64eb6e94bbae3da24cdcae49, type: 2}
+  - {fileID: 11400000, guid: bba87a128f6e2d249bb9801c389acace, type: 2}
+  - {fileID: 11400000, guid: 4f43ab1b886c262489253649835050d1, type: 2}
+  - {fileID: 11400000, guid: 6ed895e6e48dad043944d0fe4bb1c5db, type: 2}
+  - {fileID: 11400000, guid: c7695a9480f62c14f93827a39b1848fe, type: 2}
+  - {fileID: 11400000, guid: 50bbaa84c75137c42b8d6d25fc92c475, type: 2}
+  - {fileID: 11400000, guid: a0ba0ce1807a77144854a74ea5ed04ec, type: 2}
+  - {fileID: 11400000, guid: 32e696deab25cd94e8b4cc17453bda27, type: 2}
+  - {fileID: 11400000, guid: d15f6627ee51ce047bc5fb30b2105e81, type: 2}
+  diccionario: {fileID: 11400000, guid: ead70274c6ef94b428009b574d0864d6, type: 2}
