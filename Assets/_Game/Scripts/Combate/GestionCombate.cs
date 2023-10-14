@@ -84,6 +84,7 @@ public class ListasObjetivos
 	}
     public void QuitarTorre(Torre t)
     {
+        Debug.Log("Está intentando quitar una torre llamada " + t + "/" + t.name);
 		switch (t.tipoTorre)
 		{
 			case TipoTorre.generica:
