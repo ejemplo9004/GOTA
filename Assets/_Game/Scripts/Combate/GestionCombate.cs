@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -30,6 +31,7 @@ public class ListasObjetivos
     public List<Torre>  torresEnemigas;
     public List<Torre>  torresPrincipalesAliadas;
     public List<Torre> torresPrincipalesEnemigas;
+    public static Action onTowerDestroy;
     public void AñadirUnidad(Unidad u)
     {
         if (u.equipo == Equipo.aliado)
@@ -103,6 +105,7 @@ public class ListasObjetivos
                 {
                     torresPrincipalesEnemigas.Remove(t);
                 }
+                onTowerDestroy.Invoke();
                 break;
 			default:
 				break;
