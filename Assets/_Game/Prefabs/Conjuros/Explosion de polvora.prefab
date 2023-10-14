@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 675088630066643700}
   - component: {fileID: 5151852439717283425}
+  - component: {fileID: 883579924137466877}
   m_Layer: 0
   m_Name: Explosion de polvora
   m_TagString: Untagged
@@ -49,6 +50,21 @@ MonoBehaviour:
   objetivos: 1
   tiempoVida: 5
   "da\xF1o": 150
+--- !u!114 &883579924137466877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7492969516341835841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1001 &2845985526960911925
 PrefabInstance:
   m_ObjectHideFlags: 0

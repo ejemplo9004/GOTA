@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8966209179472652675}
   - component: {fileID: 3250544491720878031}
   - component: {fileID: 3872282772458858479}
+  - component: {fileID: 5158725932516451084}
   m_Layer: 0
   m_Name: Huaquero
   m_TagString: Untagged
@@ -119,6 +120,21 @@ MonoBehaviour:
   "tipoDa\xF1o": 2
   "inicioDa\xF1o": 2
   "periodoDa\xF1o": 3
+--- !u!114 &5158725932516451084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4585405252645123903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1001 &404869127176758092
 PrefabInstance:
   m_ObjectHideFlags: 0
