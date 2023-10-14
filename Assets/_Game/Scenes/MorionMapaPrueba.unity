@@ -830,6 +830,9 @@ MonoBehaviour:
   hexLists:
   - {fileID: 11400000, guid: 64156bd9c24b2f445b35ff4838b9295d, type: 2}
   - {fileID: 11400000, guid: 7732e586a87d2904f823bc89b1ed81b3, type: 2}
+  - {fileID: 11400000, guid: 9a7f28856882a1c44a485cbaabed5f06, type: 2}
+  - {fileID: 11400000, guid: e4cfcc2d35d558f4bae41f371c7bb4bf, type: 2}
+  - {fileID: 11400000, guid: 874abd8878f2c6f4faeae7036a801ea2, type: 2}
   walkableParent: {fileID: 344913715}
   notWalkableParent: {fileID: 38813960}
   playerTower: {fileID: 5510024718591586464, guid: a7a50a4b86e63e04594a92c34e766e10, type: 3}
@@ -1340,6 +1343,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 90f15e35c7689164aabf1a21a6e87d9f, type: 3}
       propertyPath: m_Name
       value: ModeladoOtrosAssets
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 90f15e35c7689164aabf1a21a6e87d9f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4037331042024971411, guid: 90f15e35c7689164aabf1a21a6e87d9f, type: 3}
       propertyPath: m_LocalPosition.x

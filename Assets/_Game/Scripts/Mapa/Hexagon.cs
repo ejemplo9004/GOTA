@@ -8,6 +8,8 @@ public class Hexagon : MonoBehaviour
     [SerializeField] private bool flyable;
     [SerializeField] private bool bakeable;
 
+    [SerializeField] private Equipo team;
+
     private void Start()
     {
         if (navigable || flyable)
@@ -15,8 +17,14 @@ public class Hexagon : MonoBehaviour
             gameObject.GetComponent<MeshRenderer>().enabled = false;
         }
     }
+
+    public void SetTeam(Equipo newTeam)
+    {
+        team = newTeam;
+    }
     public bool Walkable => walkable;
     public bool Navigable => navigable;
     public bool Flyable => flyable;
     public bool Bakeable => bakeable;
+    public Equipo Team => team;
 }
