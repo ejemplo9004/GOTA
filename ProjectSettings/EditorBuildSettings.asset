@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/About.unity
     guid: 4d98429f41b70224c8736c5198bcbf50
+  - enabled: 1
+    path: Assets/_Game/Scenes/Barajas.unity
+    guid: ec55304ab6c69564293da5273a354a90
+  - enabled: 1
+    path: Assets/_Game/Scenes/PrevBaraja.unity
+    guid: 1784bd394a329d44f805730f4198f5ea
   m_configObjects: {}

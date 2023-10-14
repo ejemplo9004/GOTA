@@ -126,10 +126,10 @@ TextureImporter:
       name: UIMMAPGOTA-21_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 29
         y: 1626
-        width: 304
-        height: 363
+        width: 286
+        height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,9 +148,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 360
-        y: 1628
-        width: 288
-        height: 359
+        y: 1626
+        width: 283
+        height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,7 +171,7 @@ TextureImporter:
         x: 690
         y: 1628
         width: 283
-        height: 357
+        height: 353
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,8 +191,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1018
         y: 1627
-        width: 285
-        height: 358
+        width: 282
+        height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,9 +210,9 @@ TextureImporter:
       name: UIMMAPGOTA-21_4
       rect:
         serializedVersion: 2
-        x: 1332
+        x: 1348
         y: 1628
-        width: 301
+        width: 281
         height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -296,7 +296,7 @@ TextureImporter:
         serializedVersion: 2
         x: 689
         y: 1254
-        width: 284
+        width: 283
         height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -317,7 +317,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1018
         y: 1256
-        width: 285
+        width: 282
         height: 354
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -338,7 +338,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1346
         y: 1256
-        width: 288
+        width: 284
         height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -422,7 +422,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1017
         y: 851
-        width: 286
+        width: 282
         height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -443,7 +443,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1348
         y: 851
-        width: 285
+        width: 281
         height: 358
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -483,9 +483,9 @@ TextureImporter:
       name: UIMMAPGOTA-21_17
       rect:
         serializedVersion: 2
-        x: 30
+        x: 34
         y: 479
-        width: 285
+        width: 281
         height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -504,10 +504,10 @@ TextureImporter:
       name: UIMMAPGOTA-21_18
       rect:
         serializedVersion: 2
-        x: 341
-        y: 467
-        width: 314
-        height: 368
+        x: 361
+        y: 483
+        width: 280
+        height: 352
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,7 +548,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1018
         y: 482
-        width: 298
+        width: 282
         height: 355
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -567,9 +567,9 @@ TextureImporter:
       name: UIMMAPGOTA-21_21
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 1348
         y: 480
-        width: 289
+        width: 282
         height: 355
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -652,9 +652,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1014
-        y: 65
+        y: 86
         width: 287
-        height: 375
+        height: 354
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -673,9 +673,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1347
-        y: 65
-        width: 311
-        height: 378
+        y: 83
+        width: 282
+        height: 360
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

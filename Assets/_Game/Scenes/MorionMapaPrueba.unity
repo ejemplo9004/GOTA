@@ -840,6 +840,7 @@ MonoBehaviour:
   seaHex: {fileID: 1887013331352158, guid: 8c907f122f4a8a2468dec14493d763ff, type: 3}
   height: 20
   width: 11
+  midRange: 0
   extendedHeight: 30
   extendedWidth: 14
   xOffset: 2
@@ -1441,6 +1442,42 @@ PrefabInstance:
       propertyPath: deck
       value: 
       objectReference: {fileID: 11400000, guid: 40398df40e51f1449823534f0aeb618d, type: 2}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: barajas.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: barajas.Array.data[0].deck
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b5667751f6c5f148acb4ec62d5fd2f8, type: 2}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: barajas.Array.data[1].deck
+      value: 
+      objectReference: {fileID: 11400000, guid: 869790d149034334ba3584919ad49185, type: 2}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: barajas.Array.data[2].deck
+      value: 
+      objectReference: {fileID: 11400000, guid: 115a99ea34fb1404b9a1ec709fa7333e, type: 2}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: barajas.Array.data[3].deck
+      value: 
+      objectReference: {fileID: 11400000, guid: b19e6ccd137617c409c728d3e53b190a, type: 2}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: barajas.Array.data[0].nombre
+      value: DEMONIOS
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: barajas.Array.data[1].nombre
+      value: MUISCAS
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: barajas.Array.data[2].nombre
+      value: PANCHES
+      objectReference: {fileID: 0}
+    - target: {fileID: 2313734995645986517, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
+      propertyPath: barajas.Array.data[3].nombre
+      value: GUANES
+      objectReference: {fileID: 0}
     - target: {fileID: 2659084538261353073, guid: dab51c2f6ad6906459ef11848cbd5386, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 308
