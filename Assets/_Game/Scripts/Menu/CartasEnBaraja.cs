@@ -24,7 +24,7 @@ public class CartasEnBaraja : MonoBehaviour
 
     void Start()
     {
-        string m = PlayerPrefs.GetString("mazo", "DEMONIOS");
+        string m = PlayerPrefs.GetString("mazo", "MUISCAS");
 		for (int i = 0; i < barajas.Length; i++)
 		{
 			if (barajas[i].nombre == m)

@@ -22,7 +22,6 @@ public class SeleccionBaraja : MonoBehaviour
 				{
 					gameObject.SetActive(false);
 					objetos[i].objeto.SetActive(true);
-					return;
 				}
 			}
 		}

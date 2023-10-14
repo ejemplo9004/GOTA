@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b29b3577d9fc16c4f88596074071286e
+guid: 69e36137385938a4bb14f2d010283ad1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 260
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,18 +121,72 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hexagonos_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 233
+        width: 236
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60168c2210cda7c46a1d5a156cb502f2
+      internalID: 996374951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonos_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 228
+        width: 237
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698f517fa2998b24094b8926e1e208d1
+      internalID: 1002402106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 98c1b5c0d6f05ad46bf10d1290f8a313
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hexagonos_0: 996374951
+      hexagonos_1: -1440052010
+      hexagonos_10: -1884772400
+      hexagonos_11: 652096388
+      hexagonos_2: 2079174311
+      hexagonos_3: 1953387259
+      hexagonos_4: 1002402106
+      hexagonos_5: 1512166266
+      hexagonos_6: 653783813
+      hexagonos_7: 834230896
+      hexagonos_8: -1873329916
+      hexagonos_9: 985228392
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
