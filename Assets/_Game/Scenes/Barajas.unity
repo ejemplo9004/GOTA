@@ -735,9 +735,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990bf153d14bd954a8a4842c69cd3bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deck: {fileID: 11400000, guid: 40398df40e51f1449823534f0aeb618d, type: 2}
+  deck: {fileID: 11400000, guid: 869790d149034334ba3584919ad49185, type: 2}
   baseImagen: {fileID: 8968198372795249854, guid: f9cd6e5185ae3e740817348367734738, type: 3}
   tPadreImagenes: {fileID: 431060897}
+  objetos:
+  - nombre: MUISCAS
+    objeto: {fileID: 200590052}
+  - nombre: PANCHES
+    objeto: {fileID: 320646313}
+  - nombre: GUANES
+    objeto: {fileID: 264896157}
+  - nombre: DEMONIOS
+    objeto: {fileID: 767673906}
 --- !u!1 &248027975
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,6 +806,7 @@ MonoBehaviour:
   deck: {fileID: 11400000, guid: 2b5667751f6c5f148acb4ec62d5fd2f8, type: 2}
   baseImagen: {fileID: 8968198372795249854, guid: f9cd6e5185ae3e740817348367734738, type: 3}
   tPadreImagenes: {fileID: 1596500304}
+  objetos: []
 --- !u!114 &248027978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -891,9 +901,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990bf153d14bd954a8a4842c69cd3bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deck: {fileID: 11400000, guid: 40398df40e51f1449823534f0aeb618d, type: 2}
+  deck: {fileID: 11400000, guid: b19e6ccd137617c409c728d3e53b190a, type: 2}
   baseImagen: {fileID: 8968198372795249854, guid: f9cd6e5185ae3e740817348367734738, type: 3}
   tPadreImagenes: {fileID: 711619412}
+  objetos: []
 --- !u!114 &264896160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -988,9 +999,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990bf153d14bd954a8a4842c69cd3bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deck: {fileID: 11400000, guid: 2b5667751f6c5f148acb4ec62d5fd2f8, type: 2}
+  deck: {fileID: 11400000, guid: 115a99ea34fb1404b9a1ec709fa7333e, type: 2}
   baseImagen: {fileID: 8968198372795249854, guid: f9cd6e5185ae3e740817348367734738, type: 3}
   tPadreImagenes: {fileID: 1604876842}
+  objetos: []
 --- !u!114 &320646316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2724,6 +2736,7 @@ MonoBehaviour:
   deck: {fileID: 11400000, guid: 2b5667751f6c5f148acb4ec62d5fd2f8, type: 2}
   baseImagen: {fileID: 8968198372795249854, guid: f9cd6e5185ae3e740817348367734738, type: 3}
   tPadreImagenes: {fileID: 1570349974}
+  objetos: []
 --- !u!114 &767673908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5922,7 +5935,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MorionMapaPrueba
+          m_StringArgument: PrevBaraja
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2010166391
