@@ -7,7 +7,7 @@ public class PintaHexagonos : MonoBehaviour
     public SpriteRenderer spColor;
     public Color colorBien = Color.green;
     public Color colorMal = Color.red;
-    Hexagon h;
+    public Hexagon h;
 
     public static Equipo equipo;
     Color c;
@@ -15,20 +15,18 @@ public class PintaHexagonos : MonoBehaviour
     void Start()
     {
         h = GetComponentInParent<Hexagon>();
-        colorBien.a = 0;
-        colorMal.a = 0;
+        colorBien = ControlPinturaHexagonos.singleton.colorBien;
+        colorMal = ControlPinturaHexagonos.singleton.colorMal;
         spColor.color = colorBien;
+        ControlPinturaHexagonos.singleton.mostrar += Marcar;
+        ControlPinturaHexagonos.singleton.ocultar += Desmarcar;
     }
 
-    void Update()
-    {
-        
-    }
 
     [ContextMenu("Marcar")]
     public void Marcar()
 	{
-		if (h != null)
+		if (h == null)
 		{
             return;
 		}
@@ -52,19 +50,19 @@ public class PintaHexagonos : MonoBehaviour
     IEnumerator Pintar()
 	{
         spColor.color = c;
-		for (int i = 0; i < 20; i++)
+        for (int i = 0; i <= 20; i++)
 		{
-            c.a = i / 20f;
+            c.a = i / 30f;
             spColor.color = c;
-            yield return new WaitForSeconds(0.04f);
+            yield return new WaitForSeconds(0.01f);
         }
         yield return new WaitUntil(() => !visible);
 
         for (int i = 0; i <= 20; i++)
         {
-            c.a = (i-20) / 20f;
+            c.a = (20-i) / 30f;
             spColor.color = c;
-            yield return new WaitForSeconds(0.04f);
+            yield return new WaitForSeconds(0.01f);
         }
     }
 }
