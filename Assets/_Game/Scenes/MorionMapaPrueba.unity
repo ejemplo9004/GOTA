@@ -737,6 +737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086145724}
   - component: {fileID: 1086145723}
+  - component: {fileID: 1086145725}
   m_Layer: 0
   m_Name: "---------- Dios Cat\xF3lico"
   m_TagString: Untagged
@@ -779,6 +780,20 @@ Transform:
   - {fileID: 78803776}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1086145725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086145722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a594c8e3081bded409bce9f48a568ed6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorBien: {r: 0.28935573, g: 0.6698113, b: 0.14786398, a: 1}
+  colorMal: {r: 0.4716981, g: 0.06852971, b: 0.06852971, a: 1}
 --- !u!1 &1159248935
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,7 +854,7 @@ MonoBehaviour:
   enemyTower: {fileID: 8192290911726281223, guid: 464f4edee03dea240b41952497ad0620, type: 3}
   seaHex: {fileID: 1887013331352158, guid: 8c907f122f4a8a2468dec14493d763ff, type: 3}
   height: 20
-  width: 11
+  width: 12
   midRange: 0
   extendedHeight: 30
   extendedWidth: 14
