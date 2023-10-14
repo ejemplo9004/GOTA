@@ -17,4 +17,9 @@ public class Escenas : MonoBehaviour
 	{
 		SceneManager.LoadScene(escena);
 	}
+
+	public void Salir()
+	{
+		Application.Quit();
+	}
 }

@@ -125,7 +125,7 @@ public class UnidadInfanteria : Unidad
 	public override void Morir()
 	{
 		base.Morir();
-		print("Muerto"  + gameObject.name);
+		//print("Muerto"  + gameObject.name);
 		Destroy(gameObject, 5);
 	}
 }

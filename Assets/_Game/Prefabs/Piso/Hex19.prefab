@@ -124,6 +124,7 @@ MonoBehaviour:
   navigable: 1
   flyable: 0
   bakeable: 1
+  team: 0
 --- !u!114 &8137266200299332978
 MonoBehaviour:
   m_ObjectHideFlags: 0

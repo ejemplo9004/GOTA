@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c10e91daf86e44c900fc0fef1a8f97, type: 3}
+  m_Name: DeckPanches
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: ff567ecf30ac33146808cf9feaf8acf5, type: 2}
+  - {fileID: 11400000, guid: 0a92976b688f70f479509e019cbd7503, type: 2}
+  - {fileID: 11400000, guid: 912f3f6773393d4458776aadd2bce330, type: 2}
+  - {fileID: 11400000, guid: 26ee63ef29fa8fd49b5785f49d9168c2, type: 2}
+  - {fileID: 11400000, guid: 0502d4498f61c0c459c53e1c5ca64173, type: 2}
+  - {fileID: 11400000, guid: 5e267201a690cd6459fe9b3d7300a72f, type: 2}
+  - {fileID: 11400000, guid: e865db9669318784c8e26caf9bfa90b0, type: 2}
+  - {fileID: 11400000, guid: e6f97f4c499505b4da181852b26dcd1c, type: 2}
+  - {fileID: 11400000, guid: b4e81f3be088508449b80e30667ebea1, type: 2}
+  - {fileID: 11400000, guid: 5f46d9f1e9cf69c42853ce9e2ae57a5a, type: 2}
+  - {fileID: 11400000, guid: 01f67d2461610354b8847942d284eb45, type: 2}
+  - {fileID: 11400000, guid: 8340c120963e13d4084ec5bf629534ef, type: 2}
+  diccionario: {fileID: 11400000, guid: 6230dfe0481ed0a448310693b88de4fd, type: 2}

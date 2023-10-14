@@ -22,3 +22,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c5abd05d9e7995c4395811e30472e1ec, type: 2}
   - {fileID: 11400000, guid: aee84d2703ea1a140b013f2d19c9c6c4, type: 2}
   - {fileID: 11400000, guid: 2a9e3cb4f4ee6b741be4098800368959, type: 2}
+  - {fileID: 11400000, guid: af006291a5db95f40952547d560eceb9, type: 2}
+  - {fileID: 11400000, guid: 890fc5c772493764baa71f98ab38c9e8, type: 2}
+  - {fileID: 11400000, guid: 5ec0f75f64424ab4bbf6412e163c4ac1, type: 2}
+  diccionario: {fileID: 11400000, guid: 5d03a78a5c4074748b25b2c2c3cbb26d, type: 2}
