@@ -50,11 +50,17 @@ public class Map : MonoBehaviour
     private void Start()
     {
         string propia = PlayerPrefs.GetString("mazo", "MUISCAS");
-		for (int i = 0; i < torresPorEquipo.Length; i++)
+        string enemiga = "DEMONIOS"; //// EDITAR PARA LEER EL MAZO ENEMIGO
+        for (int i = 0; i < torresPorEquipo.Length; i++)
 		{
             if (torresPorEquipo[i].nombre == propia)
             {
                 playerTower = torresPorEquipo[i].objeto;
+                print("Cambiado por " + propia);
+            }
+            if (torresPorEquipo[i].nombre == enemiga)
+            {
+                enemyTower = torresPorEquipo[i].objeto;
                 print("Cambiado por " + propia);
             }
         }
