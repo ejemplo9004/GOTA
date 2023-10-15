@@ -1138,7 +1138,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 84
+  field of view: 52
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1164,13 +1164,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233262414}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.50805175, y: -0, z: -0, w: 0.8613266}
-  m_LocalPosition: {x: 0.36, y: -3.44, z: -3.71}
+  m_LocalRotation: {x: 0.5075384, y: 0, z: 0, w: 0.8616291}
+  m_LocalPosition: {x: 0.36, y: 12, z: -9.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1978594248}
-  m_LocalEulerAnglesHint: {x: 61.068, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 61, y: 0, z: 0}
 --- !u!114 &1233262418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2487,42 +2487,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7435026735906585111, guid: 431b1cb48e7b4134f8c3c903de724757, type: 3}
-      propertyPath: torresPorEquipo.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7435026735906585111, guid: 431b1cb48e7b4134f8c3c903de724757, type: 3}
-      propertyPath: torresPorEquipo.Array.data[0].nombre
-      value: MUISCAS
-      objectReference: {fileID: 0}
-    - target: {fileID: 7435026735906585111, guid: 431b1cb48e7b4134f8c3c903de724757, type: 3}
-      propertyPath: torresPorEquipo.Array.data[0].objeto
-      value: 
-      objectReference: {fileID: 1636797462228952619, guid: e8f56fb7b2de668478b9fc700966b9fd, type: 3}
-    - target: {fileID: 7435026735906585111, guid: 431b1cb48e7b4134f8c3c903de724757, type: 3}
-      propertyPath: torresPorEquipo.Array.data[1].nombre
-      value: PANCHES
-      objectReference: {fileID: 0}
-    - target: {fileID: 7435026735906585111, guid: 431b1cb48e7b4134f8c3c903de724757, type: 3}
-      propertyPath: torresPorEquipo.Array.data[1].objeto
-      value: 
-      objectReference: {fileID: 4236687935050424501, guid: dd3dbf5e061091b46b7a1d2f98c445a0, type: 3}
-    - target: {fileID: 7435026735906585111, guid: 431b1cb48e7b4134f8c3c903de724757, type: 3}
-      propertyPath: torresPorEquipo.Array.data[2].nombre
-      value: GUANES
-      objectReference: {fileID: 0}
-    - target: {fileID: 7435026735906585111, guid: 431b1cb48e7b4134f8c3c903de724757, type: 3}
-      propertyPath: torresPorEquipo.Array.data[2].objeto
-      value: 
-      objectReference: {fileID: 8192290911726281223, guid: 464f4edee03dea240b41952497ad0620, type: 3}
-    - target: {fileID: 7435026735906585111, guid: 431b1cb48e7b4134f8c3c903de724757, type: 3}
-      propertyPath: torresPorEquipo.Array.data[3].nombre
-      value: DEMONIOS
-      objectReference: {fileID: 0}
-    - target: {fileID: 7435026735906585111, guid: 431b1cb48e7b4134f8c3c903de724757, type: 3}
-      propertyPath: torresPorEquipo.Array.data[3].objeto
-      value: 
-      objectReference: {fileID: 5510024718591586464, guid: a7a50a4b86e63e04594a92c34e766e10, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
