@@ -58,8 +58,8 @@ public class CardList
         string s = "";
         foreach (ScriptableCard card in cards)
         {
-            s += card.name.ToString();
+            s += card.cardName + "\n";
         }
-        return (s == "") ? s : "Deck Empty";
+        return (s != "") ? s : "Deck Empty";
     }
 }
