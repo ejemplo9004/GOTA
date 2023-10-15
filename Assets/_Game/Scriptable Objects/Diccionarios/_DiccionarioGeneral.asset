@@ -49,4 +49,30 @@ MonoBehaviour:
     idiomas:
     - SIGUIENTE
     - NEXT
+  - llave: DISCLAIMER
+    idiomas:
+    - "Bienvenido a GOTA, una aventura \xE9pica ambientada en la historia prehisp\xE1nica
+      en los Andes.  /nEste juego est\xE1 inspirado en la rica cultura y tradici\xF3n
+      de los pueblos ind\xEDgenas de la regi\xF3n, pero no pretende ser una representaci\xF3n
+      exacta de la historia. /nEs una adaptaci\xF3n con muchas licencias art\xEDsticas,
+      que busca ofrecer una experiencia de juego divertida e inmersiva.  /nLos nombres,
+      personajes y hechos del juego son ficticios, por lo que no deben tomarse como
+      una fuente hist\xF3rica. /nSe invita a los jugadores a realizar consultas de
+      fuentes ver\xEDdicas sobre la historia prehisp\xE1nica en los Andes para obtener
+      una comprensi\xF3n m\xE1s completa de la \xE9poca.  /nEste juego no busca promover
+      la violencia. Los pueblos ancestrales de los Andes se han caracterizado por
+      ser pac\xEDficos. Los \"ataques\" en el juego son representaciones ficticias
+      que no pretenden reflejar la realidad.  /n/nAgradecemos su comprensi\xF3n. "
+    - Welcome to GOTA, an epic adventure set in pre-Hispanic history in the Andes. 
+      /nThis game is inspired by the rich culture and tradition of the indigenous
+      people of the region, but is not intended to be an accurate representation
+      of history. /nIt is an adaptation with many artistic licenses, which seeks
+      to offer a fun and immersive gaming experience.  /nThe names, characters and
+      events in the game are fictitious and should not be taken as a historical source.
+      Players are invited to consult truthful sources about pre-Hispanic history
+      in the Andes to gain a more complete understanding of the era.  /nThis game
+      does not seek to promote violence. /nThe ancestral peoples of the Andes have
+      been characterized by being peaceful. The "attacks" in the game are fictional
+      representations that are not intended to reflect reality.  /n/nWe appreciate
+      your understanding.
   idiomaSeleccionado: 1
