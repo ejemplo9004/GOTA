@@ -98,10 +98,10 @@ public class IAController : MonoBehaviour
         if (cardToPlay >= 0)
         {
             ScriptableCard card = enemyDeckController.hand.cards[cardToPlay];
-            Debug.Log($"About to play {card}");
+            //Debug.Log($"About to play {card}");
 
             GameObject unit = Instantiate(card.prefab,
-                map.Hexagons[5, 9].transform.position,
+                ChoosePosition(),
                 Quaternion.identity);
 
             unit.GetComponent<Equipador>().Inicializar(Equipo.enemigo);
@@ -111,7 +111,7 @@ public class IAController : MonoBehaviour
         }
         else
         {
-            Debug.Log("WAiting");
+            //Debug.Log("WAiting");
         }
     }
 
@@ -137,6 +137,31 @@ public class IAController : MonoBehaviour
         Array.Sort(orderOfPositions, (a, b) => probabilities[b].CompareTo(probabilities[a]));
         order = orderOfPositions;
         return orderOfPositions;
+    }
+
+    private Vector3 ChoosePosition()
+    {
+        int favoriteRow = 13;
+        int favoriteColumn = 5;
+        int row = favoriteRow;
+        int column = favoriteColumn;
+
+        row += Random.Range(-2, 2);
+        column += Random.Range(-2, 2);
+
+        if(row > map.height || row < 0)
+        {
+            row = favoriteRow;
+        }
+
+        if (column > map.width || column < 0)
+        {
+            column = favoriteColumn;
+        }
+
+        Vector3 hex = map.Hexagons[row, column].transform.position;
+        Vector3 pos = new Vector3(hex.x, 0.4166315f, hex.z);
+        return pos;
     }
 
     private enum EstadoIA
