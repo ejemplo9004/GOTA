@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6375999690904143837}
   - component: {fileID: 1231935607786813009}
   - component: {fileID: 1964594939180897279}
+  - component: {fileID: -2948151304591506412}
   m_Layer: 0
   m_Name: Bochica
   m_TagString: Untagged
@@ -229,6 +230,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-2948151304591506412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627567713927435335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1 &809347417828569861
 GameObject:
   m_ObjectHideFlags: 0

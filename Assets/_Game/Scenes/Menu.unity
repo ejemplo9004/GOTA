@@ -215,7 +215,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: About
+          m_StringArgument: Barajas
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &87071430
@@ -654,6 +654,7 @@ GameObject:
   - component: {fileID: 289747535}
   - component: {fileID: 289747534}
   - component: {fileID: 289747533}
+  - component: {fileID: 289747536}
   m_Layer: 5
   m_Name: Button (Legacy) (3)
   m_TagString: Untagged
@@ -724,7 +725,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 289747534}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 289747536}
+        m_TargetAssemblyTypeName: SwitchLang, Assembly-CSharp
+        m_MethodName: CambiarIdioma
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &289747534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,6 +776,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289747531}
   m_CullTransparentMesh: 1
+--- !u!114 &289747536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289747531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19bf8870b3bbf2489778e7d201c2e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtIdioma: {fileID: 1585630490}
 --- !u!1 &348347601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,7 +1044,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 925832434}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 365239147}
+        m_TargetAssemblyTypeName: Escenas, Assembly-CSharp
+        m_MethodName: Salir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &925832434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1499,7 +1537,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MorionMapaPrueba
+          m_StringArgument: Juego
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1309281034
@@ -1748,7 +1786,6 @@ GameObject:
   - component: {fileID: 1585630489}
   - component: {fileID: 1585630491}
   - component: {fileID: 1585630490}
-  - component: {fileID: 1585630492}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -1817,21 +1854,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585630488}
   m_CullTransparentMesh: 1
---- !u!114 &1585630492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585630488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad0b0f55aec8aab439cdf304572be363, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  txtObjetivo: {fileID: 0}
-  diccionario: {fileID: 11400000, guid: bc9d9d2326618754a8afaac5b611ac6a, type: 2}
-  llave: "INGL\xC9S"
 --- !u!1 &1691319264
 GameObject:
   m_ObjectHideFlags: 0

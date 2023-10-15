@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 780336919792844537}
   - component: {fileID: 2418546842373431311}
   - component: {fileID: 3184606536243307916}
+  - component: {fileID: -5299441462008691120}
   m_Layer: 0
   m_Name: Calleja
   m_TagString: Untagged
@@ -118,6 +119,21 @@ MonoBehaviour:
   "tipoDa\xF1o": 2
   "inicioDa\xF1o": 2
   "periodoDa\xF1o": 3
+--- !u!114 &-5299441462008691120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131167504563186459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1001 &2809327412742512656
 PrefabInstance:
   m_ObjectHideFlags: 0

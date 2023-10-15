@@ -6,4 +6,5 @@ using UnityEngine;
 public class ScriptableDeck : ScriptableObject
 {
     public ScriptableCard[] cards;
+    public Diccionario diccionario;
 }

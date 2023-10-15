@@ -23,11 +23,13 @@ public class Vida : MonoBehaviour
 
 	public void CausarDaño(float cuanto)
 	{
+		//print("Daño a: " + gameObject.name);
 		if (!vivo)
 		{
 			return;
 		}
 		vidaActual -= cuanto;
+		//print("Queda en: " + vidaActual);
 		if (vidaActual<=0)
 		{
 			Morir();

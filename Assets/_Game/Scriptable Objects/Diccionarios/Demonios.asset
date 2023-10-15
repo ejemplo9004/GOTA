@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdab404c6f15fc42a235ebd23ca1250, type: 3}
+  m_Name: Demonios
+  m_EditorClassIdentifier: 
+  palabras:
+  - llave: AMARU
+    idiomas:
+    - "Es una figura importante en las leyendas andinas, donde se describe como una
+      serpiente gigante con plumas. Esta serpiente se cree que habita en r\xEDos
+      y lagos de la regi\xF3n andina y es temida como un s\xEDmbolo de peligro. La
+      imagen de Amaru es emblem\xE1tica de la relaci\xF3n de las culturas andinas
+      con la naturaleza y su comprensi\xF3n de que los cuerpos de agua pueden albergar
+      peligros potenciales, como serpientes gigantes, que deben ser respetados y
+      temidos.  La serpiente Amaru, con sus connotaciones m\xEDticas y misteriosas,
+      refleja la profunda conexi\xF3n de las culturas andinas con su entorno natural.
+      A menudo, estas figuras mitol\xF3gicas sirven como una forma de transmitir
+      lecciones y advertencias sobre la importancia de respetar la naturaleza y estar
+      en armon\xEDa con ella para evitar peligros inesperados. "
+    - 'He is an important figure in Andean legends, where he is described as a giant
+      snake with feathers. This snake is believed to live in rivers and lakes in
+      the Andean region and is feared as a symbol of danger. The image of Amaru is
+      emblematic of Andean cultures'' relationship with nature and their understanding
+      that bodies of water can harbor potential dangers, such as giant snakes, that
+      should be respected and feared.  The Amaru snake, with its mythical and mysterious
+      connotations, reflects the deep connection of Andean cultures with their natural
+      environment. Often, these mythological figures serve as a way to convey lessons
+      and warnings about the importance of respecting nature and being in harmony
+      with it to avoid unexpected dangers. '
+  - llave: AUKIS
+    idiomas:
+    - "Los Aukis son esp\xEDritus malignos en la mitolog\xEDa andina que se consideran
+      causantes de enfermedades y desgracias. Se cree que acechan a las personas,
+      trayendo malestar f\xEDsico y emocional. Su presencia es temida, ya que se
+      cree que son capaces de influir negativamente en la salud y el bienestar de
+      aquellos a quienes acechan. En las leyendas andinas, los Aukis representan
+      la necesidad de protegerse de las influencias negativas y mantener un equilibrio
+      con las fuerzas espirituales en el entorno. "
+    - 'The Aukis are evil spirits in Andean mythology that are considered the cause
+      of illness and misfortune. They are believed to stalk people, bringing physical
+      and emotional discomfort. Their presence is feared, as it is believed that
+      they are capable of negatively influencing the health and well-being of those
+      they stalk. In Andean legends, Aukis represent the need to protect oneself
+      from negative influences and maintain a balance with spiritual forces in the
+      environment. '
+  - llave: CCOA
+    idiomas:
+    - "Es un demonio en la mitolog\xEDa quechua que se asocia con la causa de enfermedades
+      y desgracias. Se le considera un esp\xEDritu maligno que trae infortunio a
+      quienes se cruzan en su camino. En las creencias andinas, Ccoa representa una
+      figura aterradora, responsable de causar infortunio y aflicci\xF3n en la vida
+      de las personas. Su presencia sirve como recordatorio de la importancia de
+      mantenerse en armon\xEDa con el mundo espiritual y protegerse de las influencias
+      negativas que pueden perturbar la vida cotidiana. "
+    - 'It is a demon in Quechua mythology that is associated with the cause of illnesses
+      and misfortunes. He is considered an evil spirit that brings misfortune to
+      those who cross his path. In Andean beliefs, Ccoa represents a terrifying figure,
+      responsible for causing misfortune and affliction in people''s lives. Its presence
+      serves as a reminder of the importance of staying in harmony with the spiritual
+      world and protecting yourself from negative influences that can disrupt everyday
+      life. '
+  - llave: CHOCHOS
+    idiomas:
+    - "son esp\xEDritus traviesos en la mitolog\xEDa andina que a menudo se asocian
+      con jugar malas pasadas a los viajeros en las monta\xF1as y lugares remotos.
+      Su naturaleza juguetona puede llevar a la gente a la confusi\xF3n y la p\xE9rdida
+      en \xE1reas remotas. En las leyendas andinas, los Chocho personifican la idea
+      de que el entorno natural es misterioso y a veces puede confundir a aquellos
+      que no est\xE1n preparados para navegarlo. Estos esp\xEDritus traviesos recuerdan
+      a la gente la importancia de estar atentos y respetuosos al explorar lugares
+      remotos y desconocidos en las monta\xF1as. "
+    - 'They are mischievous spirits in Andean mythology that are often associated
+      with playing tricks on travelers in the mountains and remote places. Their
+      playful nature can lead people to confusion and loss in remote areas. In Andean
+      legends, the Chocho personify the idea that the natural environment is mysterious
+      and can sometimes confuse those who are not prepared to navigate it. These
+      mischievous spirits remind people of the importance of being attentive and
+      respectful when exploring remote and unknown places in the mountains. '
+  - llave: HUANTINA
+    idiomas:
+    - "Son esp\xEDritus oscuros en la mitolog\xEDa andina que se cree que acechan
+      a las personas en la oscuridad. Se les atribuye la responsabilidad de las pesadillas
+      y los miedos nocturnos. Su presencia en las creencias andinas refleja la fascinaci\xF3n
+      y el temor a la oscuridad y la noche, que a menudo se consideran momentos en
+      los que los peligros acechan y los miedos se intensifican. Los Huantina personifican
+      los temores nocturnos y sirven como una explicaci\xF3n para las pesadillas
+      y las experiencias aterradoras que pueden ocurrir en la oscuridad.  En la mitolog\xEDa
+      andina, estas figuras oscilantes entre lo real y lo sobrenatural recuerdan
+      a las personas la importancia de enfrentar sus miedos y comprender la influencia
+      de la oscuridad en la psique humana. Las historias de los Huantina tambi\xE9n
+      pueden transmitir lecciones sobre la importancia de la valent\xEDa y la resiliencia
+      en la vida cotidiana, especialmente en situaciones que pueden resultar aterradoras
+      o desconocidas. "
+    - They are dark spirits in Andean mythology that are believed to stalk people
+      in the dark. They are blamed for nightmares and night fears. Its presence in
+      Andean beliefs reflects the fascination and fear of darkness and night, which
+      are often considered times when dangers lurk and fears intensify. The Huantina
+      personify nocturnal fears and serve as an explanation for nightmares and terrifying
+      experiences that can occur in the dark.  In Andean mythology, these figures
+      oscillating between the real and the supernatural remind people of the importance
+      of facing their fears and understanding the influence of darkness on the human
+      psyche. The stories of the Huantina can also convey lessons about the importance
+      of bravery and resilience in everyday life, especially in situations that may
+      be frightening or unfamiliar.
+  - llave: HUAQUERO
+    idiomas:
+    - "Es un t\xE9rmino que se utiliza en la mitolog\xEDa andina para describir a
+      un ladr\xF3n de tumbas. Estos seres son conocidos por desenterrar y robar objetos
+      de valor de las tumbas, lo que causa disturbios en el mundo de los muertos.
+      La figura del Huaquero representa una falta de respeto por los difuntos y una
+      transgresi\xF3n de las normas culturales que rodean el entierro y la veneraci\xF3n
+      de los antepasados.  En las creencias andinas, el Huaquero es a menudo considerado
+      una figura negativa y su accionar es condenado, ya que perturba el equilibrio
+      entre los vivos y los muertos. Su presencia en las historias y mitos andinos
+      sirve como recordatorio de la importancia de honrar y respetar a los antepasados
+      y de no perturbar el descanso de los difuntos en su viaje hacia el m\xE1s all\xE1. "
+    - 'It is a term used in Andean mythology to describe a grave robber. These beings
+      are known for digging up and stealing valuables from tombs, causing unrest
+      in the world of the dead. The figure of the Huaquero represents a lack of respect
+      for the deceased and a transgression of the cultural norms surrounding the
+      burial and veneration of ancestors.  In Andean beliefs, the Huaquero is often
+      considered a negative figure and his actions are condemned, since they disturb
+      the balance between the living and the dead. Its presence in Andean stories
+      and myths serves as a reminder of the importance of honoring and respecting
+      ancestors and not disturbing the rest of the deceased on their journey to the
+      afterlife. '
+  - llave: PACHACAMAK
+    idiomas:
+    - "Es una figura demon\xEDaca en la mitolog\xEDa quechua, asociada con el caos
+      y la destrucci\xF3n. Se le atribuyen desastres naturales, incluyendo terremotos
+      y otros eventos catastr\xF3ficos. En las creencias andinas, Pachacamak representa
+      una fuerza maligna que amenaza el equilibrio y la armon\xEDa de la naturaleza
+      y la vida cotidiana.  La presencia de Pachacamak en la mitolog\xEDa quechua
+      sirve como una explicaci\xF3n para los desastres naturales y como una forma
+      de comprender las fuerzas a menudo incontrolables de la naturaleza. "
+    - 'It is a demonic figure in Quechua mythology, associated with chaos and destruction.
+      Natural disasters, including earthquakes and other catastrophic events, are
+      attributed to it. In Andean beliefs, Pachacamak represents an evil force that
+      threatens the balance and harmony of nature and everyday life.  The presence
+      of Pachacamak in Quechua mythology serves as an explanation for natural disasters
+      and as a way to understand the often uncontrollable forces of nature. '
+  - llave: PEKULAS
+    idiomas:
+    - "Es un tipo de duende maligno en las leyendas andinas que se cree que causa
+      problemas y desastres en las viviendas humanas. Estos seres traviesos pueden
+      ser responsables de incidentes desafortunados en los hogares, creando caos
+      y perturbaciones en la vida cotidiana. En la mitolog\xEDa andina, Pekula encarna
+      la idea de que no todo en el mundo espiritual es ben\xE9volo, y algunos seres
+      pueden ser traviesos o maliciosos.  La figura de Pekula sirve como una forma
+      de entender los eventos inusuales o desastres que pueden ocurrir en la vida
+      diaria, proporcionando una explicaci\xF3n mitol\xF3gica para lo inexplicable.  "
+    - It is a type of evil goblin in Andean legends that is believed to cause problems
+      and disasters in human dwellings. These mischievous beings can be responsible
+      for unfortunate incidents in homes, creating chaos and disruption in everyday
+      life. In Andean mythology, Pekula embodies the idea that not everything in
+      the spiritual world is benevolent, and some beings can be mischievous or malicious. 
+      The figure of Pekula serves as a way to understand unusual events or disasters
+      that can occur in daily life, providing a mythological explanation for the
+      inexplicable.
+  - llave: SUPAY
+    idiomas:
+    - "Es una figura destacada en la mitolog\xEDa andina, considerado el demonio
+      supremo y gobernante del inframundo. Se le atribuye el papel de esp\xEDritu
+      del mal en la cosmolog\xEDa andina. Supay personifica las fuerzas oscuras y
+      malignas en la tradici\xF3n andina, y su influencia se asocia con la muerte,
+      la destrucci\xF3n y el castigo. En la cosmovisi\xF3n andina, se le teme y se
+      le respeta, ya que es un ser poderoso capaz de causar da\xF1o y desgracia. 
+      La figura de Supay refleja la dualidad de la mitolog\xEDa andina, donde coexisten
+      fuerzas tanto benevolentes como malignas. En esta tradici\xF3n, es importante
+      mantener un equilibrio y armon\xEDa con el mundo espiritual y respetar las
+      normas y rituales para evitar la ira y la influencia negativa de Supay y otras
+      fuerzas malignas. Esta figura mitol\xF3gica tambi\xE9n puede servir como una
+      forma de comprender el sufrimiento y las adversidades en la vida humana y c\xF3mo
+      se relacionan con el mundo espiritual en la cosmovisi\xF3n andina. "
+    - 'He is a prominent figure in Andean mythology, considered the supreme demon
+      and ruler of the underworld. He is attributed the role of evil spirit in Andean
+      cosmology. Supay personifies dark and evil forces in Andean tradition, and
+      his influence is associated with death, destruction and punishment. In the
+      Andean worldview, he is feared and respected, since he is a powerful being
+      capable of causing harm and misfortune.  The figure of Supay reflects the duality
+      of Andean mythology, where both benevolent and evil forces coexist. In this
+      tradition, it is important to maintain balance and harmony with the spiritual
+      world and respect the rules and rituals to avoid the anger and negative influence
+      of Supay and other evil forces. This mythological figure can also serve as
+      a way to understand suffering and adversity in human life and how they relate
+      to the spiritual world in the Andean worldview. '
+  - llave: YACURUNA
+    idiomas:
+    - "Es un esp\xEDritu del agua en la mitolog\xEDa andina, y se le atribuye habitar
+      en las profundidades de r\xEDos y lagunas. Seg\xFAn la creencia andina, Yacuruna
+      tiene la capacidad de arrastrar a las personas a las aguas profundas si no
+      se le muestra el debido respeto o si se violan ciertas normas espirituales.
+      Esta figura es emblem\xE1tica de la importancia del agua en la vida andina
+      y de la necesidad de preservar un equilibrio y respeto hacia los esp\xEDritus
+      del agua.  La presencia de Yacuruna en la mitolog\xEDa andina tambi\xE9n sirve
+      como recordatorio de los peligros inherentes a los cuerpos de agua y la necesidad
+      de mantener una relaci\xF3n armoniosa con la naturaleza. "
+    - 'It is a water spirit in Andean mythology, and is attributed to living in the
+      depths of rivers and lagoons. According to Andean belief, Yacuruna has the
+      ability to drag people into deep waters if due respect is not shown or if certain
+      spiritual norms are violated. This figure is emblematic of the importance of
+      water in Andean life and the need to preserve balance and respect for the spirits
+      of water.  The presence of Yacuruna in Andean mythology also serves as a reminder
+      of the dangers inherent in bodies of water and the need to maintain a harmonious
+      relationship with nature. '
+  idiomaSeleccionado: 0

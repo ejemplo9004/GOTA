@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CardCombatController : MonoBehaviour
 {
+    public Barajas[] barajas;
+
     #region Singleton
     private static CardCombatController instance;
 
@@ -39,6 +41,14 @@ public class CardCombatController : MonoBehaviour
 
     private void Start()
     {
+        string m = PlayerPrefs.GetString("mazo", "MUISCAS");
+        for (int i = 0; i < barajas.Length; i++)
+        {
+            if (barajas[i].nombre == m)
+            {
+                deck = barajas[i].deck;
+            }
+        }
         cardsController = new UICardsController();
         deckController = new DeckController(deck);
         int spaces = cardsController.EmptyCards();

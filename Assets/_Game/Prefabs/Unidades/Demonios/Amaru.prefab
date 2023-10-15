@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7119478361514867450}
   - component: {fileID: 2217193404936208100}
   - component: {fileID: 1906536614550123245}
+  - component: {fileID: 5045011249672975506}
   m_Layer: 0
   m_Name: Amaru
   m_TagString: Untagged
@@ -118,6 +119,21 @@ MonoBehaviour:
   "tipoDa\xF1o": 2
   "inicioDa\xF1o": 2
   "periodoDa\xF1o": 3
+--- !u!114 &5045011249672975506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107916128209278476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1001 &1514172069834216311
 PrefabInstance:
   m_ObjectHideFlags: 0

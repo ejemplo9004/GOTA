@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaeee9931b0c529439ea9523d5d46862, type: 3}
+  m_Name: Huitaca
+  m_EditorClassIdentifier: 
+  cardName: Huitaca
+  Description: 
+  cost: 5
+  cardSprite: {fileID: 1101714698, guid: 4efbc5941dbb7174f9014353ce64cfc3, type: 3}
+  prefab: {fileID: 8362055954398002340, guid: 42a9c0b296110a346964f185dd69fa55, type: 3}

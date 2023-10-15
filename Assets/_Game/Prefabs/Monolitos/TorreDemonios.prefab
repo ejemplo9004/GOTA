@@ -92,7 +92,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  vivo: 0
+  vivo: 1
   imVida: {fileID: 0}
 --- !u!114 &5395307942611534793
 MonoBehaviour:

@@ -139,10 +139,10 @@ TextureImporter:
       name: UIMMAPGOTA-22_0
       rect:
         serializedVersion: 2
-        x: 55
+        x: 60
         y: 1633
-        width: 290
-        height: 362
+        width: 285
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,9 +160,9 @@ TextureImporter:
       name: UIMMAPGOTA-22_1
       rect:
         serializedVersion: 2
-        x: 371
+        x: 390
         y: 1636
-        width: 301
+        width: 282
         height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -181,9 +181,9 @@ TextureImporter:
       name: UIMMAPGOTA-22_2
       rect:
         serializedVersion: 2
-        x: 719
+        x: 720
         y: 1635
-        width: 284
+        width: 283
         height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -204,7 +204,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1048
         y: 1636
-        width: 283
+        width: 281
         height: 354
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -223,9 +223,9 @@ TextureImporter:
       name: UIMMAPGOTA-22_4
       rect:
         serializedVersion: 2
-        x: 1375
+        x: 1379
         y: 1636
-        width: 285
+        width: 281
         height: 354
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -265,10 +265,10 @@ TextureImporter:
       name: UIMMAPGOTA-22_6
       rect:
         serializedVersion: 2
-        x: 60
+        x: 62
         y: 1262
-        width: 288
-        height: 360
+        width: 286
+        height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: UIMMAPGOTA-22_7
       rect:
         serializedVersion: 2
-        x: 371
+        x: 392
         y: 1264
-        width: 320
-        height: 358
+        width: 282
+        height: 353
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: UIMMAPGOTA-22_8
       rect:
         serializedVersion: 2
-        x: 714
-        y: 1261
-        width: 289
-        height: 357
+        x: 719
+        y: 1266
+        width: 283
+        height: 352
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,7 +330,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1047
         y: 1264
-        width: 286
+        width: 283
         height: 354
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -351,7 +351,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1377
         y: 1263
-        width: 286
+        width: 282
         height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -370,9 +370,9 @@ TextureImporter:
       name: UIMMAPGOTA-22_11
       rect:
         serializedVersion: 2
-        x: 54
+        x: 60
         y: 858
-        width: 291
+        width: 283
         height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -391,9 +391,9 @@ TextureImporter:
       name: UIMMAPGOTA-22_12
       rect:
         serializedVersion: 2
-        x: 390
+        x: 393
         y: 860
-        width: 284
+        width: 281
         height: 354
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -412,9 +412,9 @@ TextureImporter:
       name: UIMMAPGOTA-22_13
       rect:
         serializedVersion: 2
-        x: 718
+        x: 719
         y: 858
-        width: 286
+        width: 282
         height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -435,8 +435,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1048
         y: 863
-        width: 285
-        height: 354
+        width: 282
+        height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,9 +454,9 @@ TextureImporter:
       name: UIMMAPGOTA-22_15
       rect:
         serializedVersion: 2
-        x: 1375
+        x: 1378
         y: 862
-        width: 286
+        width: 283
         height: 357
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -467,27 +467,6 @@ TextureImporter:
       bones: []
       spriteID: 209c12ff38a663a4baa7a6d5c1b667b7
       internalID: 380932362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIMMAPGOTA-22_16
-      rect:
-        serializedVersion: 2
-        x: 1663
-        y: 1075
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24e2947460e0d004e8280b9c110d540c
-      internalID: 508581547
       vertices: []
       indices: 
       edges: []
@@ -514,75 +493,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UIMMAPGOTA-22_18
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 1069
-        width: 28
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f16ccc250bc12e347908b46fdc30bc34
-      internalID: 118372829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIMMAPGOTA-22_19
-      rect:
-        serializedVersion: 2
-        x: 1026
-        y: 997
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed4cf176cee317e42ab67ae66a4110a9
-      internalID: 2082498214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIMMAPGOTA-22_20
-      rect:
-        serializedVersion: 2
-        x: 1039
-        y: 997
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ae7cafb31b38a04fb679aa6378b8c5f
-      internalID: 1183758286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: UIMMAPGOTA-22_21
       rect:
         serializedVersion: 2
-        x: 60
+        x: 61
         y: 491
-        width: 295
+        width: 283
         height: 355
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -601,10 +517,10 @@ TextureImporter:
       name: UIMMAPGOTA-22_22
       rect:
         serializedVersion: 2
-        x: 390
-        y: 491
-        width: 285
-        height: 353
+        x: 391
+        y: 492
+        width: 281
+        height: 352
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,9 +538,9 @@ TextureImporter:
       name: UIMMAPGOTA-22_24
       rect:
         serializedVersion: 2
-        x: 701
+        x: 719
         y: 491
-        width: 323
+        width: 282
         height: 353
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -643,9 +559,9 @@ TextureImporter:
       name: UIMMAPGOTA-22_25
       rect:
         serializedVersion: 2
-        x: 1045
+        x: 1047
         y: 491
-        width: 307
+        width: 283
         height: 353
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -666,7 +582,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1376
         y: 491
-        width: 294
+        width: 282
         height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -685,10 +601,10 @@ TextureImporter:
       name: UIMMAPGOTA-22_29
       rect:
         serializedVersion: 2
-        x: 35
-        y: 89
-        width: 313
-        height: 386
+        x: 63
+        y: 117
+        width: 285
+        height: 352
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,10 +622,10 @@ TextureImporter:
       name: UIMMAPGOTA-22_30
       rect:
         serializedVersion: 2
-        x: 371
-        y: 89
-        width: 302
-        height: 380
+        x: 391
+        y: 113
+        width: 282
+        height: 356
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,10 +643,10 @@ TextureImporter:
       name: UIMMAPGOTA-22_31
       rect:
         serializedVersion: 2
-        x: 719
-        y: 89
+        x: 718
+        y: 113
         width: 284
-        height: 379
+        height: 354
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,9 +665,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1044
-        y: 95
-        width: 308
-        height: 373
+        y: 115
+        width: 284
+        height: 353
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -770,9 +686,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1375
-        y: 101
-        width: 313
-        height: 367
+        y: 117
+        width: 287
+        height: 351
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

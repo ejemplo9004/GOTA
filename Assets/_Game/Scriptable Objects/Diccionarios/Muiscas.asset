@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdab404c6f15fc42a235ebd23ca1250, type: 3}
+  m_Name: Muiscas
+  m_EditorClassIdentifier: 
+  palabras:
+  - llave: "BACHU\xC9"
+    idiomas:
+    - "El mito de Bachu\xE9 cuenta que naci\xF3 de las aguas de la Laguna de Iguaque,
+      en la cordillera Oriental de Colombia. Junto a ella, de su mano, caminaba tambi\xE9n
+      un angelical ni\xF1o de unos tres a\xF1os de edad. Bachu\xE9 y el ni\xF1o se
+      convirtieron en los progenitores de los Muiscas. Era adorada como una diosa
+      de la fertilidad, la abundancia y la prosperidad. Su imagen era representada
+      en esculturas, pinturas y textiles.  El mito de Bachu\xE9 es un relato de creaci\xF3n
+      que explica el origen de los Muiscas. Tambi\xE9n es un relato de civilizaci\xF3n
+      que ense\xF1a los valores y las tradiciones de este pueblo ind\xEDgena. "
+    - "The myth of Bachu\xE9 says that he was born from the waters of the Iguaque
+      Lagoon, in the Eastern mountain range of Colombia. Next to her, holding her
+      hand, also walked an angelic child of about three years old. Bachu\xE9 and
+      the child became the parents of the Muiscas. She was worshiped as a goddess
+      of fertility, abundance and prosperity. His image was represented in sculptures,
+      paintings and textiles.  The myth of Bachu\xE9 is a creation story that explains
+      the origin of the Muiscas. It is also a story of civilization that teaches
+      the values \u200B\u200Band traditions of this indigenous people."
+  - llave: BOAVITA
+    idiomas:
+    - "Cacique muisca que vivi\xF3 en el siglo XVI. Gobernante del cacicazgo de Boavita,
+      que se encontraba en el departamento de Boyac\xE1, Colombia. Se conoc\xEDa
+      por su justicia y su capacidad de resolver conflictos. Tambi\xE9n era un h\xE1bil
+      en la guerra y defendi\xF3 a su pueblo de los ataques de los conquistadores
+      espa\xF1oles.  En 1539, Boavita se enfrent\xF3 al conquistador espa\xF1ol Gonzalo
+      Jim\xE9nez de Quesada. Fue a prisi\xF3n. Jim\xE9nez de Quesada le di\xF3 la
+      libertad, pero Boavita muri\xF3 poco despu\xE9s. En la actualidad, Boavita
+      es un municipio del departamento de Boyac\xE1, Colombia. El municipio lleva
+      el nombre del cacique muisca. "
+    - "Muisca chief who lived in the 16th century. Ruler of the Boavita chiefdom,
+      which was in the department of Boyac\xE1, Colombia. He was known for his justice
+      and his ability to resolve conflicts. He was also skilled in war and defended
+      his people from the attacks of the Spanish conquistadors.  In 1539, Boavita
+      faced the Spanish conquistador Gonzalo Jim\xE9nez de Quesada. He went to prison.
+      Jim\xE9nez de Quesada freed him, but Boavita died shortly after. Currently,
+      Boavita is a municipality in the department of Boyac\xE1, Colombia. The municipality
+      is named after the Muisca chief."
+  - llave: BOCHICA
+    idiomas:
+    - "fue un h\xE9roe civilizador, o un dios, que ense\xF1\xF3 a los muiscas a hilar
+      el algod\xF3n y tejer mantas, adem\xE1s de inculcarles principios morales y
+      sociales. La tradici\xF3n m\xEDtica tambi\xE9n afirma que fue el creador del
+      Salto del Tequendama.  En la mitolog\xEDa muisca, Bochica era un hombre blanco,
+      alto y barbudo, que vest\xEDa una t\xFAnica larga y sandalias. Se dec\xEDa
+      que era un enviado de los dioses, que hab\xEDa venido a ense\xF1ar a los muiscas
+      a vivir en paz y armon\xEDa.  Seg\xFAn el mito, Bochica lleg\xF3 al territorio
+      muisca en un momento de crisis. Los muiscas estaban siendo castigados por los
+      dioses por su comportamiento pecaminoso. Bochica intervino y ayud\xF3 a los
+      muiscas a superar la crisis.  Tambi\xE9n es conocido por su papel en la creaci\xF3n
+      del Salto del Tequendama. Seg\xFAn el mito, Bochica arroj\xF3 su bast\xF3n
+      contra las monta\xF1as, creando un gran hueco que desvi\xF3 el curso del r\xEDo
+      Bogot\xE1. El hueco se convirti\xF3 en el Salto del Tequendama, una de las
+      atracciones tur\xEDsticas m\xE1s populares de Colombia.  Bochica se retir\xF3
+      de la tierra despu\xE9s de haber cumplido su misi\xF3n. Los muiscas lo recuerdan
+      como un h\xE9roe civilizador y un maestro de la paz. "
+    - "He was a civilizing hero, or a god, who taught the Muiscas to spin cotton
+      and weave blankets, in addition to instilling in them moral and social principles.
+      Mythical tradition also affirms that he was the creator of the Tequendama Falls. 
+      In Muisca mythology, Bochica was a tall, bearded white man who wore a long
+      tunic and sandals. It was said that he was an envoy from the gods, who had
+      come to teach the Muiscas to live in peace and harmony.  According to myth,
+      Bochica arrived in Muisca territory at a time of crisis. The Muiscas were being
+      punished by the gods for their sinful behavior. Bochica intervened and helped
+      the Muiscas overcome the crisis.  He is also known for his role in the creation
+      of the Tequendama Falls. According to myth, Bochica threw his staff against
+      the mountains, creating a large hole that diverted the course of the Bogot\xE1
+      River. The gap became the Salto del Tequendama, one of the most popular tourist
+      attractions in Colombia.  Bochica retired from the earth after having completed
+      his mission. The Muiscas remember him as a civilizing hero and a teacher of
+      peace. "
+  - llave: "CHIBCHAC\xDAM"
+    idiomas:
+    - " Fue un dios Muisca que representaba la fuerza y la fertilidad. Era el protector
+      de los comerciantes y de los campesinos, y se le atribu\xEDa la creaci\xF3n
+      de los r\xEDos y de los lagos de la regi\xF3n.  En la mitolog\xEDa muisca,
+      Chibchacum era un hombre gigante que sosten\xEDa la tierra sobre sus hombros.
+      Cuando se enfadaba, provocaba terremotos e inundaciones.  Seg\xFAn el mito,
+      Chibchacum se enfad\xF3 con los muiscas por su comportamiento pecaminoso. En
+      represalia, provoc\xF3 una gran inundaci\xF3n que cubri\xF3 la Sabana de Bogot\xE1.
+      Los muiscas se arrepintieron de sus pecados y suplicaron a Chibchacum que los
+      perdonara. Chibchacum accedi\xF3 a perdonarlos y puso fin a la inundaci\xF3n. 
+      Tambi\xE9n es conocido por su papel en la creaci\xF3n de los r\xEDos y de los
+      lagos de la regi\xF3n. Seg\xFAn el mito, Chibchacum separ\xF3 los dos brazos
+      del r\xEDo Bogot\xE1 para crear el Salto del Tequendama. Tambi\xE9n cre\xF3
+      el r\xEDo Su\xE1rez, el r\xEDo Chicamocha y el r\xEDo Magdalena. "
+    - "He was a Muisca god who represented strength and fertility. He was the protector
+      of merchants and farmers, and he was credited with creating the rivers and
+      lakes in the region.  In Muisca mythology, Chibchacum was a giant man who held
+      the earth on his shoulders. When he got angry, he caused earthquakes and floods. 
+      According to the myth, Chibchacum became angry with the Muiscas for their sinful
+      behavior. In retaliation, it caused a great flood that covered the Bogot\xE1
+      Savannah. The Muiscas repented of their sins and begged Chibchacum to forgive
+      them. Chibchacum agreed to forgive them and put an end to the flood.  It is
+      also known for its role in creating the region's rivers and lakes. According
+      to myth, Chibchacum separated the two branches of the Bogot\xE1 River to create
+      the Tequendama Falls. He also created the Su\xE1rez River, the Chicamocha River
+      and the Magdalena River."
+  - llave: CHIMINIGAGUA
+    idiomas:
+    - "Dios creador de los muiscas, divinidad omnipotente y benevolente, que surgi\xF3
+      del caos primordial para crear el mundo y todo lo que hay en \xE9l.  Seg\xFAn
+      el mito muisca, Chiminigagua era una masa de agua y luz. Cuando se dividi\xF3
+      en dos, la luz se convirti\xF3 en el sol, la luna y las estrellas, y el agua
+      se convirti\xF3 en la tierra, el cielo y los oc\xE9anos.  Chiminigagua tambi\xE9n
+      cre\xF3 los primeros seres humanos, Bachu\xE9 y su hijo, quienes se convirtieron
+      en los progenitores de los muiscas.  Chiminigagua era una figura muy importante
+      en la religi\xF3n y la cultura muisca. Era adorado como el dios supremo, y
+      su imagen era representada en esculturas, pinturas y textiles. "
+    - "Creator God of the Muiscas, omnipotent and benevolent divinity, who emerged
+      from primordial chaos to create the world and everything in it.  According
+      to Muisca myth, Chiminigagua was a mass of water and light. When it was divided
+      in two, the light became the sun, the moon and the stars, and the water became
+      the earth, the sky and the oceans.  Chiminigagua also created the first human
+      beings, Bachu\xE9 and his son, who became the progenitors of the Muiscas. 
+      Chiminigagua was a very important figure in Muisca religion and culture. He
+      was worshiped as the supreme god, and his image was represented in sculptures,
+      paintings and textiles. "
+  - llave: GORANCHACHA
+    idiomas:
+    - "Fue un h\xE9roe civilizador Muisca, hijo del sol y de una doncella hija del
+      cacique de Guachet\xE1. Naci\xF3 en forma de una esmeralda que fue entregada
+      a la doncella, quien la llev\xF3 nueve meses en su vientre. Al cabo de ese
+      tiempo, la esmeralda se convirti\xF3 en un ni\xF1o, al que llamaron Goranchacha. 
+      Goranchacha creci\xF3 y se convirti\xF3 en un hombre sabio y poderoso. Viaj\xF3
+      por las tierras Muiscas, ense\xF1ando a los pueblos las ense\xF1anzas de Bochica,
+      el h\xE9roe civilizador que hab\xEDa venido a ense\xF1ar a los muiscas a vivir
+      en paz y armon\xEDa.  Goranchacha tambi\xE9n fue un gran guerrero. Luch\xF3
+      contra los enemigos de los Muiscas y los protegi\xF3 de los ataques.  Seg\xFAn
+      el mito, Goranchacha profetiz\xF3 la llegada de una raza extra\xF1a, la cual
+      esclavizar\xEDa al pueblo Muisca por haber olvidado las ense\xF1anzas de Bochica.
+      Para evitar que esto sucediera, Goranchacha se convirti\xF3 en una gran esmeralda
+      y se hundi\xF3 en las profundidades de la tierra "
+    - "He was a Muisca civilizing hero, son of the sun and a maiden daughter of the
+      chief of Guachet\xE1. It was born in the form of an emerald that was given
+      to the maiden, who carried it for nine months in her womb. After that time,
+      the emerald turned into a boy, who was named Goranchacha.  Goranchacha grew
+      up and became a wise and powerful man. He traveled through the Muisca lands,
+      teaching the people the teachings of Bochica, the civilizing hero who had come
+      to teach the Muiscas to live in peace and harmony.  Goranchacha was also a
+      great warrior. He fought against the enemies of the Muiscas and protected them
+      from attacks.  According to the myth, Goranchacha prophesied the arrival of
+      a strange race, which would enslave the Muisca people for having forgotten
+      the teachings of Bochica. To prevent this from happening, Goranchacha turned
+      into a large emerald and sank into the depths of the earth. "
+  - llave: HUITACA
+    idiomas:
+    - "Huitaca era considerada una deidad fundamental en su pante\xF3n religioso.
+      Ella era conocida como la diosa de la lujuria, la diversi\xF3n, la embriaguez
+      y la rebeli\xF3n. Los muiscas la ve\xEDan como una figura que promov\xEDa la
+      alegr\xEDa y la espontaneidad, pero tambi\xE9n se la relacionaba con el exceso
+      y la indulgencia, lo que a menudo desafiaba las normas sociales y religiosas
+      establecidas.  Tambi\xE9n era vista con cierta ambivalencia por los Muiscas,
+      ya que su comportamiento desenfrenado pod\xEDa llevar a consecuencias negativas
+      para la sociedad. Los sacerdotes y l\xEDderes religiosos muiscas a menudo buscaban
+      mantener el equilibrio entre el respeto por Huitaca y el control de sus influencias,
+      ya que su adoraci\xF3n a veces se consideraba contraproducente para la estabilidad
+      y la moral de la comunidad. "
+    - 'Huitaca was considered a fundamental deity in their religious pantheon. She
+      was known as the goddess of lust, fun, drunkenness and rebellion. The Muiscas
+      saw her as a figure who promoted joy and spontaneity, but she was also associated
+      with excess and indulgence, often challenging established social and religious
+      norms. '
+  - llave: TEQUENDAMA
+    idiomas:
+    - "Fue una figura geogr\xE1fica y espiritual importante para los Muiscas. Geogr\xE1ficamente
+      se refiere a la cascada de Tequendama, una impresionante catarata ubicada en
+      la actual localidad de San Antonio del Tequendama, en el departamento de Cundinamarca.
+      Para los Muiscas, esta cascada ten\xEDa un significado sagrado y era conocida
+      como \"Bochica Tequendama\".  Tequendama era considerada un lugar m\xEDstico
+      donde los muiscas cre\xEDan que Bochica, hab\xEDa realizado actos significativos.
+      Seg\xFAn la leyenda, Bochica habr\xEDa abierto una brecha en la monta\xF1a
+      con su bast\xF3n, lo que dio origen a la cascada y permiti\xF3 el flujo de
+      agua hacia el r\xEDo Bogot\xE1. La cascada tambi\xE9n estaba asociada con rituales
+      espirituales y ceremonias religiosas para los Muiscas, quienes ve\xEDan en
+      este lugar una conexi\xF3n entre lo divino y la naturaleza. As\xED, Tequendama
+      representaba tanto un elemento geogr\xE1fico imponente como un punto de referencia
+      espiritual fundamental en la cosmovisi\xF3n Muisca. "
+    - "He was an important geographical and spiritual figure for the Muiscas. Geographically
+      it refers to the Tequendama waterfall, an impressive waterfall located in the
+      current town of San Antonio del Tequendama, in the department of Cundinamarca.
+      For the Muiscas, this waterfall had a sacred meaning and was known as \"Bochica
+      Tequendama\".  Tequendama was considered a mystical place where the Muiscas
+      believed that Bochica had carried out significant acts. According to legend,
+      Bochica would have opened a gap in the mountain with his staff, which gave
+      rise to the waterfall and allowed the flow of water towards the Bogot\xE1 River.
+      The waterfall was also associated with spiritual rituals and religious ceremonies
+      for the Muiscas, who saw in this place a connection between the divine and
+      nature. Thus, Tequendama represented both an imposing geographical element
+      and a fundamental spiritual reference point in the Muisca worldview. "
+  - llave: NEMQUETEBA
+    idiomas:
+    - "Tambi\xE9n conocido como Bochica o Zuh\xE9, fue un h\xE9roe civilizador y
+      un dios de los Muiscas, el pueblo ind\xEDgena que habitaba la regi\xF3n de
+      la actual Colombia. Se le atribuye la ense\xF1anza de los Muiscas las formas
+      de la civilizaci\xF3n, incluyendo la agricultura, la caza, el tejido y la construcci\xF3n.
+      Tambi\xE9n les ense\xF1\xF3 los valores de la paz, la armon\xEDa y la cooperaci\xF3n. 
+      Sus m\xFAltiples nombres tal vez se deban a que recorri\xF3 todos los cacicazgos
+      muiscas de diferentes regiones cambiando su forma seg\xFAn las necesidades. "
+    - "Also known as Bochica or Zuh\xE9, he was a civilizing hero and a god of the
+      Muiscas, the indigenous people who inhabited the region of present-day Colombia.
+      He is credited with teaching the Muiscas the ways of civilization, including
+      agriculture, hunting, weaving and construction. He also taught them the values
+      \u200B\u200Bof peace, harmony and cooperation.  Its multiple names may be due
+      to the fact that it visited all the Muisca chiefdoms in different regions,
+      changing its shape according to needs. "
+  - llave: NENCATACOA
+    idiomas:
+    - "Fue un dios Muisca que representaba la alegr\xEDa. Era el protector de los
+      artistas, y se le atribu\xEDa la creaci\xF3n de la m\xFAsica y el baile.  En
+      la mitolog\xEDa muisca, Nencatacoa era un hombre mitad hombre y mitad animal
+      del bosque, generalmente un oso o zorro, cubierto con una manta y con la cola
+      afuera. Se dec\xEDa que era un dios alegre y festivo, que disfrutaba de la
+      m\xFAsica y el baile.  Nencatacoa era un dios popular entre los muiscas. Era
+      adorado por los artistas, quienes lo invocaban para inspirarlos en sus creaciones. "
+    - 'He was a Muisca god who represented joy. He was the protector of artists,
+      and was credited with the creation of music and dance.  In Muisca mythology,
+      Nencatacoa was a man who was half man and half forest animal, usually a bear
+      or fox, covered with a blanket and with his tail out. He was said to be a happy
+      and festive god, who enjoyed music and dancing.  Nencatacoa was a popular god
+      among the Muiscas. He was adored by artists, who invoked him to inspire them
+      in their creations. '
+  idiomaSeleccionado: 0
