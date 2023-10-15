@@ -1262,6 +1262,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 874abd8878f2c6f4faeae7036a801ea2, type: 2}
   walkableParent: {fileID: 344913715}
   notWalkableParent: {fileID: 38813960}
+  torresPorEquipo:
+  - nombre: MUISCAS
+    objeto: {fileID: 1636797462228952619, guid: e8f56fb7b2de668478b9fc700966b9fd, type: 3}
+  - nombre: PANCHES
+    objeto: {fileID: 4236687935050424501, guid: dd3dbf5e061091b46b7a1d2f98c445a0, type: 3}
+  - nombre: GUANES
+    objeto: {fileID: 8192290911726281223, guid: 464f4edee03dea240b41952497ad0620, type: 3}
+  - nombre: DEMONIOS
+    objeto: {fileID: 5510024718591586464, guid: a7a50a4b86e63e04594a92c34e766e10, type: 3}
   playerTower: {fileID: 5510024718591586464, guid: a7a50a4b86e63e04594a92c34e766e10, type: 3}
   enemyTower: {fileID: 8192290911726281223, guid: 464f4edee03dea240b41952497ad0620, type: 3}
   seaHex: {fileID: 1887013331352158, guid: 8c907f122f4a8a2468dec14493d763ff, type: 3}
