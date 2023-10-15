@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 5530670337042274225}
   - component: {fileID: 7765093817479005082}
   - component: {fileID: 6969038086983194361}
+  - component: {fileID: 404417641009259114}
   m_Layer: 0
   m_Name: Chiminigagua
   m_TagString: Untagged
@@ -371,6 +372,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 0}
+--- !u!114 &404417641009259114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5521636733630564333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1 &6534140947453548051
 GameObject:
   m_ObjectHideFlags: 0

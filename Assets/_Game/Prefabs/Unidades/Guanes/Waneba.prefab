@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2860763485824695538}
   - component: {fileID: 3662337742555166868}
   - component: {fileID: 6685451941021668056}
+  - component: {fileID: -4084035783653102634}
   m_Layer: 0
   m_Name: Waneba
   m_TagString: Untagged
@@ -119,6 +120,21 @@ MonoBehaviour:
   "tipoDa\xF1o": 2
   "inicioDa\xF1o": 2
   "periodoDa\xF1o": 3
+--- !u!114 &-4084035783653102634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187685426123165241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1001 &2753446172281953981
 PrefabInstance:
   m_ObjectHideFlags: 0

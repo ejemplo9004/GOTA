@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 4189437718785286089}
   - component: {fileID: 2783904757737577593}
   - component: {fileID: 5826870452682513355}
+  - component: {fileID: -3346522521458749762}
   m_Layer: 0
   m_Name: Boavita
   m_TagString: Untagged
@@ -358,6 +359,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-3346522521458749762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6364846732782390096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1 &8873084662355945420
 GameObject:
   m_ObjectHideFlags: 0

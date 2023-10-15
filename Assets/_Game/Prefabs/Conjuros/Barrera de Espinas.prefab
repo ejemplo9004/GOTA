@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8051466035686155851}
   - component: {fileID: 7890872422253125658}
   - component: {fileID: 1947849403992329186}
+  - component: {fileID: -2711153058910126703}
   m_Layer: 0
   m_Name: Barrera de Espinas
   m_TagString: Untagged
@@ -93,6 +94,21 @@ MonoBehaviour:
   objetoFracturado: {fileID: 629028893501744607}
   rbs: []
   particulasMuerte: {fileID: 8225063477565526918}
+--- !u!114 &-2711153058910126703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154363764174703169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torre: {fileID: 1947849403992329186}
+  unidad: {fileID: 0}
+  explo: {fileID: 0}
 --- !u!1001 &323040518121314446
 PrefabInstance:
   m_ObjectHideFlags: 0
