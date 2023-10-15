@@ -17,3 +17,4 @@ MonoBehaviour:
   cost: 5
   cardSprite: {fileID: 549720922, guid: 4efbc5941dbb7174f9014353ce64cfc3, type: 3}
   prefab: {fileID: 3154363764174703169, guid: 2660d3c9cdfa84b46a9648b0d84d4d40, type: 3}
+  cartaEspecial: 1
