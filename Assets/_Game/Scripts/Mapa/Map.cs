@@ -113,10 +113,12 @@ public class Map : MonoBehaviour
                     if(new Vector2(i, j).Equals(playerTowerPos1) || new Vector2(i, j).Equals(playerTowerPos2))
                     {
                         hexObj = Instantiate(playerTower);
+                        //playerTower.GetComponent<Equipador>().Inicializar(Equipo.aliado);
                     }
                     else if(new Vector2(i, j).Equals(enemyTowerPos1) || new Vector2(i, j).Equals(enemyTowerPos2))
                     {
                         hexObj = Instantiate(enemyTower);
+                        playerTower.GetComponent<Equipador>().Inicializar(Equipo.enemigo);
                     }
                     else
                     {

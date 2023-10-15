@@ -38,7 +38,7 @@ public class Palabra
 			return llave;
 		}
 
-		return idiomas[idioma];
+		return idiomas[idioma].Replace("/n","\n");
 	}
 }
 

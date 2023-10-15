@@ -244,10 +244,10 @@ TextureImporter:
       name: UIMMAPGOTA-22_5
       rect:
         serializedVersion: 2
-        x: 1687
+        x: 1692
         y: 1387
-        width: 302
-        height: 530
+        width: 296
+        height: 526
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,8 +477,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1690
         y: 599
-        width: 299
-        height: 530
+        width: 296
+        height: 527
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

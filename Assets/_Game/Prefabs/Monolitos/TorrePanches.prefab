@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8234688518204830694}
   - component: {fileID: 2200406100166863621}
   - component: {fileID: -134563032119971163}
+  - component: {fileID: -9158600348845135274}
   m_Layer: 0
   m_Name: TorrePanches
   m_TagString: Untagged
@@ -122,6 +123,21 @@ MonoBehaviour:
   torres: []
   unidades: []
   explos: []
+--- !u!114 &-9158600348845135274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4236687935050424501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1 &5260720166514957546
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,7 +188,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 256
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

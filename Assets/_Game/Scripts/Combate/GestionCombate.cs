@@ -11,6 +11,10 @@ public class GestionCombate : MonoBehaviour
 	private void Awake()
 	{
         singleton = this;
+		if (AudioMenu.singleton != null)
+		{
+            AudioMenu.singleton.Destruir();
+		}
 	}
 	void Start()
     {
