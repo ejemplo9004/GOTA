@@ -10,4 +10,5 @@ public class ScriptableCard : ScriptableObject
     public int cost;
     public Sprite cardSprite;
     public GameObject prefab;
+    public bool cartaEspecial = false;
 }

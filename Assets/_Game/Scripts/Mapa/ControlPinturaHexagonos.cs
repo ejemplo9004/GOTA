@@ -32,7 +32,7 @@ public class ControlPinturaHexagonos : MonoBehaviour
 	[ContextMenu("MostrarAmbos")]
 	public void TestMostrarAmbos()
 	{
-		AsignarBando(Equipo.aliado);
+		AsignarBando(Equipo.ambos);
 	}
 
 	public void AsignarBando(Equipo e)
