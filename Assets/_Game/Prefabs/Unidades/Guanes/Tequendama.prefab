@@ -114,6 +114,7 @@ MonoBehaviour:
   objetivos: 000000000100000002000000
   vidaObjetivo: {fileID: 0}
   torreForzarAtaque: {fileID: 0}
+  tipoUnidad: 1
   animator: {fileID: 0}
   "da\xF1o": 9
   "tipoDa\xF1o": 2
