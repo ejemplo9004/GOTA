@@ -523,6 +523,70 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3132512386564643102, guid: 8243cebbda159234687948dd0b94d0b6, type: 3}
   m_PrefabInstance: {fileID: 1552357998370601339}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &440811802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 440811803}
+  - component: {fileID: 440811804}
+  m_Layer: 0
+  m_Name: EnemyAI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440811803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440811802}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1086145724}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &440811804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440811802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7d949cea418d9241a8bb4dfaee787e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyMultiplier: 1
+  deck: {fileID: 11400000, guid: 2b5667751f6c5f148acb4ec62d5fd2f8, type: 2}
+  handSize: 4
+  listas:
+    unidadesAliadas: []
+    unidadesEnemigas: []
+    torresAliadas: []
+    torresEnemigas: []
+    torresPrincipalesAliadas: []
+    torresPrincipalesEnemigas: []
+  energy: 0
+  probabilities: []
+  order: 
+  position: {fileID: 0}
+  map: {fileID: 1159248937}
+--- !u!4 &548277941 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 924696117253676566, guid: 1f7cd406cec32e345896327355988ac6, type: 3}
+  m_PrefabInstance: {fileID: 591223302}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &552032659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,6 +1077,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 78803776}
+  - {fileID: 440811803}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1086145725

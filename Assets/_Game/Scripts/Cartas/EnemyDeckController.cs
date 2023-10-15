@@ -16,10 +16,8 @@ public class EnemyDeckController
     public ScriptableCard DrawToHand()
     {
         ScriptableCard card = null;
-
-
-        card = drawDeck.DrawCard(true);
-        
+        card = drawDeck.DrawCard(true);        
+        if(card == null)
         {
             drawDeck = discardDeck;
             discardDeck = new CardList();
@@ -27,10 +25,6 @@ public class EnemyDeckController
         }
 
         hand.AddCard(card);
-
-        Debug.Log(hand);
-        Debug.Log(drawDeck);
-        Debug.Log(discardDeck);
         return card;
     }
 
