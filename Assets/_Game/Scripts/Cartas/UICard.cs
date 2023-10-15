@@ -23,7 +23,6 @@ public class UICard : MonoBehaviour
         costText.text = card.cost.ToString();
 
         int spriteSheetNumber = int.Parse(card.cardSprite.name.Substring(11, 2));
-        Debug.Log($"{card.cardSprite.name} = {spriteSheetNumber}");
         if (spriteSheetNumber == 21)
         {
             disableColor = CardCombatController.Instance.disabledMaterial21;
