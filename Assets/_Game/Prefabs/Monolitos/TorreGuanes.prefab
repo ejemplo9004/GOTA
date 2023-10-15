@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 2873191202502981067}
   - component: {fileID: 8357045623926875261}
   - component: {fileID: -9161430507151180098}
+  - component: {fileID: -5974165763001887592}
   m_Layer: 0
   m_Name: TorreGuanes
   m_TagString: Untagged
@@ -252,6 +253,21 @@ MonoBehaviour:
   flyable: 0
   bakeable: 0
   team: 0
+--- !u!114 &-5974165763001887592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192290911726281223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1001 &1034328722873311024
 PrefabInstance:
   m_ObjectHideFlags: 0

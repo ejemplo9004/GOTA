@@ -13,259 +13,49 @@ MonoBehaviour:
   m_Name: Tutorial
   m_EditorClassIdentifier: 
   palabras:
-  - llave: "BACHU\xC9"
+  - llave: pagina1
     idiomas:
-    - "Aunque Bachu\xE9 es m\xE1s com\xFAnmente asociada con la mitolog\xEDa muisca,
-      en algunas versiones panche de la leyenda, Bachu\xE9 tambi\xE9n aparece como
-      una madre primordial que emergi\xF3 de una laguna y dio origen a la humanidad
-      panche.  Es importante tener en cuenta que la mitolog\xEDa panche puede variar
-      entre diferentes comunidades panche y ha sido influenciada por la interacci\xF3n
-      con otras culturas ind\xEDgenas en la regi\xF3n. La informaci\xF3n sobre la
-      mitolog\xEDa panche es limitada. "
-    - "Although Bachu\xE9 is most commonly associated with Muisca mythology, in some
-      Panche versions of the legend, Bachu\xE9 also appears as a primordial mother
-      who emerged from a lagoon and gave rise to Panche humanity.  It is important
-      to note that Panche mythology can vary between different Panche communities
-      and has been influenced by interaction with other indigenous cultures in the
-      region. Information about Panche mythology is limited. "
-  - llave: BOCHICA
+    - "\xA1Bienvenido a GOTA: Guardians Of The Andes!/n/nEn este juego, eres un Maestro
+      GOTA que maneja a sus dioses, deidades, heroes, esp\xEDritus y/o demonios para
+      custodiar tus dos monolitos y atacar los dos monolitos del oponente."
+    - 'Welcome to GOTA: Guardians Of The Andes!/n/n In this game, you are a GOTA
+      Master who wields his gods, deities, heroes, spirits and/or demons to guard
+      your two monoliths and attack the opponent''s two monoliths.'
+  - llave: pagina2
     idiomas:
-    - "Las creencias y mitolog\xEDa de los panches no est\xE1n tan documentadas y
-      difundidas como las de algunas culturas ind\xEDgenas m\xE1s grandes de Colombia.
-      Por lo tanto, puede haber variaciones en las historias y figuras mitol\xF3gicas
-      dentro de la misma cultura panche. En muchos casos, las creencias ind\xEDgenas
-      se transmit\xEDan oralmente y variaban de una comunidad a otra. Para obtener
-      informaci\xF3n m\xE1s detallada sobre la mitolog\xEDa panche, ser\xEDa necesario
-      consultar fuentes espec\xEDficas o investigaciones que se hayan centrado en
-      esta cultura en particular."
-    - 'The beliefs and mythology of the Panches are not as documented and widespread
-      as those of some larger indigenous cultures in Colombia. Therefore, there may
-      be variations in stories and mythological figures within the same Panche culture.
-      In many cases, indigenous beliefs were transmitted orally and varied from one
-      community to another. For more detailed information on Panche mythology, it
-      would be necessary to consult specific sources or research that has focused
-      on this particular culture. '
-  - llave: CALLEJA
+    - "Para empezar, debes seleccionar una de las cuatro barajas disponibles: /n/n
+      -<b>Muisca</b>: Inspirada en la cultura Muisca, que prosper\xF3 en el altiplano
+      cundiboyacense de Colombia./n -<b>Guane</b>: Basada en la cultura Guane, que
+      floreci\xF3 en la regi\xF3n de los Andes colombianos./n -<b>Panche</b>: Fundamentada
+      en la cultura Panche, que se desarroll\xF3 en la regi\xF3n central de Colombia./n
+      -<b>Demonios de los Andes</b>: Una baraja \xFAnica con cartas inspiradas en
+      los seres mitol\xF3gicos andinos./n /n/n Cada baraja tiene sus propias cartas
+      \xFAnicas que te otorgar\xE1n ventajas en el juego."
+    - 'To begin, you must select one of the four available decks: /n/n -<b>Muisca</b>:
+      Inspired by the Muisca culture, which prospered in the Cundiboyacense highlands
+      of Colombia./n -<b>Guane</b>: Based on the Guane culture, which flourished
+      in the Colombian Andes region./n -<b>Panche</b>: Based on the Panche culture,
+      which developed in the central region of Colombia./n -<b>Demons of the Andes</b>:
+      A unique deck with cards inspired by Andean mythological beings./n /n/n Each
+      deck has its own unique cards that will give you advantages in the game.'
+  - llave: pagina3
     idiomas:
-    - "como un esp\xEDritu asociado con la noche y la oscuridad, podr\xEDa haber
-      desempe\xF1ado un papel en la mitolog\xEDa panche como una figura que personifica
-      la misteriosa y a menudo temida parte de la noche. En muchas culturas ind\xEDgenas,
-      los esp\xEDritus nocturnos se consideraban importantes y a menudo se les atribu\xEDan
-      poderes especiales o influencias sobre la naturaleza y la vida cotidiana. Su
-      papel podr\xEDa haber sido tanto protector como desafiante, dependiendo de
-      la interpretaci\xF3n y las creencias de la comunidad panche.  La presencia
-      de un esp\xEDritu de la noche y la oscuridad en la mitolog\xEDa panche reflejar\xEDa
-      la profunda conexi\xF3n de esta cultura con la naturaleza y el entorno que
-      los rodeaba. Tambi\xE9n podr\xEDa haber servido como una forma de entender
-      y dar sentido a los fen\xF3menos naturales y los misterios de la noche. Cada
-      cultura ind\xEDgena tiene sus propias figuras m\xEDticas y espirituales que
-      enriquecen su cosmovisi\xF3n y aportan un entendimiento \xFAnico del mundo
-      que los rodea. "
-    - 'As a spirit associated with night and darkness, he could have played a role
-      in Panche mythology as a figure personifying the mysterious and often feared
-      part of the night. In many indigenous cultures, night spirits were considered
-      important and were often attributed special powers or influences over nature
-      and everyday life. Their role could have been both protective and challenging,
-      depending on the interpretation and beliefs of the Panche community.  The presence
-      of a spirit of night and darkness in Panche mythology would reflect the deep
-      connection of this culture with nature and the environment that surrounded
-      them. It could also have served as a way to understand and make sense of natural
-      phenomena and the mysteries of the night. Each indigenous culture has its own
-      mythical and spiritual figures that enrich their worldview and provide a unique
-      understanding of the world around them. '
-  - llave: CHIBCHACUM
+    - "Para proteger tus monolitos, puedes desplegar cartas en el tablero. /n Las
+      cartas proporcionan protecci\xF3n a los monolitos y tienen la capacidad de
+      atacar a las cartas enemigas que se acercan a ellos. /n Las cartas poseen diferentes
+      estad\xEDsticas y habilidades. Utiliza las cartas adecuadas para cumplir su
+      funci\xF3n en el juego."
+    - To protect your monoliths, you can deploy cards on the board. /n The cards
+      provide protection to the monoliths and have the ability to attack enemy cards
+      that approach them. /n The cards have different statistics and abilities. Use
+      the appropriate cards to fulfill their function in the game.
+  - llave: pagina4
     idiomas:
-    - "En la mitolog\xEDa panche, Chibchacum era una figura importante y se le consideraba
-      el dios de la agricultura y la fertilidad. Su nombre se deriva del t\xE9rmino
-      \"Chibcha,\" que se relaciona con las culturas precolombinas de la regi\xF3n
-      andina en Colombia. Chibchacum estaba estrechamente vinculado con la tierra,
-      las cosechas y la prosperidad de su pueblo panche. Era adorado y honrado por
-      su capacidad para garantizar buenas cosechas y el bienestar de la comunidad. 
-      Chibchacum desempe\xF1aba un papel esencial en la vida de los panches, ya que
-      su sociedad depend\xEDa en gran medida de la agricultura y la tierra para su
-      sustento. Las pr\xE1cticas religiosas y los rituales en honor a Chibchacum
-      estaban destinados a asegurar la fertilidad de la tierra y el \xE9xito en la
-      agricultura. Su figura reflejaba la profunda conexi\xF3n que los panches ten\xEDan
-      con la naturaleza y la importancia de la agricultura en su cosmovisi\xF3n.
-      Chibchacum personificaba la divinidad de la tierra y la importancia de mantener
-      el equilibrio con el entorno natural. "
-    - 'In Panche mythology, Chibchacum was an important figure and was considered
-      the god of agriculture and fertility. Its name is derived from the term "Chibcha,"
-      which is related to the pre-Columbian cultures of the Andean region in Colombia.
-      Chibchacum was closely linked to the land, crops and prosperity of his Panche
-      people. He was adored and honored for his ability to ensure good harvests and
-      the well-being of the community.  Chibchacum played an essential role in the
-      lives of the Panches, as their society relied heavily on agriculture and the
-      land for their livelihood. Religious practices and rituals in honor of Chibchacum
-      were intended to ensure the fertility of the land and success in agriculture.
-      His figure reflected the deep connection that the Panches had with nature and
-      the importance of agriculture in their worldview. Chibchacum personified the
-      divinity of the earth and the importance of maintaining balance with the natural
-      environment. '
-  - llave: HUITACA
-    idiomas:
-    - " En la mitolog\xEDa panche, Huitaca, como deidad de la diversi\xF3n y el placer,
-      podr\xEDa haber sido considerada una figura que personifica la alegr\xEDa,
-      la libertad y la esencia del juego. Su car\xE1cter bromista y travieso sugiere
-      una influencia en la cultura panche en la promoci\xF3n de la diversi\xF3n y
-      la felicidad en la vida cotidiana. Estas deidades a menudo desempe\xF1aban
-      un papel importante en la mitolog\xEDa ind\xEDgena al inspirar actitudes positivas
-      y transmitir valores relacionados con la alegr\xEDa y la recreaci\xF3n.  Huitaca
-      tambi\xE9n podr\xEDa haber tenido un papel en la explicaci\xF3n de fen\xF3menos
-      naturales o en la transmisi\xF3n de lecciones morales a trav\xE9s de mitos
-      y leyendas. En muchas culturas ind\xEDgenas, las deidades y figuras m\xEDticas
-      cumplen m\xFAltiples funciones, como la ense\xF1anza de valores y la interpretaci\xF3n
-      de la vida y el mundo circundante.  "
-    - "In Panche mythology, Huitaca, as a deity of fun and pleasure, could have been
-      considered a figure that personifies joy, freedom and the essence of play.
-      His joking and mischievous character suggests an influence on Panche culture
-      in promoting fun and happiness in everyday life. These deities often played
-      an important role in indigenous mythology by inspiring positive attitudes and
-      transmitting values \u200B\u200Brelated to joy and recreation.  Huitaca could
-      also have played a role in explaining natural phenomena or transmitting moral
-      lessons through myths and legends. In many indigenous cultures, deities and
-      mythical figures serve multiple functions, such as teaching values \u200B\u200Band
-      interpreting life and the surrounding world. "
-  - llave: MACUIRA
-    idiomas:
-    - "Macuira es una figura mitol\xF3gica importante en la tradici\xF3n panche,
-      una cultura ind\xEDgena que habitaba la regi\xF3n de los Andes en lo que hoy
-      es Colombia. Macuira es conocido como un esp\xEDritu protector y un guardi\xE1n
-      de la naturaleza en la mitolog\xEDa panche. Se le atribuye la responsabilidad
-      de mantener el equilibrio entre los seres humanos y su entorno natural.  Macuira
-      era visto como un esp\xEDritu benefactor que proteg\xEDa a su pueblo panche
-      y les brindaba seguridad en su vida cotidiana. Los panche le rend\xEDan homenaje
-      a trav\xE9s de rituales y ofrendas para asegurarse su favor y protecci\xF3n.
-      Su figura refleja la importancia de la relaci\xF3n armoniosa entre los seres
-      humanos y la naturaleza en la cosmovisi\xF3n panche y la necesidad de mantener
-      el equilibrio con el entorno para garantizar la prosperidad y la seguridad. "
-    - 'Macuira is an important mythological figure in the Panche tradition, an indigenous
-      culture that inhabited the Andes region in what is now Colombia. Macuira is
-      known as a protective spirit and a guardian of nature in Panche mythology.
-      It is attributed the responsibility of maintaining the balance between human
-      beings and their natural environment.  Macuira was seen as a beneficent spirit
-      who protected his Panche people and provided them with security in their daily
-      lives. The panche paid homage to him through rituals and offerings to ensure
-      his favor and protection. His figure reflects the importance of the harmonious
-      relationship between humans and nature in the Panche worldview and the need
-      to maintain balance with the environment to guarantee prosperity and security. '
-  - llave: NEMQUETEBA
-    idiomas:
-    - "Es una figura m\xEDtica que se encuentra en las mitolog\xEDas tanto panche
-      como muisca en Colombia. Para los panches, Nemqueteba era considerada la diosa
-      de la fertilidad y la agricultura, personificando la importancia de la tierra
-      en la prosperidad de su pueblo. Los panches la adoraban y realizaban rituales
-      y ofrendas en su honor para asegurar buenas cosechas y la abundancia de alimentos. 
-      La raz\xF3n por la que Nemqueteba tambi\xE9n aparece en la cultura muisca es
-      debido a la interacci\xF3n y el intercambio cultural entre diversas comunidades
-      ind\xEDgenas en la regi\xF3n andina de Colombia. Las similitudes culturales
-      y geogr\xE1ficas entre los pueblos panche y muisca llevaron a la adaptaci\xF3n
-      y asimilaci\xF3n de algunas figuras mitol\xF3gicas compartidas. En la mitolog\xEDa
-      muisca, Nemqueteba es conocida como Nemqueteba-Zuawe y tambi\xE9n representa
-      la fertilidad y la prosperidad agr\xEDcola. Su presencia en ambas culturas
-      refleja la influencia mutua y la adaptaci\xF3n de elementos mitol\xF3gicos
-      entre pueblos ind\xEDgenas en la regi\xF3n. "
-    - 'He is a mythical figure found in both Panche and Muisca mythologies in Colombia.
-      For the Panches, Nemqueteba was considered the goddess of fertility and agriculture,
-      personifying the importance of the land in the prosperity of her people. The
-      panches worshiped her and performed rituals and offerings in her honor to ensure
-      good harvests and abundance of food.  The reason Nemqueteba also appears in
-      Muisca culture is due to the interaction and cultural exchange between various
-      indigenous communities in the Andean region of Colombia. The cultural and geographical
-      similarities between the Panche and Muisca peoples led to the adaptation and
-      assimilation of some shared mythological figures. In Muisca mythology, Nemqueteba
-      is known as Nemqueteba-Zuawe and also represents fertility and agricultural
-      prosperity. Its presence in both cultures reflects the mutual influence and
-      adaptation of mythological elements among indigenous peoples in the region. '
-  - llave: NENCATACOA
-    idiomas:
-    - "Es una figura mitol\xF3gica que se encuentra en las mitolog\xEDas de varias
-      culturas ind\xEDgenas en Colombia, incluyendo los panches, muiscas y guanes.
-      Para los panches, Nencatacoa era adorado como un dios relacionado con la fertilidad,
-      la agricultura y la abundancia. Era considerado un esp\xEDritu ben\xE9volo
-      que influenciaba los ciclos de la naturaleza, favoreciendo buenas cosechas
-      y la prosperidad de la comunidad.  La raz\xF3n por la que Nencatacoa aparece
-      en las culturas muisca y guane tambi\xE9n se debe a las similitudes culturales
-      y geogr\xE1ficas compartidas en la regi\xF3n de los Andes en Colombia. En la
-      mitolog\xEDa muisca, Nencatacoa era considerado un dios de la alegr\xEDa y
-      la festividad, asociado con la m\xFAsica y el baile. En la mitolog\xEDa guane,
-      Nencatacoa ten\xEDa un papel similar, siendo un dios festivo y protector de
-      los artistas. Las figuras mitol\xF3gicas a menudo se adaptaban y asimilaban
-      entre las culturas ind\xEDgenas, lo que llev\xF3 a su presencia en varias tradiciones
-      mitol\xF3gicas en la regi\xF3n andina. Esta adaptaci\xF3n refleja la influencia
-      mutua y el intercambio cultural entre los pueblos ind\xEDgenas en la regi\xF3n. "
-    - 'It is a mythological figure found in the mythologies of several indigenous
-      cultures in Colombia, including the Panches, Muiscas and Guanes. For the Panches,
-      Nencatacoa was worshiped as a god related to fertility, agriculture and abundance.
-      He was considered a benevolent spirit that influenced the cycles of nature,
-      favoring good harvests and the prosperity of the community.  The reason Nencatacoa
-      appears in the Muisca and Guane cultures is also due to the cultural and geographic
-      similarities shared in the Andes region of Colombia. In Muisca mythology, Nencatacoa
-      was considered a god of joy and festivity, associated with music and dance.
-      In Guane mythology, Nencatacoa had a similar role, being a festive god and
-      protector of artists. Mythological figures were often adapted and assimilated
-      among indigenous cultures, leading to their presence in various mythological
-      traditions in the Andean region. This adaptation reflects the mutual influence
-      and cultural exchange between indigenous peoples in the region. '
-  - llave: SICANES
-    idiomas:
-    - "Son figuras mitol\xF3gicas fundamentales en la tradici\xF3n panche de Colombia.
-      Seg\xFAn la mitolog\xEDa panche, estos dos hermanos se convirtieron en serpientes
-      para desempe\xF1ar un papel protector en su comunidad. Se cre\xEDa que los
-      Sicanes defend\xEDan a su pueblo panche de amenazas y peligros, representando
-      as\xED la importancia de las figuras mitol\xF3gicas como guardianes y protectores. 
-      La transformaci\xF3n de los Sicanes en serpientes puede simbolizar la conexi\xF3n
-      entre los seres humanos y la naturaleza en la mitolog\xEDa panche, ya que las
-      serpientes son a menudo vistas como criaturas que representan tanto el peligro
-      como la protecci\xF3n.  "
-    - 'They are fundamental mythological figures in the Panche tradition of Colombia.
-      According to Panche mythology, these two brothers turned into snakes to play
-      a protective role in their community. It was believed that the Sicanes defended
-      their Panche people from threats and dangers, thus representing the importance
-      of mythological figures as guardians and protectors.  The transformation of
-      the Sicanes into snakes may symbolize the connection between humans and nature
-      in Panche mythology, as snakes are often seen as creatures that represent both
-      danger and protection. '
-  - llave: TOMINA
-    idiomas:
-    - "Era una figura relevante como l\xEDder del cacicazgo de Tomina, un destacado
-      centro pol\xEDtico y cultural en la sociedad panche. Los caciques, como Tomina,
-      desempe\xF1aban un papel fundamental en la organizaci\xF3n y gobernanza de
-      las comunidades ind\xEDgenas en la regi\xF3n andina de Colombia. Estos l\xEDderes
-      eran responsables de mantener el orden social y liderar a su pueblo en asuntos
-      pol\xEDticos y ceremonias religiosas.  Tomina, como l\xEDder del cacicazgo,
-      tambi\xE9n habr\xEDa sido una figura influyente en la preservaci\xF3n de la
-      cultura panche y en la promoci\xF3n de las tradiciones culturales y pol\xEDticas
-      de su comunidad. Su papel en la historia de los panches destaca la importancia
-      de los l\xEDderes locales y regionales en la organizaci\xF3n pol\xEDtica y
-      cultural de las comunidades ind\xEDgenas en Colombia y en toda Am\xE9rica Latina "
-    - 'He was a relevant figure as leader of the Tomina chiefdom, a prominent political
-      and cultural center in Panche society. Caciques, like Tomina, played a fundamental
-      role in the organization and governance of indigenous communities in the Andean
-      region of Colombia. These leaders were responsible for maintaining social order
-      and leading their people in political affairs and religious ceremonies.  Tomina,
-      as leader of the chiefdom, would also have been an influential figure in preserving
-      Panche culture and promoting the cultural and political traditions of his community.
-      Their role in the history of the panches highlights the importance of local
-      and regional leaders in the political and cultural organization of indigenous
-      communities in Colombia and throughout Latin America. '
-  - llave: BOAVITA
-    idiomas:
-    - "Cacique muisca que vivi\xF3 en el siglo XVI. Gobernante del cacicazgo de Boavita,
-      que se encontraba en el departamento de Boyac\xE1, Colombia. Se conoc\xEDa
-      por su justicia y su capacidad de resolver conflictos. Tambi\xE9n era un h\xE1bil
-      en la guerra y defendi\xF3 a su pueblo de los ataques de los conquistadores
-      espa\xF1oles.  En 1539, Boavita se enfrent\xF3 al conquistador espa\xF1ol Gonzalo
-      Jim\xE9nez de Quesada. Fue a prisi\xF3n. Jim\xE9nez de Quesada le di\xF3 la
-      libertad, pero Boavita muri\xF3 poco despu\xE9s. En la actualidad, Boavita
-      es un municipio del departamento de Boyac\xE1, Colombia. El municipio lleva
-      el nombre del cacique muisca. "
-    - "Muisca chief who lived in the 16th century. Ruler of the Boavita chiefdom,
-      which was in the department of Boyac\xE1, Colombia. He was known for his justice
-      and his ability to resolve conflicts. He was also skilled in war and defended
-      his people from the attacks of the Spanish conquistadors.  In 1539, Boavita
-      faced the Spanish conquistador Gonzalo Jim\xE9nez de Quesada. He went to prison.
-      Jim\xE9nez de Quesada freed him, but Boavita died shortly after. Currently,
-      Boavita is a municipality in the department of Boyac\xE1, Colombia. The municipality
-      is named after the Muisca chief."
+    - "El objetivo del juego es destruir los dos monolitos del oponente. El primer
+      jugador en destruir los dos monolitos del oponente gana la partida. /n \xA1Ahora
+      est\xE1s listo para comenzar a jugar! Haz clic en \"Continuar\" para empezar
+      la partida."
+    - The objective of the game is to destroy the opponent's two monoliths. The first
+      player to destroy both of the opponent's monoliths wins the game. /n Now you
+      are ready to start playing! Click "Continue" to start the game.
   idiomaSeleccionado: 0

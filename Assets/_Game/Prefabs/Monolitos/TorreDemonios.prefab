@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 2228373245126833701}
   - component: {fileID: 9178840086542818426}
   - component: {fileID: 5395307942611534793}
+  - component: {fileID: -7568093943212715236}
   m_Layer: 0
   m_Name: TorreDemonios
   m_TagString: Untagged
@@ -180,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c644f5b087e1743408eb2dd01aab5fcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  equipo: 1
+  equipo: 0
   vida: {fileID: 9178840086542818426}
   tipoTorre: 1
   "da\xF1o": 20
@@ -252,6 +253,22 @@ MonoBehaviour:
   flyable: 0
   bakeable: 0
   team: 0
+--- !u!114 &-7568093943212715236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5510024718591586464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres:
+  - {fileID: 2228373245126833701}
+  unidades: []
+  explos: []
 --- !u!1001 &1543623277021672564
 PrefabInstance:
   m_ObjectHideFlags: 0
