@@ -91,6 +91,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e43229f62df94e8489a8034fbefe81cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointedHexagon: {fileID: 0}
+  bigCardTransform: {fileID: 817993072150611642}
 --- !u!114 &5154053643719731843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 0}
   hasCard: 0
+  costText: {fileID: 3490989392356534640}
 --- !u!114 &9206957975405536542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,6 +631,7 @@ RectTransform:
   - {fileID: 94066122024387347}
   - {fileID: 8909437056079529135}
   - {fileID: 6983967004808869027}
+  - {fileID: 817993072150611642}
   m_Father: {fileID: 5344449732303504389}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1708,6 +1712,41 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 5
+--- !u!1 &5142031963542501932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 817993072150611642}
+  m_Layer: 5
+  m_Name: BIGCardPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &817993072150611642
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5142031963542501932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3829479635672288943}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 465, y: 500}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5664141710698250273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,6 +2419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e43229f62df94e8489a8034fbefe81cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointedHexagon: {fileID: 0}
+  bigCardTransform: {fileID: 817993072150611642}
 --- !u!114 &5583857908164092508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2394,6 +2435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 0}
   hasCard: 0
+  costText: {fileID: 2076645245395013866}
 --- !u!114 &8302349246612735438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2846,11 +2888,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13e531233ffc0f64d9d74ed3d22619f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deck: {fileID: 11400000, guid: 2b5667751f6c5f148acb4ec62d5fd2f8, type: 2}
+  barajas:
+  - nombre: DEMONIOS
+    deck: {fileID: 11400000, guid: 2b5667751f6c5f148acb4ec62d5fd2f8, type: 2}
+  - nombre: MUISCAS
+    deck: {fileID: 11400000, guid: 869790d149034334ba3584919ad49185, type: 2}
+  - nombre: PANCHES
+    deck: {fileID: 11400000, guid: 115a99ea34fb1404b9a1ec709fa7333e, type: 2}
+  - nombre: GUANES
+    deck: {fileID: 11400000, guid: b19e6ccd137617c409c728d3e53b190a, type: 2}
+  deck: {fileID: 11400000, guid: 40398df40e51f1449823534f0aeb618d, type: 2}
   nextCardController: {fileID: 6598918525406335314}
   energyPerSecond: 1
   energy: 5
-  disabledMaterial: {fileID: 2100000, guid: f6a597122ac11084b90e83456db46917, type: 2}
+  disabledMaterial21: {fileID: 2100000, guid: eee7ce71a4c04814b9d82606c040dc5f, type: 2}
+  disabledMaterial22: {fileID: 2100000, guid: f6a597122ac11084b90e83456db46917, type: 2}
+  map: {fileID: 0}
 --- !u!1 &7083862066069781263
 GameObject:
   m_ObjectHideFlags: 0
@@ -3177,6 +3230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e43229f62df94e8489a8034fbefe81cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointedHexagon: {fileID: 0}
+  bigCardTransform: {fileID: 817993072150611642}
 --- !u!114 &2901513587305668211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3191,6 +3246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 0}
   hasCard: 0
+  costText: {fileID: 9128644807274849566}
 --- !u!114 &8536179755861120467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3346,6 +3402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e43229f62df94e8489a8034fbefe81cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointedHexagon: {fileID: 0}
+  bigCardTransform: {fileID: 817993072150611642}
 --- !u!114 &5143502856740679625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3360,6 +3418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   card: {fileID: 0}
   hasCard: 0
+  costText: {fileID: 3180997146121844206}
 --- !u!114 &3799861815849538055
 MonoBehaviour:
   m_ObjectHideFlags: 0

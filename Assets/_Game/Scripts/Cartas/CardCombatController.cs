@@ -35,9 +35,12 @@ public class CardCombatController : MonoBehaviour
     [Header("Cost")]
     public float energyPerSecond = 1;
     public float energy = 5;
-    public Material disabledMaterial;
+    public Material disabledMaterial21;
+    public Material disabledMaterial22;
 
     private ScriptableCard nextCard;
+
+    public Map map;
 
     private void Start()
     {
