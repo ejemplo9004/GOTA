@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using System;
 
 public class Vida : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Vida : MonoBehaviour
 	public UnityEvent eventoMuerte;
 	public bool vivo = true;
 	public Image imVida;
+
+	public event Action OnVidaPerdida;
 
 	private void Start()
 	{
@@ -29,6 +32,7 @@ public class Vida : MonoBehaviour
 			return;
 		}
 		vidaActual -= cuanto;
+		OnVidaPerdida?.Invoke();
 		//print("Queda en: " + vidaActual);
 		if (vidaActual<=0)
 		{

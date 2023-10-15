@@ -224,4 +224,24 @@ public class Map : MonoBehaviour
             hex.GetComponent<Hexagon>().SetTeam(Equipo.ambos);
         }
     }
+
+    public Hexagon GetClosestHexagon(Vector3 position)
+    {
+        float closestDistance = float.MaxValue;
+        Hexagon closest = null;
+        Collider[] nearHexagonos = 
+            Physics.OverlapSphere(position, 3f, CardUISingleton.Instance.worldMask);
+
+        foreach (Collider col in nearHexagonos)
+        {
+            float distance = Vector3.Distance(position, col.transform.position);
+
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closest = col.GetComponent<Hexagon>();
+            }
+        }
+        return closest;
+    }
 }

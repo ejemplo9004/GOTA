@@ -28,7 +28,7 @@ public class AlertSingleton : MonoBehaviour
     #endregion
 
     public delegate void OnAlertTriggered(AlertEmition alert);
-    public event OnAlertTriggered triggerAlert;
+    public OnAlertTriggered triggerAlert;
 
     public float[] LastTimer;
     public AlertEmition[] LastEmition;
@@ -39,12 +39,14 @@ public class AlertSingleton : MonoBehaviour
 
         int alerts = Enum.GetNames(typeof(AlertType)).Length;
         LastTimer = new float[alerts];
+        LastEmition = new AlertEmition[alerts];
         StartCoroutine(TimerClearance());
     }
 
     public void HandleAlert(AlertEmition alert)
     {
         LastTimer[(int) alert.alertType] = 10f;
+        Debug.Log($"Emition {alert.alertType} and {alert.position}");
         LastEmition[(int) alert.alertType] = alert;
     }
 
@@ -78,12 +80,23 @@ public class AlertSingleton : MonoBehaviour
         }
         return null;
     }
+
+    public void TriggerAlert(AlertEmition emition)
+    {
+        
+    }
 }
 
 public class AlertEmition
 {
     public AlertType alertType;
     public Vector3 position;
+
+    public AlertEmition(AlertType alertType, Vector3 position)
+    {
+        this.alertType = alertType;
+        this.position = position;
+    }
 }
 
 public enum AlertType
