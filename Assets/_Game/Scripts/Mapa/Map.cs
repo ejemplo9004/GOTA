@@ -199,7 +199,7 @@ public class Map : MonoBehaviour
         {
             hex.GetComponent<Hexagon>().SetTeam(Equipo.aliado);
         }
-        else if (row > height / 2 + midRange)
+        else if (row >= height / 2 + midRange)
         {
             hex.GetComponent<Hexagon>().SetTeam(Equipo.enemigo);
         }
