@@ -56,12 +56,10 @@ public class Map : MonoBehaviour
             if (torresPorEquipo[i].nombre == propia)
             {
                 playerTower = torresPorEquipo[i].objeto;
-                print("Cambiado por " + propia);
             }
             if (torresPorEquipo[i].nombre == enemiga)
             {
                 enemyTower = torresPorEquipo[i].objeto;
-                print("Cambiado por " + propia);
             }
         }
         _hexagons = new Hexagon[height, width];
