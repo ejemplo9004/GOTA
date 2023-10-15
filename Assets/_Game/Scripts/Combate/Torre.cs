@@ -31,6 +31,15 @@ public class Torre : MonoBehaviour
 		StartCoroutine(Atacar());
 		rbs = GetComponentsInChildren<Rigidbody>();
 		objetoFracturado.SetActive(false);
+		vida.OnVidaPerdida += TorrePierdeVida;
+	}
+
+	public void TorrePierdeVida()
+	{
+		AlertType tipo = (equipo == Equipo.aliado) ? AlertType.PlayerTowerAttacked : AlertType.EnemyTowerAttacked;
+		AlertEmition ae = new AlertEmition(tipo, transform.position);
+		Debug.Log($"Torre atacada {equipo}");
+		AlertSingleton.Instance.triggerAlert.Invoke(ae);
 	}
 
 	public void Morir()
@@ -53,7 +62,8 @@ public class Torre : MonoBehaviour
 			Destroy(gameObject, 5);
 		}
 		print("Entro 4");
-	}
+        vida.OnVidaPerdida -= TorrePierdeVida;
+    }
 
 	IEnumerator ListarUnidades()
 	{

@@ -146,6 +146,19 @@ public class IAController : MonoBehaviour
         int row = favoriteRow;
         int column = favoriteColumn;
 
+        AlertEmition priority = AlertSingleton.Instance.GetHighestPriorityAlert();
+        if (priority != null)
+        {
+            Hexagon closest = map.GetClosestHexagon(priority.position);
+            if (closest != null)
+            {
+                return new Vector3(closest.transform.position.x,
+                    0.4166315f,
+                    closest.transform.position.z);
+            }
+        }
+
+
         row += Random.Range(-2, 2);
         column += Random.Range(-2, 2);
 
