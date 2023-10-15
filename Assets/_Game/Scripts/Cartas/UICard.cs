@@ -50,9 +50,12 @@ public class UICard : MonoBehaviour
         if (hexagon == null) return null;
         if (hexagon.Team == Equipo.enemigo) return null;
 
-        Instantiate(card.prefab,
+        GameObject unit = Instantiate(card.prefab,
             new Vector3(hexagon.transform.position.x, pos.y, hexagon.transform.position.z),
             Quaternion.identity);
+        Equipador e = unit.GetComponent<Equipador>();
+        if (e != null) e.Inicializar(Equipo.aliado);
+
         CardCombatController.Instance.energy -= card.cost;
         return EmptyUICard();
     }
