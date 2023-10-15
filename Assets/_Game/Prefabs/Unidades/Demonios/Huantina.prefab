@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1327972822410382205}
   - component: {fileID: 321706718303720919}
   - component: {fileID: 4001633787584635413}
+  - component: {fileID: -6406890913266161597}
   m_Layer: 0
   m_Name: Huantina
   m_TagString: Untagged
@@ -119,6 +120,21 @@ MonoBehaviour:
   "tipoDa\xF1o": 2
   "inicioDa\xF1o": 2
   "periodoDa\xF1o": 3
+--- !u!114 &-6406890913266161597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5229234438118624539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1001 &67283179436030115
 PrefabInstance:
   m_ObjectHideFlags: 0

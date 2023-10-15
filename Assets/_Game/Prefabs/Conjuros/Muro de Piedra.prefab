@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1996694657420420625}
   - component: {fileID: 8011478044967723717}
   - component: {fileID: 3138473804672393551}
+  - component: {fileID: 5035100975151343659}
   m_Layer: 0
   m_Name: Muro de Piedra
   m_TagString: Untagged
@@ -110,6 +111,21 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.57, z: 0}
   m_TimeToStationary: 0.5
+--- !u!114 &5035100975151343659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4508349251732434567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1001 &433266695807446090
 PrefabInstance:
   m_ObjectHideFlags: 0

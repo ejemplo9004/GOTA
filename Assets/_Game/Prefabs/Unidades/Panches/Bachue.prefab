@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6937573562320983027}
   - component: {fileID: 8390356361898307233}
   - component: {fileID: 6983942796541225441}
+  - component: {fileID: 4354162352000172020}
   m_Layer: 0
   m_Name: Bachue
   m_TagString: Untagged
@@ -217,6 +218,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4354162352000172020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207289528276482550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1 &7300283599852352260
 GameObject:
   m_ObjectHideFlags: 0
