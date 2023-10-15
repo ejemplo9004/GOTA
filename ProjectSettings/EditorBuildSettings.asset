@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/_Game/Scenes/Menu.unity
     guid: 018cde852e3e17c4ea6fb943b31a6b77
   - enabled: 1
-    path: Assets/_Game/Scenes/MorionMapaPrueba.unity
-    guid: ea788491e2984ea43a0d2104d04f17d0
-  - enabled: 1
     path: Assets/_Game/Scenes/About.unity
     guid: 4d98429f41b70224c8736c5198bcbf50
   - enabled: 1
@@ -20,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/PrevBaraja.unity
     guid: 1784bd394a329d44f805730f4198f5ea
+  - enabled: 1
+    path: Assets/_Game/Scenes/Juego.unity
+    guid: 4d6598660819d4840863735cf33d3da8
   m_configObjects: {}
