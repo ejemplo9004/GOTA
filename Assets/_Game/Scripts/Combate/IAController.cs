@@ -146,6 +146,8 @@ public class IAController : MonoBehaviour
         int row = favoriteRow;
         int column = favoriteColumn;
 
+        
+
         row += Random.Range(-2, 2);
         column += Random.Range(-2, 2);
 

@@ -582,11 +582,6 @@ MonoBehaviour:
   order: 
   position: {fileID: 0}
   map: {fileID: 1159248937}
---- !u!4 &548277941 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 924696117253676566, guid: 1f7cd406cec32e345896327355988ac6, type: 3}
-  m_PrefabInstance: {fileID: 591223302}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &552032659
 GameObject:
   m_ObjectHideFlags: 0

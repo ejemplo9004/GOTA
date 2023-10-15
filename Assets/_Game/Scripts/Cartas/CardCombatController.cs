@@ -42,6 +42,11 @@ public class CardCombatController : MonoBehaviour
 
     public Map map;
 
+    private void Awake()
+    {
+        
+    }
+
     private void Start()
     {
         string m = PlayerPrefs.GetString("mazo", "MUISCAS");
