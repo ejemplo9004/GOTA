@@ -36,6 +36,12 @@ public class Map : MonoBehaviour
     public int repeats;
     public float verticalProb;
 
+    public Hexagon[,] Hexagons
+    {
+        get { return _hexagons; } 
+        private set { _hexagons = value; }
+    }
+
     private Hexagon[,] _hexagons;
     private int[,] _logicalHexagons;
     private PathFinder _pathFinder;

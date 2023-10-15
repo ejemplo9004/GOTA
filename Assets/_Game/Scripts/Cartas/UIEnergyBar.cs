@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnergyUI : MonoBehaviour
+public class UIEnergyBar : MonoBehaviour
 {
     private Slider m_Slider;
 
