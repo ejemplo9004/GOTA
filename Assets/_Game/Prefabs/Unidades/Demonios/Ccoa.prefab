@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa3de4fb634df44982215721cad6cd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaMaxima: 100
+  vidaMaxima: 95
   vidaActual: 0
   eventoMuerte:
     m_PersistentCalls:
@@ -79,7 +79,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.29
-  m_Speed: 4
+  m_Speed: 3.2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -114,8 +114,9 @@ MonoBehaviour:
   objetivos: 000000000100000002000000
   vidaObjetivo: {fileID: 0}
   torreForzarAtaque: {fileID: 0}
+  tipoUnidad: 0
   animator: {fileID: 0}
-  "da\xF1o": 10
+  "da\xF1o": 7
   "tipoDa\xF1o": 2
   "inicioDa\xF1o": 2
   "periodoDa\xF1o": 3

@@ -112,9 +112,10 @@ MonoBehaviour:
   estado: 0
   vida: {fileID: 0}
   target: {fileID: 0}
-  objetivos: 000000000100000002000000
+  objetivos: 010000000000000002000000
   vidaObjetivo: {fileID: 0}
   torreForzarAtaque: {fileID: 0}
+  tipoUnidad: 0
   animator: {fileID: 0}
   "da\xF1o": 6
   "tipoDa\xF1o": 2

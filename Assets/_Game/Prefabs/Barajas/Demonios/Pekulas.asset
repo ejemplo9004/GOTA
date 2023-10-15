@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Pekulas
   Description: 
-  cost: 5
+  cost: 6
   cardSprite: {fileID: 1651715884, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
   prefab: {fileID: 1902632901231410292, guid: f0d6c03308e91224b84447f54fed7ee2, type: 3}
+  cartaEspecial: 0

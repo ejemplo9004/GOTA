@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Veneno Mortal
   Description: 
-  cost: 1
+  cost: 2
   cardSprite: {fileID: 1060825690, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
   prefab: {fileID: 9180034792759014712, guid: 2c8793a434b5f024c91c67a7bd7df5df, type: 3}
   cartaEspecial: 1
