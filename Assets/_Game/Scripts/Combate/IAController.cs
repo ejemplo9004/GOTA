@@ -35,8 +35,8 @@ public class IAController : MonoBehaviour
     public ListasObjetivos listas;
     private EnemyDeckController enemyDeckController;
     public float energy;
-    public float[] probabilities;
-    public int[] order;
+    private float[] probabilities;
+    private int[] order;
     public Hexagon position;
     public Map map;
 
@@ -141,23 +141,27 @@ public class IAController : MonoBehaviour
 
     private Vector3 ChoosePosition()
     {
-        int favoriteRow = 13;
+        int favoriteRow = 11;
         int favoriteColumn = 5;
         int row = favoriteRow;
         int column = favoriteColumn;
 
         AlertEmition priority = AlertSingleton.Instance.GetHighestPriorityAlert();
+        Debug.Log($"Highest Priority {priority.alertType}");
         if (priority != null)
         {
             Hexagon closest = map.GetClosestHexagon(priority.position);
             if (closest != null)
             {
-                return new Vector3(closest.transform.position.x,
-                    0.4166315f,
-                    closest.transform.position.z);
+                Vector3 position = new Vector3(closest.transform.position.x,
+                    0.4166315f, closest.transform.position.z);
+                if (position.z < AlertSingleton.Instance.ZLimite)
+                {
+                    position = new Vector3(position.x, position.y, AlertSingleton.Instance.ZLimite);
+                }
+                return position;
             }
         }
-
 
         row += Random.Range(-2, 2);
         column += Random.Range(-2, 2);

@@ -28,25 +28,27 @@ public class AlertSingleton : MonoBehaviour
     #endregion
 
     public delegate void OnAlertTriggered(AlertEmition alert);
-    public OnAlertTriggered triggerAlert;
+    public OnAlertTriggered TriggerAlert;
 
     public float[] LastTimer;
     public AlertEmition[] LastEmition;
+    public float ZLimite;
+    public Map map;
 
-    private void OnEnable()
+    private void Start()
     {
-        triggerAlert += HandleAlert;
+        TriggerAlert += HandleAlert;
 
         int alerts = Enum.GetNames(typeof(AlertType)).Length;
         LastTimer = new float[alerts];
         LastEmition = new AlertEmition[alerts];
         StartCoroutine(TimerClearance());
+        ZLimite = map.Hexagons[10, 5].transform.position.z;
     }
 
     public void HandleAlert(AlertEmition alert)
     {
         LastTimer[(int) alert.alertType] = 10f;
-        Debug.Log($"Emition {alert.alertType} and {alert.position}");
         LastEmition[(int) alert.alertType] = alert;
     }
 
@@ -80,11 +82,6 @@ public class AlertSingleton : MonoBehaviour
         }
         return null;
     }
-
-    public void TriggerAlert(AlertEmition emition)
-    {
-        
-    }
 }
 
 public class AlertEmition
@@ -103,8 +100,8 @@ public enum AlertType
 {
     EnemyTowerAttacked,
     PlayerTowerAttacked,
-    EnemyUnitAttacked,
-    PlayerUnitAttacked,
     UnitInEnemyTerritory,
-    UnitInPlayerTerritory
+    UnitInPlayerTerritory,
+    EnemyUnitAttacked,
+    PlayerUnitAttacked
 }

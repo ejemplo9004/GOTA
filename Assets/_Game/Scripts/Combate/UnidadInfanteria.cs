@@ -36,6 +36,19 @@ public class UnidadInfanteria : Unidad
 			yield return new WaitForSeconds(0.8f);
 			distanciaMovido = (lPos - transform.position).sqrMagnitude;
 			lPos = transform.position;
+			if(AlertSingleton.Instance != null)
+			{
+				bool side = transform.position.z > AlertSingleton.Instance.ZLimite;
+				if (equipo == Equipo.aliado && side)
+				{
+					AlertEmition ae = new AlertEmition(AlertType.UnitInPlayerTerritory, transform.position);
+					AlertSingleton.Instance.TriggerAlert(ae);
+				}else if(equipo == Equipo.enemigo && !side)
+				{
+                    AlertEmition ae = new AlertEmition(AlertType.UnitInEnemyTerritory, transform.position);
+                    AlertSingleton.Instance.TriggerAlert(ae);
+                }
+			}
 		}
 	}
 
