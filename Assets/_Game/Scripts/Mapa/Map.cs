@@ -8,6 +8,7 @@ public class Map : MonoBehaviour
     [SerializeField] private NavMeshBaker navMeshBaker;
     [SerializeField] private List<HexList> hexLists;
     [SerializeField] private GameObject walkableParent, notWalkableParent;
+    public NombreObjeto[] torresPorEquipo;
     [SerializeField] private GameObject playerTower, enemyTower;
     [SerializeField] private GameObject seaHex;
 
@@ -48,6 +49,19 @@ public class Map : MonoBehaviour
 
     private void Start()
     {
+        string propia = PlayerPrefs.GetString("mazo", "MUISCAS");
+        string enemiga = "DEMONIOS"; //// EDITAR PARA LEER EL MAZO ENEMIGO
+        for (int i = 0; i < torresPorEquipo.Length; i++)
+		{
+            if (torresPorEquipo[i].nombre == propia)
+            {
+                playerTower = torresPorEquipo[i].objeto;
+            }
+            if (torresPorEquipo[i].nombre == enemiga)
+            {
+                enemyTower = torresPorEquipo[i].objeto;
+            }
+        }
         _hexagons = new Hexagon[height, width];
         _logicalHexagons = new int[height, width];
         _pathFinder = new PathFinder(_logicalHexagons, verticalProb);
@@ -113,12 +127,12 @@ public class Map : MonoBehaviour
                     if(new Vector2(i, j).Equals(playerTowerPos1) || new Vector2(i, j).Equals(playerTowerPos2))
                     {
                         hexObj = Instantiate(playerTower);
-                        //playerTower.GetComponent<Equipador>().Inicializar(Equipo.aliado);
+                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.aliado);
                     }
                     else if(new Vector2(i, j).Equals(enemyTowerPos1) || new Vector2(i, j).Equals(enemyTowerPos2))
                     {
                         hexObj = Instantiate(enemyTower);
-                        playerTower.GetComponent<Equipador>().Inicializar(Equipo.enemigo);
+                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.enemigo);
                     }
                     else
                     {
