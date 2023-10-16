@@ -48,7 +48,7 @@ public class UICard : MonoBehaviour
         if (!hasCard) return null;
         if (card.cost > CardCombatController.Instance.energy) return null;
         if (hexagon == null) return null;
-        if (hexagon.Team == Equipo.enemigo) return null;
+        if (hexagon.Team == Equipo.enemigo && !card.cartaEspecial) return null;
 
         GameObject unit = Instantiate(card.prefab,
             new Vector3(hexagon.transform.position.x, pos.y, hexagon.transform.position.z),

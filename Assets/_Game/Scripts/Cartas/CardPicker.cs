@@ -37,7 +37,13 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         isDraggin = true;
         Vector3 mouse = Input.mousePosition;
         offset = cardRectTransform.anchoredPosition - new Vector2(mouse.x, mouse.y);
-        ControlPinturaHexagonos.singleton.mostrar();
+        
+        var card = GetComponent<UICard>();
+        if (card != null)
+        {
+            Equipo e = (card.card.cartaEspecial) ? Equipo.ambos : Equipo.aliado;
+            ControlPinturaHexagonos.singleton.AsignarBando(e);
+        }
     }
 
     public void OnPointerUp(PointerEventData eventData)

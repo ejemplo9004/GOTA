@@ -147,7 +147,6 @@ public class IAController : MonoBehaviour
         int column = favoriteColumn;
 
         AlertEmition priority = AlertSingleton.Instance.GetHighestPriorityAlert();
-        Debug.Log($"Highest Priority {priority.alertType}");
         if (priority != null)
         {
             Hexagon closest = map.GetClosestHexagon(priority.position);

@@ -49,10 +49,10 @@ public class CardCombatController : MonoBehaviour
 
     private void Start()
     {
-        string m = PlayerPrefs.GetString("mazo", "MUISCAS");
+        string aliada = PlayerPrefs.GetString("mazo", "MUISCAS");
         for (int i = 0; i < barajas.Length; i++)
         {
-            if (barajas[i].nombre == m)
+            if (barajas[i].nombre == aliada)
             {
                 deck = barajas[i].deck;
             }
