@@ -2899,8 +2899,8 @@ MonoBehaviour:
     deck: {fileID: 11400000, guid: b19e6ccd137617c409c728d3e53b190a, type: 2}
   deck: {fileID: 11400000, guid: 40398df40e51f1449823534f0aeb618d, type: 2}
   nextCardController: {fileID: 6598918525406335314}
-  energyPerSecond: 1
-  energy: 5
+  energyPerSecond: 0.3
+  energy: 6
   disabledMaterial21: {fileID: 2100000, guid: eee7ce71a4c04814b9d82606c040dc5f, type: 2}
   disabledMaterial22: {fileID: 2100000, guid: f6a597122ac11084b90e83456db46917, type: 2}
   map: {fileID: 0}
