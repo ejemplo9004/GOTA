@@ -10,13 +10,13 @@ public class Torre : MonoBehaviour
 	public Equipo equipo;
 	public Vida vida;
 	public TipoTorre tipoTorre;
-	public float daño=10; 
+	public float daÃ±o=10; 
 
 	public float distanciaForzarAtaque;
 	public float distanciaAtacar;
 
 	public ParticleSystem particulas;
-	public float frecuenciaDaño;
+	public float frecuenciaDaÃ±o;
 
 	public GameObject objetoNormal;
 	public GameObject objetoFracturado;
@@ -26,7 +26,7 @@ public class Torre : MonoBehaviour
 	List<Unidad> unidades;
 	private void Start()
 	{
-		GestionCombate.singleton.listaUnidades.AñadirTorre(this);
+		GestionCombate.singleton.listaUnidades.AÃ±adirTorre(this);
 		StartCoroutine(ListarUnidades());
 		StartCoroutine(Atacar());
 		rbs = GetComponentsInChildren<Rigidbody>();
@@ -92,7 +92,7 @@ public class Torre : MonoBehaviour
 	{
 		float d = distanciaAtacar * distanciaAtacar;
 		yield return new WaitForSeconds(Random.Range(2,10));
-		if (frecuenciaDaño > 0)
+		if (frecuenciaDaÃ±o > 0)
 		{
 			while (vida.vivo)
 			{
@@ -100,11 +100,11 @@ public class Torre : MonoBehaviour
 				{
 					if ((unidades[i].transform.position - transform.position).sqrMagnitude < d)
 					{
-						unidades[i].vida.CausarDaño(daño);
+						unidades[i].vida.CausarDaÃ±o(daÃ±o);
 						particulas.Play();
 					}
 				}
-				yield return new WaitForSeconds(frecuenciaDaño);
+				yield return new WaitForSeconds(frecuenciaDaÃ±o);
 			}
 		}
 	}

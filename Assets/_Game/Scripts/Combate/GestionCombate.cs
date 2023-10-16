@@ -36,7 +36,7 @@ public class ListasObjetivos
     public List<Torre>  torresPrincipalesAliadas;
     public List<Torre> torresPrincipalesEnemigas;
     public static Action onTowerDestroy;
-    public void AÒadirUnidad(Unidad u)
+    public void A√±adirUnidad(Unidad u)
     {
         if (u.equipo == Equipo.aliado)
         {
@@ -58,7 +58,7 @@ public class ListasObjetivos
             unidadesEnemigas.Remove(u);
         }
     }
-    public void AÒadirTorre(Torre t)
+    public void A√±adirTorre(Torre t)
     {
 		switch (t.tipoTorre)
 		{
@@ -88,7 +88,7 @@ public class ListasObjetivos
 	}
     public void QuitarTorre(Torre t)
     {
-        Debug.Log("Est· intentando quitar una torre llamada " + t + "/" + t.name);
+        Debug.Log("Est√° intentando quitar una torre llamada " + t + "/" + t.name);
 		switch (t.tipoTorre)
 		{
 			case TipoTorre.generica:

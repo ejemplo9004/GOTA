@@ -6,12 +6,12 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class UnidadInfanteria : Unidad
 {
-    NavMeshAgent agente;
+	NavMeshAgent agente;
 	public Animator animator;
-	public float daño;
-	public TipoDaño tipoDaño;
-	public float inicioDaño;
-	public float periodoDaño;
+	public float daÃ±o;
+	public TipoDaÃ±o tipoDaÃ±o;
+	public float inicioDaÃ±o;
+	public float periodoDaÃ±o;
 
 
 	private float tiempoAtacar;
@@ -56,33 +56,33 @@ public class UnidadInfanteria : Unidad
 	{
 		base.EstadoAtacar();
 		agente.SetDestination(transform.position);
-		switch (tipoDaño)
+		switch (tipoDaÃ±o)
 		{
-			case TipoDaño.porSegundo:
+			case TipoDaÃ±o.porSegundo:
 				if (vidaObjetivo != null)
 				{
-					vidaObjetivo.CausarDaño(daño * Time.deltaTime);
+					vidaObjetivo.CausarDaÃ±o(daÃ±o * Time.deltaTime);
 				}
 				break;
-			case TipoDaño.porPeriodo:
+			case TipoDaÃ±o.porPeriodo:
 				if (vidaObjetivo != null && Time.time > tiempoAtacar)
 				{
-					tiempoAtacar = Time.time + periodoDaño;
-					vidaObjetivo.CausarDaño(daño);
+					tiempoAtacar = Time.time + periodoDaÃ±o;
+					vidaObjetivo.CausarDaÃ±o(daÃ±o);
 				}
 				break;
-			case TipoDaño.manual:
+			case TipoDaÃ±o.manual:
 				break;
 			default:
 				break;
 		}
 	}
 
-	public void Dañar()
+	public void DaÃ±ar()
 	{
 		if (vidaObjetivo != null)
 		{
-			vidaObjetivo.CausarDaño(daño);
+			vidaObjetivo.CausarDaÃ±o(daÃ±o);
 		}
 	}
 
@@ -119,7 +119,7 @@ public class UnidadInfanteria : Unidad
 		base.CambiarEstado(e);
 		if (e == Estado.atacar)
 		{
-			tiempoAtacar = Time.time + inicioDaño;
+			tiempoAtacar = Time.time + inicioDaÃ±o;
 		}
 		if(animator != null)
 		{
@@ -144,7 +144,7 @@ public class UnidadInfanteria : Unidad
 }
 
 
-public enum TipoDaño
+public enum TipoDaÃ±o
 {
 	porSegundo,
 	porPeriodo,

@@ -45,6 +45,6 @@ public class Palabra
 
 public enum MenuIdioma
 {
-	español = 0,
+	espaÃ±ol = 0,
 	ingles = 1
 }
