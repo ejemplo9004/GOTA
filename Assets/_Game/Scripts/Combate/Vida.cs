@@ -24,9 +24,9 @@ public class Vida : MonoBehaviour
 		vidaActual = vidaMaxima;
 	}
 
-	public void CausarDaño(float cuanto)
+	public void CausarDaÃ±o(float cuanto)
 	{
-		//print("Daño a: " + gameObject.name);
+		//print("Daï¿½o a: " + gameObject.name);
 		if (!vivo)
 		{
 			return;

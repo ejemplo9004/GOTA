@@ -1283,10 +1283,10 @@ MonoBehaviour:
   zOffset: 1.74
   oddOffset: 1
   upperCornerInitializer: 0
-  playerTowerPos1: {x: 18, y: 3}
-  playerTowerPos2: {x: 18, y: 7}
-  enemyTowerPos1: {x: 1, y: 3}
-  enemyTowerPos2: {x: 1, y: 7}
+  playerTowerPos1: {x: 1, y: 3}
+  playerTowerPos2: {x: 1, y: 7}
+  enemyTowerPos1: {x: 18, y: 3}
+  enemyTowerPos2: {x: 18, y: 7}
   newLandProb: 0.2
   fillRandomly: 1
   repeats: 10
