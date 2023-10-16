@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Huantina
   Description: 
-  cost: 5
+  cost: 6
   cardSprite: {fileID: -1750511707, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
   prefab: {fileID: 5229234438118624539, guid: a78a42a7de31ec34e9e3d3941cba04ba, type: 3}
+  cartaEspecial: 0

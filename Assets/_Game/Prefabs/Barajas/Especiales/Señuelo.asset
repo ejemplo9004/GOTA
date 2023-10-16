@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: "Se\xF1uelo"
   Description: 
-  cost: 5
+  cost: 3
   cardSprite: {fileID: -1238344102, guid: 4efbc5941dbb7174f9014353ce64cfc3, type: 3}
   prefab: {fileID: 4508349251732434567, guid: ee7b39002b185a9419c78778a271f93c, type: 3}
   cartaEspecial: 1

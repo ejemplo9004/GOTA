@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Chochos
   Description: 
-  cost: 7
+  cost: 6
   cardSprite: {fileID: 197553291, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
   prefab: {fileID: 7220751746127013637, guid: 1f7cd406cec32e345896327355988ac6, type: 3}
+  cartaEspecial: 0

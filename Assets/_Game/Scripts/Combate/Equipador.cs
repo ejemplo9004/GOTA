@@ -50,5 +50,11 @@ public class Equipador : MonoBehaviour
 				explos[i].objetivos = Equipo.aliado;
 			}
 		}
+
+		UnityEngine.UI.Image im = GetComponentInChildren<UnityEngine.UI.Image>();
+		if (im != null)
+		{
+			im.color = e == Equipo.enemigo ? Color.red : Color.green;
+		}
 	}
 }

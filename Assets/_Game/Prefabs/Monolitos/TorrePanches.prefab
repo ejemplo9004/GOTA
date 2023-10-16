@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa3de4fb634df44982215721cad6cd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaMaxima: 500
+  vidaMaxima: 250
   vidaActual: 0
   eventoMuerte:
     m_PersistentCalls:
@@ -346,7 +346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1337876283493080229, guid: 7630a74b579c5af45b7e486f0c3853f0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1337876283493080229, guid: 7630a74b579c5af45b7e486f0c3853f0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -370,7 +370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1337876283493080229, guid: 7630a74b579c5af45b7e486f0c3853f0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.37
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 1337876283493080229, guid: 7630a74b579c5af45b7e486f0c3853f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

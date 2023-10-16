@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Calleja
   Description: 
-  cost: 7
+  cost: 6
   cardSprite: {fileID: -1728956812, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
   prefab: {fileID: 9131167504563186459, guid: 8243cebbda159234687948dd0b94d0b6, type: 3}
+  cartaEspecial: 0
