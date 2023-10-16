@@ -30,7 +30,7 @@ public class Unidad : MonoBehaviour
 	private IEnumerator MiStart()
 	{
 		yield return new WaitForEndOfFrame();
-		GestionCombate.singleton.listaUnidades.AñadirUnidad(this);
+		GestionCombate.singleton.listaUnidades.AÃ±adirUnidad(this);
 	}
 
 	private IEnumerator MiUpdate()
