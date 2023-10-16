@@ -50,7 +50,7 @@ public class Map : MonoBehaviour
     private void Start()
     {
         string propia = PlayerPrefs.GetString("mazo", "MUISCAS");
-        string enemiga = "DEMONIOS"; //// EDITAR PARA LEER EL MAZO ENEMIGO
+        string enemiga = IAController.Instance.baraja.nombre;
         for (int i = 0; i < torresPorEquipo.Length; i++)
 		{
             if (torresPorEquipo[i].nombre == enemiga)

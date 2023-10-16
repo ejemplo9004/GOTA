@@ -29,7 +29,7 @@ public class IAController : MonoBehaviour
     #endregion
 
     public float energyMultiplier = 1;
-    public ScriptableDeck deck;
+    public Barajas baraja;
     public int handSize;
 
     public ListasObjetivos listas;
@@ -40,12 +40,18 @@ public class IAController : MonoBehaviour
     public Hexagon position;
     public Map map;
 
-
+    public void Awake()
+    {
+        int r = Random.Range(0, CardCombatController.Instance.barajas.Length);
+        baraja = CardCombatController.Instance.barajas[r];
+        Debug.Log($"Numero de barajas {CardCombatController.Instance.barajas.Length} Seleccionada {baraja.nombre}");
+        ScriptableDeck deck = baraja.deck;
+        enemyDeckController = new EnemyDeckController(deck);
+    }
 
     public void Start()
     {
         listas = GestionCombate.singleton.listaUnidades;
-        enemyDeckController = new EnemyDeckController(deck);
         probabilities = new float[handSize];
         for (int i = 0; i < handSize; i++)
         {
