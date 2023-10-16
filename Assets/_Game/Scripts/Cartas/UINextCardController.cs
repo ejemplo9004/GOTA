@@ -7,7 +7,7 @@ public class UINextCardController : MonoBehaviour
 {
     private Image nextCardImageContainer;
 
-    private void Start()
+    private void Awake()
     {
         nextCardImageContainer = GetComponent<Image>();
     }
