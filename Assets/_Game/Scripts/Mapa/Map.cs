@@ -53,11 +53,11 @@ public class Map : MonoBehaviour
         string enemiga = "DEMONIOS"; //// EDITAR PARA LEER EL MAZO ENEMIGO
         for (int i = 0; i < torresPorEquipo.Length; i++)
 		{
-            if (torresPorEquipo[i].nombre == propia)
+            if (torresPorEquipo[i].nombre == enemiga)
             {
                 playerTower = torresPorEquipo[i].objeto;
             }
-            if (torresPorEquipo[i].nombre == enemiga)
+            if (torresPorEquipo[i].nombre == propia)
             {
                 enemyTower = torresPorEquipo[i].objeto;
             }
@@ -127,12 +127,12 @@ public class Map : MonoBehaviour
                     if(new Vector2(i, j).Equals(playerTowerPos1) || new Vector2(i, j).Equals(playerTowerPos2))
                     {
                         hexObj = Instantiate(playerTower);
-                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.aliado);
+                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.enemigo);
                     }
                     else if(new Vector2(i, j).Equals(enemyTowerPos1) || new Vector2(i, j).Equals(enemyTowerPos2))
                     {
                         hexObj = Instantiate(enemyTower);
-                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.enemigo);
+                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.aliado);
                     }
                     else
                     {
