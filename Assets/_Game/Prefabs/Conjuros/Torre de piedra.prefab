@@ -85,7 +85,7 @@ MonoBehaviour:
   equipo: 1
   vida: {fileID: 4546512044412535505}
   tipoTorre: 0
-  "da\xF1o": 2
+  "da\xF1o": 3
   distanciaForzarAtaque: 1.34
   distanciaAtacar: 2.95
   particulas: {fileID: 7551282828060378253}

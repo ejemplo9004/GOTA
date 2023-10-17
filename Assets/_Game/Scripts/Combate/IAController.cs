@@ -27,7 +27,8 @@ public class IAController : MonoBehaviour
         }
     }
     #endregion
-
+    public Vector2 energyMultiplierRatio;
+    //[HideInInspector]
     public float energyMultiplier = 1;
     public Barajas baraja;
     public int handSize;
@@ -42,6 +43,7 @@ public class IAController : MonoBehaviour
 
     public void Awake()
     {
+        energyMultiplier = Random.Range(energyMultiplierRatio.x, energyMultiplierRatio.y);
         int r = Random.Range(0, CardCombatController.Instance.barajas.Length);
         baraja = CardCombatController.Instance.barajas[r];
         Debug.Log($"Numero de barajas {CardCombatController.Instance.barajas.Length} Seleccionada {baraja.nombre}");
