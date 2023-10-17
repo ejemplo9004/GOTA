@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radio: 6.33
-  objetivos: 2
+  objetivos: 1
   tiempoVida: 5
   "da\xF1o": 150
 --- !u!114 &5987682540084289059

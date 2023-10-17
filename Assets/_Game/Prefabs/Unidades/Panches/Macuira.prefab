@@ -119,7 +119,7 @@ MonoBehaviour:
   torreForzarAtaque: {fileID: 0}
   tipoUnidad: 0
   animator: {fileID: 0}
-  "da\xF1o": 10
+  "da\xF1o": 25
   "tipoDa\xF1o": 2
   "inicioDa\xF1o": 2
   "periodoDa\xF1o": 3

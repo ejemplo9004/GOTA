@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radio: 6.33
-  objetivos: 2
+  objetivos: 1
   tiempoVida: 5
   "da\xF1o": 150
 --- !u!114 &-3345945820272114291
@@ -62,9 +62,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5e902e1d613784aa0175d39c76e338, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torre: {fileID: 0}
-  unidad: {fileID: 0}
-  explo: {fileID: 8640735755443447305}
+  torres: []
+  unidades: []
+  explos: []
 --- !u!1001 &4907435540676848991
 PrefabInstance:
   m_ObjectHideFlags: 0

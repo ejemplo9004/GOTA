@@ -138,8 +138,8 @@ public class UnidadInfanteria : Unidad
 	public override void Morir()
 	{
 		base.Morir();
-		//print("Muerto"  + gameObject.name);
-		Destroy(gameObject, 5);
+		GestionCombate.singleton.SumarPuntos(equipo, vida.vidaMaxima);
+		Destroy(gameObject, 6);
 	}
 }
 

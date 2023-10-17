@@ -43,24 +43,23 @@ public class Torre : MonoBehaviour
 
 	public void Morir()
 	{
-		print(GestionCombate.singleton);
-		print(GestionCombate.singleton.listaUnidades);
+		//print(GestionCombate.singleton);
+		//print(GestionCombate.singleton.listaUnidades);
 
 		GestionCombate.singleton.listaUnidades.QuitarTorre(this);
 		objetoFracturado.SetActive(true);
 		objetoNormal.SetActive(false);
-		print("Entro 2");
+		GestionCombate.singleton.SumarPuntos(equipo, tipoTorre==TipoTorre.principal? vida.vidaMaxima*10: vida.vidaMaxima);
+
 		for (int i = 0; i < rbs.Length; i++)
 		{
 			rbs[i].AddTorque((new Vector3(Random.Range(-100, 100), Random.Range(-100, 100), Random.Range(-100, 100)) * 20));
 		}
-		print("Entro 3");
 		particulasMuerte.SetActive(true);
 		if (tipoTorre == TipoTorre.generica)
 		{
 			Destroy(gameObject, 5);
 		}
-		print("Entro 4");
         vida.OnVidaPerdida -= TorrePierdeVida;
     }
 

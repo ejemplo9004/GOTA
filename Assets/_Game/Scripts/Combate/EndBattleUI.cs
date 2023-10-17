@@ -13,8 +13,19 @@ public class EndBattleUI : MonoBehaviour
     [SerializeField] private float timeToShowPanel;
     [SerializeField] private float timeToEndBattle;
     [SerializeField] private GameObject cardCanvas;
+    public Image imAliados;
+    public Image imEnemigos;
 
-    private void OnEnable()
+	private IEnumerator Start()
+	{
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForEndOfFrame();
+        imAliados.sprite = GetImagen(PlayerPrefs.GetString("mazo"));
+        imEnemigos.sprite = GetImagen(IAController.Instance.baraja.nombre);
+    }
+
+	private void OnEnable()
     {
         EndBattle.onWinBattle += EnableWinPanel;
         EndBattle.onLoseBattle += EnableLosePanel;
@@ -28,6 +39,7 @@ public class EndBattleUI : MonoBehaviour
 
     private IEnumerator ShowWinPanel()
     {
+        GestionCombate.singleton.GameOver();
         ShowTowerImage(true);
         yield return new WaitForSeconds(timeToShowPanel);
         cardCanvas.SetActive(false);
@@ -39,12 +51,14 @@ public class EndBattleUI : MonoBehaviour
 
     private IEnumerator ShowLosePanel()
     {
+        GestionCombate.singleton.GameOver();
         ShowTowerImage(false);
         yield return new WaitForSeconds(timeToShowPanel);
         cardCanvas.SetActive(false);
         loseBattlePanel.SetActive(true);
         yield return new WaitForSeconds(timeToEndBattle);
         SceneManager.LoadScene(0);
+
     }
 
     private void EnableWinPanel()
@@ -106,13 +120,29 @@ public class EndBattleUI : MonoBehaviour
             case "DEMONIOS":
                 if (win)
                 {
-                    winImage.sprite = towerSprites[2];
+                    winImage.sprite = towerSprites[3];
                 }
                 else
                 {
-                    loseImage.sprite = towerSprites[2];
+                    loseImage.sprite = towerSprites[3];
                 }
                 break;
         }
+    }
+
+    private Sprite GetImagen(string team)
+    {
+        switch (team)
+        {
+            case "MUISCAS":
+                return towerSprites[0];
+            case "PANCHES":
+                return towerSprites[1];
+            case "GUANES":
+                return towerSprites[2];
+            case "DEMONIOS":
+                return towerSprites[3];
+        }
+        return towerSprites[0];
     }
 }
