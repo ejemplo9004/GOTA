@@ -20,7 +20,7 @@ MonoBehaviour:
   walkableHexList:
   - {fileID: 1027144338041134, guid: 8d65fe10dbb32e34aa703943ab85d9c0, type: 3}
   probs:
-  - 0.8
+  - 0.4
   - 1
   walkProbs:
   - 1
