@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Suministros de polvora
   Description: 
-  cost: 5
+  cost: 4
   cardSprite: {fileID: -991422957, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
   prefab: {fileID: 3917025637576217392, guid: b86b8b3aaaf07ca44ba0336498a43bcb, type: 3}
+  cartaEspecial: 1

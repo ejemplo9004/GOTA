@@ -8,6 +8,7 @@ public class Map : MonoBehaviour
     [SerializeField] private NavMeshBaker navMeshBaker;
     [SerializeField] private List<HexList> hexLists;
     [SerializeField] private GameObject walkableParent, notWalkableParent;
+    public NombreObjeto[] torresPorEquipo;
     [SerializeField] private GameObject playerTower, enemyTower;
     [SerializeField] private GameObject seaHex;
 
@@ -36,12 +37,31 @@ public class Map : MonoBehaviour
     public int repeats;
     public float verticalProb;
 
+    public Hexagon[,] Hexagons
+    {
+        get { return _hexagons; } 
+        private set { _hexagons = value; }
+    }
+
     private Hexagon[,] _hexagons;
     private int[,] _logicalHexagons;
     private PathFinder _pathFinder;
 
     private void Start()
     {
+        string propia = PlayerPrefs.GetString("mazo", "MUISCAS");
+        string enemiga = IAController.Instance.baraja.nombre;
+        for (int i = 0; i < torresPorEquipo.Length; i++)
+		{
+            if (torresPorEquipo[i].nombre == enemiga)
+            {
+                playerTower = torresPorEquipo[i].objeto;
+            }
+            if (torresPorEquipo[i].nombre == propia)
+            {
+                enemyTower = torresPorEquipo[i].objeto;
+            }
+        }
         _hexagons = new Hexagon[height, width];
         _logicalHexagons = new int[height, width];
         _pathFinder = new PathFinder(_logicalHexagons, verticalProb);
@@ -106,11 +126,13 @@ public class Map : MonoBehaviour
                 {
                     if(new Vector2(i, j).Equals(playerTowerPos1) || new Vector2(i, j).Equals(playerTowerPos2))
                     {
-                        hexObj = Instantiate(playerTower);
+                        hexObj = Instantiate(enemyTower);
+                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.aliado);
                     }
                     else if(new Vector2(i, j).Equals(enemyTowerPos1) || new Vector2(i, j).Equals(enemyTowerPos2))
                     {
-                        hexObj = Instantiate(enemyTower);
+                        hexObj = Instantiate(playerTower);
+                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.enemigo);
                     }
                     else
                     {
@@ -193,7 +215,7 @@ public class Map : MonoBehaviour
         {
             hex.GetComponent<Hexagon>().SetTeam(Equipo.aliado);
         }
-        else if (row > height / 2 + midRange)
+        else if (row >= height / 2 + midRange)
         {
             hex.GetComponent<Hexagon>().SetTeam(Equipo.enemigo);
         }
@@ -201,5 +223,25 @@ public class Map : MonoBehaviour
         {
             hex.GetComponent<Hexagon>().SetTeam(Equipo.ambos);
         }
+    }
+
+    public Hexagon GetClosestHexagon(Vector3 position)
+    {
+        float closestDistance = float.MaxValue;
+        Hexagon closest = null;
+        Collider[] nearHexagonos = 
+            Physics.OverlapSphere(position, 3f, CardUISingleton.Instance.worldMask);
+
+        foreach (Collider col in nearHexagonos)
+        {
+            float distance = Vector3.Distance(position, col.transform.position);
+
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closest = col.GetComponent<Hexagon>();
+            }
+        }
+        return closest;
     }
 }

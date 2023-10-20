@@ -24,5 +24,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1ff47d41b6348014190f4596a1c953a3, type: 2}
   - {fileID: 11400000, guid: 132e48da52e0a5d47937f37b4375d140, type: 2}
   - {fileID: 11400000, guid: 766bebb206e4fea4b8ea9e0b00f1baf6, type: 2}
-  - {fileID: 11400000, guid: f13c818a405e77b40a2116cb2a3f4823, type: 2}
+  - {fileID: 11400000, guid: 01f67d2461610354b8847942d284eb45, type: 2}
+  - {fileID: 11400000, guid: 766bebb206e4fea4b8ea9e0b00f1baf6, type: 2}
+  - {fileID: 11400000, guid: 5291776b7534f584cbfd1d2925495e9d, type: 2}
   diccionario: {fileID: 11400000, guid: ead70274c6ef94b428009b574d0864d6, type: 2}

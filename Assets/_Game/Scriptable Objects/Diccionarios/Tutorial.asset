@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdab404c6f15fc42a235ebd23ca1250, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  palabras:
+  - llave: pagina1
+    idiomas:
+    - "\xA1Bienvenido a GOTA: Guardians Of The Andes!/n/nEn este juego, eres un Maestro
+      GOTA que maneja a sus dioses, deidades, heroes, esp\xEDritus y/o demonios para
+      custodiar tus dos monolitos y atacar los dos monolitos del oponente."
+    - 'Welcome to GOTA: Guardians Of The Andes!/n/n In this game, you are a GOTA
+      Master who wields his gods, deities, heroes, spirits and/or demons to guard
+      your two monoliths and attack the opponent''s two monoliths.'
+  - llave: pagina2
+    idiomas:
+    - "Para empezar, debes seleccionar una de las cuatro barajas disponibles: /n/n
+      -<b>Muisca</b>: Inspirada en la cultura Muisca, que prosper\xF3 en el altiplano
+      cundiboyacense de Colombia./n -<b>Guane</b>: Basada en la cultura Guane, que
+      floreci\xF3 en la regi\xF3n de los Andes colombianos./n -<b>Panche</b>: Fundamentada
+      en la cultura Panche, que se desarroll\xF3 en la regi\xF3n central de Colombia./n
+      -<b>Demonios de los Andes</b>: Una baraja \xFAnica con cartas inspiradas en
+      los seres mitol\xF3gicos andinos./n /n/n Cada baraja tiene sus propias cartas
+      \xFAnicas que te otorgar\xE1n ventajas en el juego."
+    - 'To begin, you must select one of the four available decks: /n/n -<b>Muisca</b>:
+      Inspired by the Muisca culture, which prospered in the Cundiboyacense highlands
+      of Colombia./n -<b>Guane</b>: Based on the Guane culture, which flourished
+      in the Colombian Andes region./n -<b>Panche</b>: Based on the Panche culture,
+      which developed in the central region of Colombia./n -<b>Demons of the Andes</b>:
+      A unique deck with cards inspired by Andean mythological beings./n /n/n Each
+      deck has its own unique cards that will give you advantages in the game.'
+  - llave: pagina3
+    idiomas:
+    - "Para proteger tus monolitos, puedes desplegar cartas en el tablero. /n Las
+      cartas proporcionan protecci\xF3n a los monolitos y tienen la capacidad de
+      atacar a las cartas enemigas que se acercan a ellos. /n Las cartas poseen diferentes
+      estad\xEDsticas y habilidades. Utiliza las cartas adecuadas para cumplir su
+      funci\xF3n en el juego."
+    - To protect your monoliths, you can deploy cards on the board. /n The cards
+      provide protection to the monoliths and have the ability to attack enemy cards
+      that approach them. /n The cards have different statistics and abilities. Use
+      the appropriate cards to fulfill their function in the game.
+  - llave: pagina4
+    idiomas:
+    - "El objetivo del juego es destruir los dos monolitos del oponente. El primer
+      jugador en destruir los dos monolitos del oponente gana la partida. /n \xA1Ahora
+      est\xE1s listo para comenzar a jugar! Haz clic en \"Continuar\" para empezar
+      la partida."
+    - The objective of the game is to destroy the opponent's two monoliths. The first
+      player to destroy both of the opponent's monoliths wins the game. /n Now you
+      are ready to start playing! Click "Continue" to start the game.
+  idiomaSeleccionado: 0

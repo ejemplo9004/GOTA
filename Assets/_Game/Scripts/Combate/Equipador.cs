@@ -25,6 +25,7 @@ public class Equipador : MonoBehaviour
 		for (int i = 0; i < torres.Length; i++)
 		{
 			torres[i].equipo = e;
+			print("Equipando a " + gameObject.name + " como " + e);
 		}
 		unidades = GetComponents<Unidad>();
 		for (int i = 0; i < unidades.Length; i++)
@@ -48,6 +49,12 @@ public class Equipador : MonoBehaviour
 			{
 				explos[i].objetivos = Equipo.aliado;
 			}
+		}
+
+		UnityEngine.UI.Image im = GetComponentInChildren<UnityEngine.UI.Image>();
+		if (im != null)
+		{
+			im.color = e == Equipo.enemigo ? Color.red : Color.green;
 		}
 	}
 }

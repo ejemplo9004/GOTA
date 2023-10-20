@@ -38,13 +38,13 @@ public class Palabra
 			return llave;
 		}
 
-		return idiomas[idioma];
+		return idiomas[idioma].Replace("/n","\n");
 	}
 }
 
 
 public enum MenuIdioma
 {
-	español = 0,
+	espaÃ±ol = 0,
 	ingles = 1
 }

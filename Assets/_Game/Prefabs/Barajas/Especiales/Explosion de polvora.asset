@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: "Explosi\xF3n de polvora"
   Description: 
-  cost: 4
+  cost: 2
   cardSprite: {fileID: 1964743060, guid: 4efbc5941dbb7174f9014353ce64cfc3, type: 3}
   prefab: {fileID: 7492969516341835841, guid: 07ded4c22358d454281618ab514b4bbe, type: 3}
+  cartaEspecial: 1

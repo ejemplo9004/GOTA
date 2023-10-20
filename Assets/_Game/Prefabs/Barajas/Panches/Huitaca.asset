@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Huitaca
   Description: 
-  cost: 5
+  cost: 4
   cardSprite: {fileID: 642692381, guid: c5970dc236c0d924faea23fa5bbd0d77, type: 3}
-  prefab: {fileID: 7236546663375929945, guid: 50cd33cda2964e545a4e5c5793698d8c, type: 3}
+  prefab: {fileID: 4517333712402451542, guid: 81561a9607e6ac94cbdcfe8d08fa09a6, type: 3}
+  cartaEspecial: 0

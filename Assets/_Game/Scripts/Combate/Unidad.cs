@@ -17,6 +17,7 @@ public class Unidad : MonoBehaviour
 	public Objetivos[] objetivos;
 	public Vida vidaObjetivo;
 	public Torre torreForzarAtaque;
+	public TipoUnidad tipoUnidad = TipoUnidad.terrestre;
 
 	private void Awake()
 	{
@@ -29,7 +30,7 @@ public class Unidad : MonoBehaviour
 	private IEnumerator MiStart()
 	{
 		yield return new WaitForEndOfFrame();
-		GestionCombate.singleton.listaUnidades.AñadirUnidad(this);
+		GestionCombate.singleton.listaUnidades.AÃ±adirUnidad(this);
 	}
 
 	private IEnumerator MiUpdate()
@@ -303,4 +304,10 @@ public enum Objetivos
 	unidad = 0,
 	torre = 1,
 	torrePrincipal = 2
+}
+
+public enum TipoUnidad
+{
+	terrestre = 0,
+	voladora = 1
 }

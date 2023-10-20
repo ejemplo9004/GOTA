@@ -10,6 +10,8 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private Vector2 bigCardPosition;
     private Camera _camera;
     private Vector3 pointerPosition;
+    public Hexagon pointedHexagon;
+    public RectTransform bigCardTransform;
 
     private void OnEnable()
     {
@@ -17,7 +19,7 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
         cardOrigin = cardRectTransform.anchoredPosition;
         heightLimit = Mathf.FloorToInt(Screen.height * CardUISingleton.Instance.screenPorcentajeLimitToPlayCard);
-        bigCardPosition = new Vector2(Screen.width / 2, heightLimit + 200);
+        bigCardPosition = bigCardTransform.anchoredPosition;
 
         _camera = Camera.main;
     }
@@ -35,28 +37,38 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         isDraggin = true;
         Vector3 mouse = Input.mousePosition;
         offset = cardRectTransform.anchoredPosition - new Vector2(mouse.x, mouse.y);
+        
+        var card = GetComponent<UICard>();
+        if (card != null)
+        {
+            Equipo e = (card.card.cartaEspecial) ? Equipo.ambos : Equipo.aliado;
+            ControlPinturaHexagonos.singleton.AsignarBando(e);
+        }
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
         isDraggin = false;
+        ControlPinturaHexagonos.singleton.ocultar();
         cardRectTransform.anchoredPosition = cardOrigin;
         CardUISingleton.Instance.lineController.enabled = false;
 
         var card = GetComponent<UICard>();
         if (card != null)
         {
-            ScriptableCard cardPlayed = card.InstanteateUnity(pointerPosition);
+            ScriptableCard cardPlayed = card.InstanteateUnit(pointerPosition, pointedHexagon);
             if (cardPlayed != null)
             {
                 CardCombatController.Instance.OnCardPlayed(cardPlayed);
             }
         }
+        pointedHexagon = null;
     }
 
     public void OnDragCard()
     {
         Vector3 mouse = Input.mousePosition;
+
         if (mouse.y > heightLimit)
         {
             cardRectTransform.anchoredPosition = bigCardPosition;
@@ -86,13 +98,19 @@ public class CardPicker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             try
             {
                 CardUISingleton.Instance.lineController.SetEndPoint(hit.point);
-            }catch(System.Exception e)
+            }
+            catch (System.Exception e)
             {
                 Debug.LogException(e);
                 Debug.Log(e.StackTrace);
             }
-                pointerPosition = hit.point;
-
+            pointerPosition = hit.point;
+            pointedHexagon = hit.collider.GetComponent<Hexagon>();
+        }
+        else
+        {
+            CardUISingleton.Instance.lineController.enabled = false;
+            pointedHexagon = null;
         }
     }
 }

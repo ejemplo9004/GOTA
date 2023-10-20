@@ -222,7 +222,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 6364846732782390096}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.29
+  m_Radius: 0.6
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -258,6 +258,7 @@ MonoBehaviour:
   objetivos: 010000000000000002000000
   vidaObjetivo: {fileID: 0}
   torreForzarAtaque: {fileID: 0}
+  tipoUnidad: 1
   animator: {fileID: 0}
   "da\xF1o": 10
   "tipoDa\xF1o": 2

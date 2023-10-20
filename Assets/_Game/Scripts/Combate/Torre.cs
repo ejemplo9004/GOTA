@@ -10,13 +10,13 @@ public class Torre : MonoBehaviour
 	public Equipo equipo;
 	public Vida vida;
 	public TipoTorre tipoTorre;
-	public float daño=10; 
+	public float daÃ±o=10; 
 
 	public float distanciaForzarAtaque;
 	public float distanciaAtacar;
 
 	public ParticleSystem particulas;
-	public float frecuenciaDaño;
+	public float frecuenciaDaÃ±o;
 
 	public GameObject objetoNormal;
 	public GameObject objetoFracturado;
@@ -26,34 +26,42 @@ public class Torre : MonoBehaviour
 	List<Unidad> unidades;
 	private void Start()
 	{
-		GestionCombate.singleton.listaUnidades.AñadirTorre(this);
+		GestionCombate.singleton.listaUnidades.AÃ±adirTorre(this);
 		StartCoroutine(ListarUnidades());
 		StartCoroutine(Atacar());
 		rbs = GetComponentsInChildren<Rigidbody>();
 		objetoFracturado.SetActive(false);
+		vida.OnVidaPerdida += TorrePierdeVida;
+	}
+
+	public void TorrePierdeVida()
+	{
+		AlertType tipo = (equipo == Equipo.aliado) ? AlertType.PlayerTowerAttacked : AlertType.EnemyTowerAttacked;
+		AlertEmition ae = new AlertEmition(tipo, transform.position);
+		AlertSingleton.Instance.TriggerAlert.Invoke(ae);
 	}
 
 	public void Morir()
 	{
-		print(GestionCombate.singleton);
-		print(GestionCombate.singleton.listaUnidades);
+		//print(GestionCombate.singleton);
+		//print(GestionCombate.singleton.listaUnidades);
 
 		GestionCombate.singleton.listaUnidades.QuitarTorre(this);
 		objetoFracturado.SetActive(true);
 		objetoNormal.SetActive(false);
-		print("Entro 2");
+		GestionCombate.singleton.SumarPuntos(equipo, tipoTorre==TipoTorre.principal? vida.vidaMaxima*10: vida.vidaMaxima);
+
 		for (int i = 0; i < rbs.Length; i++)
 		{
 			rbs[i].AddTorque((new Vector3(Random.Range(-100, 100), Random.Range(-100, 100), Random.Range(-100, 100)) * 20));
 		}
-		print("Entro 3");
 		particulasMuerte.SetActive(true);
 		if (tipoTorre == TipoTorre.generica)
 		{
 			Destroy(gameObject, 5);
 		}
-		print("Entro 4");
-	}
+        vida.OnVidaPerdida -= TorrePierdeVida;
+    }
 
 	IEnumerator ListarUnidades()
 	{
@@ -83,7 +91,7 @@ public class Torre : MonoBehaviour
 	{
 		float d = distanciaAtacar * distanciaAtacar;
 		yield return new WaitForSeconds(Random.Range(2,10));
-		if (frecuenciaDaño > 0)
+		if (frecuenciaDaÃ±o > 0)
 		{
 			while (vida.vivo)
 			{
@@ -91,11 +99,11 @@ public class Torre : MonoBehaviour
 				{
 					if ((unidades[i].transform.position - transform.position).sqrMagnitude < d)
 					{
-						unidades[i].vida.CausarDaño(daño);
+						unidades[i].vida.CausarDaÃ±o(daÃ±o);
 						particulas.Play();
 					}
 				}
-				yield return new WaitForSeconds(frecuenciaDaño);
+				yield return new WaitForSeconds(frecuenciaDaÃ±o);
 			}
 		}
 	}

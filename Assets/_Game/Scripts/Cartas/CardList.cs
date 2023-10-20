@@ -52,4 +52,14 @@ public class CardList
     {
         return cards.Remove(card);
     }
+
+    public override string ToString()
+    {
+        string s = "";
+        foreach (ScriptableCard card in cards)
+        {
+            s += card.cardName + "\n";
+        }
+        return (s != "") ? s : "Deck Empty";
+    }
 }

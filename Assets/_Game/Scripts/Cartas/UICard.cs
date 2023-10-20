@@ -10,6 +10,7 @@ public class UICard : MonoBehaviour
     private Image image;
     private Material disableColor;
     private CardLoadEffect loadEffect;
+    [SerializeField] private Text costText;
 
     public void FillUICard(ScriptableCard card)
     {
@@ -17,10 +18,20 @@ public class UICard : MonoBehaviour
         hasCard = true;
         image = GetComponent<Image>();
         image.sprite = card.cardSprite;
-        disableColor = CardCombatController.Instance.disabledMaterial;
         wasColored = card.cost < CardCombatController.Instance.energy;
-        image.material = (wasColored) ? null : disableColor;
         loadEffect = GetComponentInChildren<CardLoadEffect>();
+        costText.text = card.cost.ToString();
+
+        int spriteSheetNumber = int.Parse(card.cardSprite.name.Substring(11, 2));
+        if (spriteSheetNumber == 21)
+        {
+            disableColor = CardCombatController.Instance.disabledMaterial21;
+        }
+        else
+        {
+            disableColor = CardCombatController.Instance.disabledMaterial22;
+        }
+        image.material = (wasColored) ? null : disableColor;
     }
 
     public ScriptableCard EmptyUICard()
@@ -32,11 +43,20 @@ public class UICard : MonoBehaviour
         return card;
     }
 
-    public ScriptableCard InstanteateUnity(Vector3 pos)
+    public ScriptableCard InstanteateUnit(Vector3 pos, Hexagon hexagon)
     {
         if (!hasCard) return null;
         if (card.cost > CardCombatController.Instance.energy) return null;
-        GameObject unit = Instantiate(card.prefab, pos, Quaternion.identity);
+        if (hexagon == null) return null;
+        if (hexagon.Team == Equipo.enemigo && !card.cartaEspecial) return null;
+        if(!hexagon.Walkable && GetUnitInPrefab(card.prefab).tipoUnidad != TipoUnidad.voladora) return null;
+
+        GameObject unit = Instantiate(card.prefab,
+            new Vector3(hexagon.transform.position.x, pos.y, hexagon.transform.position.z),
+            Quaternion.identity);
+        Equipador e = unit.GetComponent<Equipador>();
+        if (e != null) e.Inicializar(Equipo.aliado);
+
         CardCombatController.Instance.energy -= card.cost;
         return EmptyUICard();
     }
@@ -69,5 +89,11 @@ public class UICard : MonoBehaviour
         }
     }
 
-
+    private UnidadInfanteria GetUnitInPrefab(GameObject unit)
+    {
+        UnidadInfanteria u = unit.GetComponent<UnidadInfanteria>();
+        if (u != null) return u;
+        u = GetComponentInChildren<UnidadInfanteria>();
+        return u;
+    }
 }

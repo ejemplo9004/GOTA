@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fa3de4fb634df44982215721cad6cd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaMaxima: 50
+  vidaMaxima: 90
   vidaActual: 0
   eventoMuerte:
     m_PersistentCalls:
@@ -85,7 +85,7 @@ MonoBehaviour:
   equipo: 1
   vida: {fileID: 4546512044412535505}
   tipoTorre: 0
-  "da\xF1o": 2
+  "da\xF1o": 3
   distanciaForzarAtaque: 1.34
   distanciaAtacar: 2.95
   particulas: {fileID: 7551282828060378253}

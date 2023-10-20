@@ -14,11 +14,11 @@ public class CartasEnBaraja : MonoBehaviour
     public Text txtNombre;
     public Slider slVida;
     public Slider slVelocidad;
-    public Slider slDaño;
+    public Slider slDaÃ±o;
 
     public float referenciaVida;
     public float referenciaVelocidad;
-    public float referenciaDaño;
+    public float referenciaDaÃ±o;
 
     int iActual;
 
@@ -76,18 +76,18 @@ public class CartasEnBaraja : MonoBehaviour
         }
         if (u != null)
         {
-            slDaño.value = u.daño / referenciaDaño;
+            slDaÃ±o.value = u.daÃ±o / referenciaDaÃ±o;
         }
         else
         {
             Torre t = deck.cards[cual].prefab.GetComponent<Torre>();
 			if (t == null)
 			{
-                slDaño.value = 0;
+                slDaÃ±o.value = 0;
 			}
 			else
 			{
-                slDaño.value = t.daño / referenciaDaño;
+                slDaÃ±o.value = t.daÃ±o / referenciaDaÃ±o;
             }
         }
     }

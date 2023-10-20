@@ -50,17 +50,17 @@ public class PintaHexagonos : MonoBehaviour
     IEnumerator Pintar()
 	{
         spColor.color = c;
-        for (int i = 0; i <= 20; i++)
+        for (int i = 0; i <= 10; i++)
 		{
-            c.a = i / 30f;
+            c.a = i / 20f;
             spColor.color = c;
             yield return new WaitForSeconds(0.01f);
         }
         yield return new WaitUntil(() => !visible);
 
-        for (int i = 0; i <= 20; i++)
+        for (int i = 0; i <= 10; i++)
         {
-            c.a = (20-i) / 30f;
+            c.a = (10-i) / 20f;
             spColor.color = c;
             yield return new WaitForSeconds(0.01f);
         }
