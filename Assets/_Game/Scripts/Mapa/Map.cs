@@ -117,34 +117,38 @@ public class Map : MonoBehaviour
             for (int j = 0; j < _hexagons.GetLength(1); j++)
             {
                 GameObject hexObj = null;
+                GameObject tower = null;
                 if (path1.Contains((i, j)) || path2.Contains((i, j)))
                 {
                     hexObj = hexLists[_logicalHexagons[i, j] - 1].HasWalkableHex ? Instantiate(hexLists[_logicalHexagons[i, j] - 1].GetWalkableHex(), gameObject.transform) :
-                       Instantiate(hexLists[0].GetWalkableHex(), gameObject.transform);                   
+                       Instantiate(hexLists[0].GetWalkableHex(), gameObject.transform);
                 }
                 else
                 {
-                    if(new Vector2(i, j).Equals(playerTowerPos1) || new Vector2(i, j).Equals(playerTowerPos2))
+                    if (new Vector2(i, j).Equals(playerTowerPos1) || new Vector2(i, j).Equals(playerTowerPos2))
                     {
-                        hexObj = Instantiate(enemyTower);
-                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.aliado);
+                        hexObj = Instantiate(hexLists[0].GetWalkableHex(), gameObject.transform);
+                        tower = Instantiate(enemyTower);
+                        tower.GetComponent<Equipador>().Inicializar(Equipo.aliado);
                     }
-                    else if(new Vector2(i, j).Equals(enemyTowerPos1) || new Vector2(i, j).Equals(enemyTowerPos2))
+                    else if (new Vector2(i, j).Equals(enemyTowerPos1) || new Vector2(i, j).Equals(enemyTowerPos2))
                     {
-                        hexObj = Instantiate(playerTower);
-                        hexObj.GetComponent<Equipador>().Inicializar(Equipo.enemigo);
+                        hexObj = Instantiate(hexLists[0].GetWalkableHex(), gameObject.transform);
+                        tower = Instantiate(playerTower);
+                        tower.GetComponent<Equipador>().Inicializar(Equipo.enemigo);
                     }
                     else
                     {
                         hexObj = Instantiate(hexLists[_logicalHexagons[i, j] - 1].GetHex(), gameObject.transform);
-                    }                  
+                    }
                 }
                 SetTeamToHex(hexObj, i);
-                var posX = i % 2 == 0 ? j * xOffset : j * xOffset + oddOffset; 
+                var posX = i % 2 == 0 ? j * xOffset : j * xOffset + oddOffset;
                 var posZ = i * zOffset;
                 var pos = new Vector3(posX, 0, posZ);
                 _hexagons[i, j] = hexObj.GetComponent<Hexagon>();
                 hexObj.transform.position = pos;
+                if (tower != null) tower.transform.position = pos;
                 if (hexObj.GetComponent<Hexagon>().Bakeable) hexObj.transform.parent = walkableParent.transform;
                 else hexObj.transform.parent = notWalkableParent.transform;
             }
